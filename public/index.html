@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>题库</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>搜索问题</h1>
+        <div class="search-container">
+            <select id="questionBankSelect">
+                <option value="all">全部</option>
+                <option value="1">锐捷RCNA认证考试练习</option>
+                <option value="2">Bank 2</option>
+                <option value="3">Bank 3</option>
+                <option value="4">Bank 4</option>
+                <option value="5">Bank 5</option>
+            </select>
+
+            <select id="questionTypeSelect">
+                <option value="all">全部</option>
+                <option value="single">单选</option>
+                <option value="multiple">多选</option>
+                <option value="truefalse">判断</option>
+                <option value="fillblank">填空</option>
+                <option value="essay">Essay</option>
+            </select>
+
+            <input type="text" id="searchInput" placeholder="Enter keyword">
+            <button id="searchButton">搜索</button>
+        </div>
+        <div id="resultsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

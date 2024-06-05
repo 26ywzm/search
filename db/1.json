@@ -1,0 +1,2694 @@
+{
+    "questions": [
+        {
+            "type": "single",
+            "question": "RGOS 10.x软件平台的CTRL程序中使用菜单模式升级交换机时，其中有一步会提示“P1z enter the Local IP”，请问这里的Local IP是指",
+            "options": [
+                "A. TFTP服务器的IP地址",
+                "B. 该交换机管理地址的网关IP",
+                "C. 被升级交换机的IP地址",
+                "D. 没有实际意义，忽略该提示即可"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在配置静态路由时，会根据网络的特殊需求配置递归路由。下列选项中对递归静态路由陈述正确的是",
+            "options": [
+                "A. 静态路由在配置时如果只指定了输出接口，没有指定下一跳IP，假设其目的是在该接口直连的链路上的，那么匹配该路由的报文将直接把报文的目的地址作为下一跳地址",
+                "B. 静态路由在配置时如果只指定了输出接口，没有指定下一跳，那么下一跳要根据输出接口来得到",
+                "C. 静态路由在配置时如果只指定了下一跳IP，没有指定输出接口，那么输出接口要根据另一条路由计算得到",
+                "D. 静态的路由在配置时必须同时指定直连下一跳和输出接口"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "对于这样一条访问列表配置: access-list 1 permit 153.19.0.128 0.0.0.127 下列说法正确的是",
+            "options": [
+                "A. 允许源地址大于153.19.0.128，小于153.19.0.255的数据包通过",
+                "B. 允许目的地址大于153.19.0.128的数据包通过",
+                "C. 允许源地址小于153.19.0.128的数据包通过",
+                "D. 允许目的地址小于153.19.0.128的数据包通过"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "GR(Graceful Restart优雅重启)技术，对以下那种路由协议不产生作用",
+            "options": [
+                "A. RIP",
+                "B. 静态路由",
+                "C. OSPF",
+                "D. BGP"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "IP地址中，E类IP地址为保留地址，被用于科研实验，下列选项中哪个是E类地址的开头?",
+            "options": [
+                "A. 11110",
+                "B. 1110",
+                "C. 110",
+                "D. 10"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在路由器上配置‘ip nat inside source static 10.1.1.5 172.35.16.5’ 命令的作用是什么",
+            "options": [
+                "A. 为内部的静态地址创建动态的地址池",
+                "B. 为所有外部nat创建一个全局的地址池",
+                "C. 为内部本地地址和内部全局地址创建一对一的映射关系",
+                "D. 为所有内部本地nat创建了动态源地址转换"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "如果需要清空当前Windows主机的ARP表，应该使用什么命令",
+            "options": [
+                "A. arp -a",
+                "B. arp -l",
+                "C. arp -n",
+                "D. arp -d"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在保证VLAN用户可以访问互联网后，以下哪项配置可以向互联网发布Web服务",
+            "options": [
+                "A. ip nat inside source static 172.16.10.1 23 218.202.120.54 23",
+                "B. ip nat outside source static 172.16.10.1 23 218.202.120.54 23",
+                "C. ip nat outside source static tcp 172.16.10.1 80 interface GigabitEthernet 0/2 80",
+                "D. ip nat inside source static tcp 172.16.10.1 80 interface GigabitEthernet 0/2 80"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "一家只有50人的小型公司，为实现访问互联网，只申请到一个公网P地址，因此只能让内部主机共享同一个公网IP地址上网。以下哪种技术可以实现这个目的?",
+            "options": [
+                "A. 端口映射",
+                "B. 动态NAT",
+                "C. 静态NAT",
+                "D. 超载NAT"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "下列关于DHCP request报文的说法中，错误的是",
+            "options": [
+                "A. 该报文承载于UDP之上，目的端口号为67",
+                "B. 由于DHCP offer报文已经包含了可以提供给终端的IP地址，因此终端发出的该报文的源地址就是offer报文中所提供的IP地址",
+                "C. 该报文的目的MAC地址和目的IP地址均为全1的广播地址",
+                "D. 该报文承载于UDP之上，源端口号为68",
+                "E. 该报文是终端发出的第二条请求报文"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "下列关于CPOS专线的说法中，错误的是",
+            "options": [
+                "A. CPOS专线常见的线缆类型为光纤",
+                "B. CPOS专线是一种广域网专线",
+                "C. CPOS接口其实是一个多通道的E1接口",
+                "D. CPOS接口最大支持64个E1线路"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在广播网络中，OSPF需要选举DR和BDR，下列关于DR和BDR的说法中，错误的是",
+            "options": [
+                "A. 优先级为0的路由器接口不具备选举资格，将来也不能成为DR或BDR",
+                "B. 路由器接口的优先级可以通过命令修改，修改命令为在接口模式下ip ospf priority xx",
+                "C. DR和BDR选定后，如果OSP区域内增加了优先级更高的路由器接口，那么DR和BDR会重新选举，确保优先级最高的路由器承担DR的角色",
+                "D. hello报文中携带了优先级，默认是1"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在一个以太网Ethernet II型数据包中的“type”字段中的值为0x0800，这个字段所代表的内容是?",
+            "options": [
+                "A. 代表上层数据类型是802.1Q tag",
+                "B. 代表上层协议是IP",
+                "C. 代表上层协议是ARP",
+                "D. 代表上层协议是IPv6"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在如图所示的网络中，为了测试主机A和主机B之间连通性，你在主机A上ping主机B。对于此过程中的报文头部的地址信息，以下陈述中正确的是",
+            "options": [
+                "A. 路由器的Fa1/1转出的ping，源MAC地址是主机A的MAC，目的IP地址是主机B的IP",
+                "B. 路由器的Fa0/1收到的ping，源IP地址是主机A的IP，目的MAC地址是主机B的MAC",
+                "C. 路由器的Fa0/1转出的应答，源IP地址是主机B的IP，目的MAC地址是主机A的的MAC",
+                "D. 路由器Fa1/1收到的应答，源IP地址是主机B的IP，目的MAC地址是主机A的MAC"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在瘦模式组网中，下列过程中不是在AC上完成的是",
+            "options": [
+                "A. AP控制",
+                "B. 漫游控制",
+                "C. 射频管理",
+                "D. 无线数据帧转换为有线数据帧"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "两台汇聚交换机通过以太网相连，启用OSPF后，需要选举DR。下列关于OSPF的DR/BDR的描述，错误的是",
+            "options": [
+                "A. 在一个广播型的网络中，即使只有一台路由器，仍旧需要选举DR。",
+                "B. DR和BDR与本网段内的所有运行OSPF协议的路由器建立邻接关系且状态为fu11，但DR和BDR之间不再建立邻接关系，状态为domn。",
+                "C. 当DR故障时，BDR将成为新的DR。故障的DR恢复后，不会抢占DR身份",
+                "D. 在广播型的网络中，如果没有DR，OSPF协议无法正确运行，但如果没有BDR，OSPF协议仍然可以正确运行"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "multiple",
+            "question": "关于锐捷交换机日志功能，下列描述正确的是",
+            "options": [
+                "A. 可以通过MOREFLASH:XXXX来查看FLASH中的日志文件",
+                "B. 通过Console的方式登录交换机，默认不显示日志信息，必须配置terminal monitor命令后才会显示",
+                "C. 通过Telnet的方式登录交换机，默认不显示日志信息，必须配置terminal monitor命令后才会显示",
+                "D. 日志等级从0-7，0级别最低，7级别最高，DEBUG等级为7"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "以下哪些选项中是TCP数据段所具有而UDP所没有的?",
+            "options": [
+                "A. 滑动窗口大小",
+                "B. 上层数据",
+                "C. 目的端口号",
+                "D. 应答号",
+                "E. 源端口号",
+                "F. 序列号"
+            ],
+            "answer": [
+                "A",
+                "D",
+                "F"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "由于园区网中部署了多个VLAN，因此工程师会将交换机之间的链路配置为Trunk，以标记的方式承载不同LAN的流量。对于锐捷交换机的Trunk接口，以下陈述正确的是",
+            "options": [
+                "A. 默认不传输VLAN 1的信息",
+                "B. 交换机接口默认模式为Trunk",
+                "C. 默认传输从0-4095的所有的VLAN",
+                "D. 默认情况下vlan1的数据可以被传输，并且vlan 1的数据不带tag。",
+                "E. 默认传输该交换机上配置的所有的vlan"
+            ],
+            "answer": [
+                "D",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "某公司采购了一批笔记本电脑用于员工办公使用，这批笔记本电脑的有线网卡均支持千兆，为了适配千兆网卡，该公司在做布线时最好选择以下哪些类型的双绞线?",
+            "options": [
+                "A. 超六类线",
+                "B. 六类线",
+                "C. 超五类线",
+                "D. 五类线"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列哪个选项是对命令ip route 172.16.3.0 255.255.255.0 192.168.2.4的正确解释",
+            "options": [
+                "A. 如果存在多条路由到同一个目的地，那么这条路由最后才使用192.168.2.4",
+                "B. 配置路由器把所有未知ip地址的流量都转发到172.16.3.0",
+                "C. 这条命令使用默认的管理距离",
+                "D. 宣告了通往192.168.2.0的静态路由",
+                "E. 宣告了通往172.16.3.0的静态路由"
+            ],
+            "answer": [
+                "C",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "为了简化IP地址分配工作，通常会在网络中部署DHCP服务器为客户端分配IP地址及其他TCP/IP属性。当客户端使用自动获取方式后，会发出地址请求信息。DHCP服务器收到客户端的请求后，如何根据收到的请求分配地址？以下陈述中正确的是",
+            "options": [
+                "A. 如果DHCP请求包中没有中继设备的地址，则根据收到请求包入接口的IP分配同一子网的地址",
+                "B. 如果DHCP请求包中携带有中继设备的地址，则根据中继设备的IP地址分配同一子网的地址",
+                "C. 如果中继设备与DHCP服务器非直连，则需要在中继设备与DHCP服务器之间的所有三层设备上启用DHCP服务后，客户端才可以获取到地址",
+                "D. 如果中继设备与DHCP服务器非直连，则需要在中继设备与DHCP服务器之间的所有三层设备上启用DHCP中继后，客户端才可以获取到地址"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "以下选项中，哪些是OSPF的特性？",
+            "options": [
+                "A. 支持认证",
+                "B. 支持等价负载均衡",
+                "C. 支持区域划分",
+                "D. 支持VLSM",
+                "E. 支持路由汇总"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于无线数据传输和无线电磁波的说法中，正确的是",
+            "options": [
+                "A. 无线数据传输时，需要通过调制，将数字信号转换为电磁波信号在空间中传播",
+                "B. 无线电磁波入射到粗糙表面的主信号会被分解为多路反射信号，这将会导致信号质量下降",
+                "C. 无线设备在单位时间内辐射出的能量定义为功率，常用的计量单位是dBm",
+                "D. 无线电磁波在传播过程中，能量不断减小，信号不断衰减"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "工程师在对锐捷交换机进行生成树配置时，为了使特定的端口成为STP，工程师对特定接口的优先级进行了调整，该工程师可能将该接口的优先级配置为以下哪个值",
+            "options": [
+                "A. 4096",
+                "B. 20",
+                "C. 64"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于ARP的说法中正确的是",
+            "options": [
+                "A. 动态ARP表项是可以被更新的，更新后旧的条目将被删除",
+                "B. 动态ARP表项是通过ARP协议学习而来的，默认老化时间为120秒",
+                "C. 静态ARP表项是通过手工配置得来的，不能被更新，但在120秒后将被老化",
+                "D. ARP缓存表中可能存在2种表项条目，一种是动态表项，一种是静态表项"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在Windows系统下通过tracert命令追踪某个IP地址的沿途路径，下列关于tracert的说法正确的是",
+            "options": [
+                "A. 探测过程中显示*，意味着探测报文丢失",
+                "B. 在运营商骨干网以及大型的数据中心，为了安全期间通常会通过技术手段隐藏核心路径",
+                "C. 源主机收到超时消息，意味着确定了沿途的第一个IP地址，此时源主机会发送第二组3个包，TTL=2",
+                "D. 执行tracert命令后，源主机会先发出3个TTL=1的ICMP报文第一台三层设备收到后TTL减1，该三层设备丢弃这三个包并回复源主机ICMP超时消息"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "如下哪条命令，可以快速查看锐捷交换机up的接口",
+            "options": [
+                "A. show interfaces status I begin up",
+                "B. show interfaces status l include up",
+                "C. show interfaces status I on up",
+                "D. show interfaces status l exclude up"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在路由器进行路由选路过程中，先由( )决定选择哪种路由协议，再由( )决定选择哪条路径？",
+            "options": [
+                "A. 度量值",
+                "B. AD",
+                "C. AS",
+                "D. Vlan号"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "运营商为企业远程节点之间的通信提供专有线路，用户独占一条24小时在线、点对点的、速率固定的专用线路，并独享带宽。以下不属于专线技术的是",
+            "options": [
+                "A. 以太网专线",
+                "B. DNS",
+                "C. SDH",
+                "D. DDN"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "为了传输的可靠性，http使用TCP协议作为承载协议。TCP用于实现可靠性的是TCP头部中的( )字段",
+            "options": [
+                "A. 端口号",
+                "B. 确认号",
+                "C. 窗口大小",
+                "D. 序列号"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "出于管理的目的，管理员登录一台运行OSPF的汇聚交换机，将其中一个SVI口关闭。这时，这台交换机因为链路状态发生了变化，将更新LSA并将LSA发送给所有的Full状态的邻居路由器。在其发送的所有OSPF报文中，( )报文携带了完整LSA。",
+            "options": [
+                "A. Hello",
+                "B. DBD",
+                "C. LSAck",
+                "D. LSU",
+                "E. LSA",
+                "F. LSR"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "当接收到目的IP地址为192.168.1.160的报文时，将按照下面哪个条目进行匹配转发",
+            "options": [
+                "A. R 192.168.1.128/25 [120/1] via 192.168.250.9,00:02:07,GigabitEthernet 0/26",
+                "B. 0 192.168.1.128/25 [110/2] via 192.168.250.5,00:01:53,GigabitEthernet 0/25",
+                "C. s 192.168.0.0/16[130/0] via 10.0.0.1",
+                "D. 0 192.168.1.0/24[110/2] via 192.168.250.1, 00:01:53,GigabitEthernet 0/24"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "管理员要在分支机构的路由器上配置到达总部服务器群子网的静态路由，但忘记了服务器群子网的网络号，只记得其中一台服务器的IP地址192.168.13.170，子网掩码是255.255.255.240。为了正确配置静态路由，以下命令中应该被管理员采用的是",
+            "options": [
+                "A. ip route 192.168.13.160 255.255.255.240 serial 1/2",
+                "B. ip route 192.168.13.174 255.255.255.240 serial 1/2",
+                "C. ip route 192.168.13.144 255.255.255.240 serial 1/2",
+                "D. ip route 192.168.13.176 255.255.255.240 serial 1/2"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "一家公司内部网络使用静态路由，由于网络改造，其中172.16.100.0/24网络的位置发生了变化，因此管理员需要在网络设备中删除此路由条目并重新配置。以下哪一条命令可以正确的删除此条目？",
+            "options": [
+                "A. flush ip route 172.16.100.0 255.255.255.0",
+                "B. clear ip route 172.16.100.0 255.255.255.0",
+                "C. ip route 172.16.100.0 255.255.255.0",
+                "D. no ip route 172.16.100.0 255.255.255.0"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "TTL是IP协议头中的一个字段，比如在使用ping命令测试网络连通性时，其应答IP数据包中包含有TTL值信息。以下哪一项描述是关于TTL的正确说法？",
+            "options": [
+                "A. 在正常情况下，路由器不应该从接口收到TTL=255的IP报文",
+                "B. TTL的最大可能值是256",
+                "C. TTL主要是为了防止IP报文在网络中的循环转发，浪费网络带宽",
+                "D. IP报文每经过一个网络设备，例如集线器、交换机和路由器，TTL值都会被减去一定的数值"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在锐捷交换机上配置Trunk接口时，出于安全的需要，要禁止VLAN 15的数据通过，使用的命令是",
+            "options": [
+                "A. ruijie(config-if)#switchport trunk vlan remove 15",
+                "B. ruijie(config-if)#switchport trunk allowed vlan remove 15",
+                "C. ruijie(config-if)#switchport trunk vlan allowed remove 15",
+                "D. ruijie(config-if)#switchport trunk allowed remove 15"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在配置NAT时，工程师会使用IP访问控制列表定义可以执行NAT策略的内部源地址，并将这个访问控制列表与NAT地址池或外部接口关联。对于该访问控制列表的描述，以下正确的是",
+            "options": [
+                "A. 只能是标准的IP访问控制列表",
+                "B. 只能是扩展的IP访问控制列表",
+                "C. 只能是用1个或多个permit语句组成的IP访问控制列表，不允许出现deny语句",
+                "D. 可以使用标准和扩展的IP访问控制列表"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在配置生成树时，可以通过调整路径成本来影响最终逻辑拓扑。在以下命令中，哪一项可以将交换机端口的路径成本修改为30？",
+            "options": [
+                "A. ruijie(config-if-fastethernet0/1)#spanning-tree path-cost 30",
+                "B. ruijie(config)#spanning-tree priority 30",
+                "C. ruijie(config-if-fastethernet0/1)#spanning-tree cost 30",
+                "D. ruijie(config)#spanning-tree cost 30"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "当一台主机向局域网中的另一台主机发送报文时，需要发送ARP Request报文，并通过对方返回的ARP Response报文获取对方的MAC地址。其中ARP Response报文在网络中是通过（）发送的。",
+            "options": [
+                "A. 组播",
+                "B. 广播",
+                "C. 多播",
+                "D. 单播"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在配置交换网络时，如果部署了多个VLAN，那么交换机之间的接口通常是( )模式，连接用户主机的接口通常是( )模式。",
+            "options": [
+                "A. access、access",
+                "B. trunk、trunk",
+                "C. trunk、access",
+                "D. access、trunk"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "下列关于以太网的说法中，错误的是()",
+            "options": [
+                "A. 在物理层，包含有同轴电缆、双绞线、光纤、无线电波等",
+                "B. 以太网中的逻辑链路控制子层用于处理上下层之间的通信，一般由软件实现",
+                "C. 以太网由OSI参考模型的物理层和数据链路层的协议组成",
+                "D. 以太网是目前占据主导地位的LAN技术",
+                "E. 以太网中的介质访问子层定义了介质访问控制、编址和数据封装，一般由软件实现"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "当路由器接收到目的IP为192.168.167.201的报文时，会匹配下面哪个路由条目",
+            "options": [
+                "A. 0 192.168.167.128/26 [110/2]",
+                "B. 0 192.168.167.0/24 [110/2]",
+                "C. 0 192.168.167.192/26 [110/2]",
+                "D. 0 192.168.167.0/25 [110/2]"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "家庭拨号上网是利用PPP协议在用户端和ISP的接入服务器之间，建立通信链路实现访问Internet，以下哪些不属于PPP协议优点",
+            "options": [
+                "A. 具备用户验证能力",
+                "B. 可以解决IP地址分配",
+                "C. 使用MAC地址完成二层转发",
+                "D. 协商过程简单"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在网络实施中，并不是所有设备都有一张完整的全网路由表。为了使每台设备能够处理所有数据包的路由转发，通常的做法是功能强大的网络核心设备具有完整的路由表，其余设备将( )指向核心设备。",
+            "options": [
+                "A. 明细路由",
+                "B. 黑洞路由",
+                "C. 浮动路由",
+                "D. 默认路由"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "工程师使用show ip route命令查看路由表时，输出中不会出现的是",
+            "number": 46,
+            "options": [
+                "A. 目标网络",
+                "B. 下一跳地址",
+                "C. MAC地址",
+                "D. 度量值"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "工程项目验收前，工程师使用tftp备份一台设备的配置文件和系统镜像时，发现在传输过程中出现丢包现象。由于tftp基于不可靠的UDP协议，工程师是否需要对该设备的配置文件和系统进行重新备份，直至没有丢包现象为止。",
+            "number": 47,
+            "options": [
+                "A. 需要重新备份配置文件和系统镜像。",
+                "B. 不需要重新备份系统镜像，但需要重新备份配置文件",
+                "C. 不需要重新备份配置文件，但需要重新备份系统镜像",
+                "D. 不需要重新备份配置文件和系统镜像"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "当你在笔记本电脑上使用telnet对一台锐捷交换机进行远程管理时，在笔记本电脑上telnet数据的封装的过程是",
+            "number": 48,
+            "options": [
+                "A. 数据段 ;数据包 ;数据 ;数据流 ;数据帧",
+                "B. 数据;数据包 ;数据段 ;数据帧 ;数据流",
+                "C. 数据 ;数据段 ;数据包 ;数据帧 ;数据流",
+                "D. 数据流 ;数据段 ;数据包 ;数据帧;数据"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "以下关于无线瘦框架组网的描述，正确的有",
+            "number": 49,
+            "options": [
+                "A. 本地转发模式下，网络中所有的数据都由AP统一转发，AC只负责AP上线和配置的下发",
+                "B. AP与AC之间可以通过二层或三层网络，建立CAPWAP隧道，进行集中管理和数据通信服务",
+                "C. 瘦框架下，必须先手动给AP配置一个IP地址，确保AP能够连接到AC，保证cawpap隧道成功建立",
+                "D. 瘦模式组网中，由AC通过控制协议来控制AP的行为，用户不能直接配置AP，AP的配置信息保存在AP上"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "某AP设备标称功率为500mw，该计量方式转换为dBm之后，结果是",
+            "number": 50,
+            "options": [
+                "A. 20dBm",
+                "B. 30dBm",
+                "C. 27dBm",
+                "D. 15dBm"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在配置OSPF路由协议，通过Router(config)#router ospf 100创建一个OSPF路由进程后，以下哪一条命令可以正确定义参与OSPF进程的网段(或接口)?",
+            "number": 51,
+            "options": [
+                "A. ruijie(config)#network 192.168.0.0 0.0.255255 area 0",
+                "B. ruijie(config-route)#network 192.168.0.0 00.255.255 area 0",
+                "C. ruijie(config)#area 0 network 192.168.00 0.0.255.255",
+                "D. ruijie(config-router)#area 0 network 192.168.0.0 0.0.255.255"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在配置交换机Trunk接口的VLAN许可列表时，是用add选项的含义是",
+            "number": 52,
+            "options": [
+                "A. 将指定VLAN加入许可VLAN列表",
+                "B. 向许可VLAN列表中加入合法的主机MAC地址",
+                "C. 向许可VLAN分配access接口",
+                "D. 将指定VLAN移出许可VLAN列表"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "访间控制列表通过检查报文中的关键字段来进行策略匹配，在运行RGOS的锐捷网络设备中，标准的IP访问控制列表是通过检查报文的哪一个字段?",
+            "number": 53,
+            "options": [
+                "A. 目的IP地址",
+                "B. 端口号",
+                "C. 源IP地址",
+                "D. IP包长度"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "multiple",
+            "question": "在一台Windows主机启用DHCP客户端功能并成功获取IP地址后，查看本地连接状态时，会发现状态信息中描述了DHCP租约时间。关于该租约信息的描述，以下正确的是",
+            "number": 54,
+            "options": [
+                "A. DHCP租约是由客户端指定的",
+                "B. DHCP租约是由服务器指定的",
+                "C. 当主机上的动态IP地址达到DHCP租约的87.5%时会广播request报文进行续约",
+                "D. 当主机上的动态IP地址达到DHCP租约的一半时会广播request报文进行续约"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列选项中，NAT/NAPT带来的好处有",
+            "number": 55,
+            "options": [
+                "A. 解决IPv4地址空间不足的问题",
+                "B. TCP流量的负载均衡",
+                "C. 私有IP地址网络与公网互联",
+                "D. 网络改造中，避免更改地址带来的风险"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在接入和汇聚的二层网络中进行优化时，需要在汇聚交换机的下联口配置以下功能",
+            "number": 56,
+            "options": [
+                "A. spanning-tree guard root",
+                "B. spanning-tree guard loop",
+                "C. spanning-tree portfast",
+                "D. spanning-tree ignore tc"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于锐捷交换机11.x版本软件升级方法，描述正确的是",
+            "number": 57,
+            "options": [
+                "A. 对升级文件名没有要求，不再要求一定为rgos.bin",
+                "B. 支持外置U盘/SD卡升级",
+                "C. 补丁升级可以不需要重启设备",
+                "D. 升级时支持查看升级进度 (show upgrade status)",
+                "E. 详细的版本信息可通过隐藏命令show version detail查看"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "为了解网络的路由状况，管理员通常要查看三层网络设备中的路由表信息。通过查看路由表，会发现有多种路由获取方式，下列选项中属于路由条目获取方式的是",
+            "number": 58,
+            "options": [
+                "A. 手工配置的静态路由",
+                "B. 协议发现的动态路由",
+                "C. 接口上的直连路由"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在部署无线网络时，以下哪些需要考虑为造成信号衰减的因素",
+            "number": 59,
+            "options": [
+                "A. 承重墙",
+                "B. 地板",
+                "C. 空旷走廊",
+                "D. 人体"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "访问控制列表通过检查报文中的关键字段来进行策略匹配，在锐捷网络设备中，以下哪几个选项是扩展的IP访问控制列表检查的对象",
+            "number": 60,
+            "options": [
+                "A. 源MAC地址/目的MAC地址",
+                "B. 源IP地址/目的IP地址",
+                "C. 以太网类型",
+                "D. 源端口号/目的端口号",
+                "E. FCS",
+                "F. 协议字段"
+            ],
+            "answer": [
+                "B",
+                "D",
+                "F"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "路由协议按照其运行范围的不同，可以分为IGP协议与EGP协议。按照路由计算方式的不同，可以分为距离矢量型协议和链路状态型协议。对于OSPF的分类，下列陈述正确的是",
+            "number": 61,
+            "options": [
+                "A. OSPF协议是一种距离矢量路由协议",
+                "B. OSPF协议是一种EGP",
+                "C. OSPF协议是一种链路状态路由协议",
+                "D. OSPF协议是一种IGP"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "免费ARP也称为无故ARP，免费ARP的作用有哪些？",
+            "number": 62,
+            "options": [
+                "A. 有些网关设备会在一定的时间间隔内向网络中发送免费ARP，让网络内的主机更新ARP表项中的网关MAC地址信息，从而可以达到防止或缓解针对网关的ARP攻击",
+                "B. 主机更改了IP地址，发出免费ARP通知其他设备更新ARP表项",
+                "C. 确定网络中其他终端的IP地址是否与本机IP地址冲突",
+                "D. 其他终端请求主机的MAC地址时，回复免费ARP来告知对方自己的MAC地址"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "管理员登录到网络核心交换中，打算查看OSPF路由表。由于核心设备直连的网络很多，为了只查看OSPF路由条目，管理员可以使用的命令是",
+            "number": 63,
+            "options": [
+                "A. show ip route ospf",
+                "B. show ip ospf routing",
+                "C. show ip route | in ospf",
+                "D. show ip ospf route"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "IEEE 802标准使用MAC地址作为识别以太网中网络设备硬件地址的唯一标识符，下列关于MAC地址的说法正确的是",
+            "number": 64,
+            "options": [
+                "A. OUI相同的所有MAC地址的后24位必须是唯一的",
+                "B. MAC地址可以表示为xx:xx:xx:xx:xx:xx",
+                "C. MAC地址的前24位是组织唯一标识符OUI (厂商识别码)，后24位是节点标识符",
+                "D. MAC地址有48位二进制数组成，为了方便书写和识别，通常表示为12个16进制数",
+                "E. MAC地址可以表示为xxxx:xxxx:xxxx"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在交换网络中部署VLAN最主要的目的在于减少广播对网络的影响，而不是禁止VLAN之间的通信。为了实现不同VLAN的主机之间的通信，可以使用哪种设备？",
+            "number": 65,
+            "options": [
+                "A. 集线器",
+                "B. 二层交换机",
+                "C. 三层交换机",
+                "D. 路由器"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于默认路由的说法中，正确的是",
+            "number": 66,
+            "options": [
+                "A. 手工配置的默认路由，是一种特殊的静态路由，它的目标网络和子网掩码均为0.0.0.0",
+                "B. 默认路由可能是由动态路由学习而来的",
+                "C. 默认路由通常在园区网的出口位置进行部署",
+                "D. 相比于普通的静态路由，默认路由拥有更高的优先级"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在下列常见的协议或应用中，使用UDP作为传输层协议的是",
+            "number": 67,
+            "options": [
+                "A. DHCP",
+                "B. Radius",
+                "C. POP3",
+                "D. TFTP"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "多出口网络，路由器连接了两个不同ISP的Internet线路，配置NAT时",
+            "number": 68,
+            "options": [
+                "A. 可以配置一个地址池，在地址池中配置两个地址段",
+                "B. 无需配置地址池",
+                "C. 需要配置两个地址池",
+                "D. 无法实现"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "OSPF通过交互LSA来达到区域内数据库同步的状态，下列关于DBD报文说法中，错误的是",
+            "number": 69,
+            "options": [
+                "A. DBD报文用于描述数据库信息，而不是实际的传输LSDB内容",
+                "B. DBD报文中MS置位为1，表明发出该DBD报文的设备为角色，将先开始交换数据库摘要信息",
+                "C. DBD报文中I字段置位为1，表明该报文是第一个DBD报文",
+                "D. DBD报文中M字段置位为1，表明该报文是最后一个DBD报文"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在锐捷交换机上，Trunk端口叙述正确的是",
+            "number": 70,
+            "options": [
+                "A. 默认不传递VLAN1的信息",
+                "B. 该接口一般不仅可以连接交换机，还主要用来连接主机",
+                "C. 交换机接口默认模式为Trunk",
+                "D. 该接口默认传输所有的VLAN"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "以下有关WLAN的描述正确的有",
+            "number": 71,
+            "options": [
+                "A. AP在通过DHCP获取IP地址的过程中，可以通过DHCP Option 138获取AC的IP地址",
+                "B. WLAN设备使用CSMA/CD来应对无线环境中的干扰，避免由于同频信号重叠导致无法解调",
+                "C. 无线信号在5.8GHz频段使用的信道只有149、153、157、161、165共5个",
+                "D. 无线capwap隧道是采用专用的馈线链接的用于AC管理AP的数据通道"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "启用OSPF的网络设备之间，需要交互OSPF报文已实现链路状态更新。在下列选项中，不属于OSPF报文的是",
+            "number": 72,
+            "options": [
+                "A. LSAck",
+                "B. LSA",
+                "C. DBD",
+                "D. LSU",
+                "E. LSR",
+                "F. Hello"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "对比OSI参考模型，PPP对应OSI的哪几层",
+            "number": 73,
+            "options": [
+                "A. 传输层",
+                "B. 物理层",
+                "C. 数据链路层",
+                "D. 网络层"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "关于胖AP原理，以下说法错误的是",
+            "number": 74,
+            "options": [
+                "A. 需要每台AP单独进行配置，无法进行集中配置，管理和维护比较复杂",
+                "B. 数据在客户端和LAN之间传输需要经过无线到有线以及有线到无线的转换",
+                "C. 将WLAN的物理层、用户数据加密、用户认证、QoS、网络管理、漫游技术以及其他应用层的功能集于一身",
+                "D. 可以集中化管理、配置"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在日常网络设计和规划过程中，私有地址无需向CNNIC注册，通常使用在内网中。以下地址中，不需向CNNIC注册的IP地址是",
+            "number": 75,
+            "options": [
+                "A. 192.186.48.100",
+                "B. 172.32.19.1",
+                "C. 10.188.39.2",
+                "D. 219.168.99.23"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "下列哪些属于WAN中数据链路层的协议",
+            "number": 76,
+            "options": [
+                "A. V.35",
+                "B. HDLC",
+                "C. RS-232",
+                "D. LANE"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "当为三层设备配置路由后，工程师会使用show ip route命令对路由表进行验证。在输出信息中，看到了如下内容0 172.16.8.0[110/20] via 172.16.7.9, 00:00:23, Serial 1/2其中172.167.9和Serial 1/2分别是什么含义？",
+            "number": 77,
+            "options": [
+                "A. 下一跳路由器接口地址,从本路由器发出的接口",
+                "B. 目的网段某主机地址,下一跳路由器接口",
+                "C. 下一跳路由器接口地址,下一跳路由器接口",
+                "D. 本路由器接口地址从本路由器发出的接口"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在进行网络测试时，为了测试目标服务器的某个应用的端口是否开启，可以使用以下哪种方法?方法1: ping目标主机的目标端口号方法2: telnet目标主机的目标端口号",
+            "number": 78,
+            "options": [
+                "A. 方法2可以",
+                "B. 两种方法都可以",
+                "C. 两种方法都不可以",
+                "D. 方法1可以"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在部署VLAN的过程中，为实现交换网络优化，降低不必要的LAN广播对网络的影响，在交换机上配置如下命令switch(config-if)#sw mode trunk switch(config-if)#sw trunk allowed vlan remove 20在执行了上述命令后，此接口接收到VLAN20的数据会做怎样的处理？",
+            "number": 79,
+            "options": [
+                "A. 根据MAC地址表进行转发",
+                "B. 直接丢弃数据，不进行转发",
+                "C. 将VLAN20的标签去掉，加上合法的标签再进行转发",
+                "D. trunk接口会去掉VLAN20的标签，直接转发给主机"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "下列关于锐捷交换机(10.x软件平台)的密码恢复操作，正确的是",
+            "number": 80,
+            "options": [
+                "A. 密码恢复需要重启设备，按Ctrl C进入Ctrl层，此时登录软件的波特率为9600",
+                "B. 密码恢复需要重启设备，按Ctrl C进入Ctrl层，此时登录软件的波特率为57600",
+                "C. 密码恢复需要重启设备，按Ctrl B进入Ctrl层，此时登录软件的波特率为57600",
+                "D. 密码恢复需要重启设备，按Ctrl B进入Ctrl层，此时登录软件的波特率为9600"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "为了验证网络通性，工程师在一台锐捷交换机上执行命令: ping 192.168.100.11 source 10.1.1.1 ntime 100，其中ntime 100代表",
+            "number": 81,
+            "options": [
+                "A. 超时时间",
+                "B. 包的长度",
+                "C. ping包的数量",
+                "D. 从192.168.100.11开始，依次ping到192.168.100.111"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "配置如下两条访问控制列表:access-list 1 permit 10.110.10.1 0.0.255.255 access-list 2 permit 10.110.100.0 0.0.255.255访问控制列表1和2，所控制的地址范围关系是:",
+            "number": 82,
+            "options": [
+                "A. 1的范围在2的范围内",
+                "B. 2的范围在1的范围内",
+                "C. 1和2的范围相同",
+                "D. 1和2的范围没有包含关系"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "一家公司的远程分支机构使用一台路由器的Serial接口与总公司连接，对于这种末节网络，往往采用的是中低端路由器产品，为了节省路由器资源，提高转发效率，最佳的路由配置方式是",
+            "number": 83,
+            "options": [
+                "A. 配置动态路由",
+                "B. 配置浮动路由",
+                "C. 配置到达总公司各个子网的明细路由",
+                "D. 配置默认路由"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "PPP协议中，接口IP地址的协商发生在哪个阶段",
+            "number": 84,
+            "options": [
+                "A. NCP协商阶段",
+                "B. LCP协商阶段",
+                "C. PAP身份认证阶段",
+                "D. CHAP身份认证阶段",
+                "E. IPCP协商阶段"
+            ],
+            "answer": "E"
+        },
+        {
+            "type": "single",
+            "question": "终端通过DHCP协议获取IP地址，该过程涉及到4个报文的交互，以下不属于DHCP报文的是",
+            "number": 85,
+            "options": [
+                "A. DHCP offer",
+                "B. DHCP ACK",
+                "C. DHCP discover",
+                "D. DHCP replay",
+                "E. DHCP request"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "下面哪个端口状态既不转发报文，也不学习mac地址，不发送但侦听BPDU",
+            "number": 86,
+            "options": [
+                "A. blocking",
+                "B. learning",
+                "C. forwarding",
+                "D. listening"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "为了VLAN环境的安全和可靠，在配置Trunk时要确保交换机的NativeVLAN的一致性。在默认情况下，锐捷交换机的NativeVLAN是",
+            "number": 87,
+            "options": [
+                "A. 当前VLAN中，ID最大的一个",
+                "B. VLAN0",
+                "C. 默认情况下，不存在Native VLAN",
+                "D. VLAN1"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在路由器设置了以下三条路由:ip route 0.0.0.0 0.0.0.0 192.168.10.1 ip route 10.10.10.0 255.255.255.192 192.168.11.1 ip route 10.10.0.0 255.255.0.0 192.168.12.1请问当这台路由器收到目的地址为10.10.10.192数据包时，它应被转发给哪个下一跳地址",
+            "number": 88,
+            "options": [
+                "A. 192.168.10.1",
+                "B. 192.168.12.1",
+                "C. 192.168.11.1",
+                "D. 路由设置错误，无法判断"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "如果DHCP客户端与DHCP服务器不在同一个LAN中，则需要中间设备将对DHCP报文进行中继转发。启用DHCP中继必要的命令包括",
+            "number": 89,
+            "options": [
+                "A. ip help-address xxx.x",
+                "B. service dhcp",
+                "C. enable service dhcp",
+                "D. ip dhcp-relay address"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于网络中的主机A和主机B通信过程的说法中，正确的是？",
+            "number": 90,
+            "options": [
+                "A. 主机A发现主机B的IP地址和自己的IP地址不是同一个网段，会先查看ARP缓存表，如果表中没有目的IP地址对应的MAC地址表项，则通过ARP协议请求主机B的MAC地址",
+                "B. 主机A发现主机B的IP地址和自己的IP地址是同一个网段，立即通过ARP协议请求主机B的MAC地址",
+                "C. 主机A发现主机B的IP地址和自己的IP地址不是同一个网段，会先查看ARP缓存表，如果表中没有网关IP地址对应的MAC地址表项，则通过ARP协议请求网关的MAC地址",
+                "D. 主机A发现主机B的IP地址和自己的IP地址是同一个网段，会先查看ARP缓存表，如果表中没有目的IP地址对应的MAC地址表项，则通过ARP协议请求主机B的MAC地址"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于光纤的说法中，正确的是",
+            "number": 91,
+            "options": [
+                "A. 单模传输的是可见光，传输距离相对较远",
+                "B. 多模传输的是可见光，传输距离相对较近",
+                "C. 相比于双绞线，光纤比较脆弱，对施工环境要求比较高",
+                "D. 光纤传输数据具有抗干扰性强、传输损耗低的优点"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "IEEE 802.11定义了哪几种拓扑机构",
+            "number": 92,
+            "options": [
+                "A. Switch",
+                "B. AD-hoc",
+                "C. Router",
+                "D. Infrastructure"
+            ],
+            "answer": [
+                "B",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在一个企业网的规划中，为有效利用地址，需要把网络的划分成子网，下图为某企业远程分支机构拓扑，以下对该网络编址陈述正确的有",
+            "number": 93,
+            "options": [
+                "A. 为路由器的每个子接口都分配一个IP地址",
+                "B. 地址172.161.205可以指派给VLAN 1中的主机",
+                "C. 地址172.16.1.25可以指派给LAN 1中的主机",
+                "D. 使用的子网掩码是255.255.255.192",
+                "E. 使用的子网掩码是255.255.255.128"
+            ],
+            "answer": [
+                "C",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下图中的网络运行OSPF，Router ID已经标识，接口优先级使用默认值。那么DR分别是",
+            "number": 94,
+            "options": [
+                "A. Router A",
+                "B. Router B",
+                "C. Router C",
+                "D. Router D",
+                "E. Router E",
+                "F. Router F"
+            ],
+            "answer": [
+                "D",
+                "F"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "可以通过TFTP或者xmodem，把交换机(192.168.1.1)配置文件导出到PC(192.168.1.2)上，以下命令正确的是",
+            "number": 95,
+            "options": [
+                "A. copy tftp: //192.168.1.2/config.text flash: config.text",
+                "B. copy flash:config.text xmodem: 点击接收xmodem",
+                "C. copy flash: config.text tftp: //192.168.1.2/config.text",
+                "D. copy flash:config.text xmodem:点击发送xmodem"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "网络中的一台主机的IP地址是10.1.1.10/24，网关是10.1.1.1，当需要和下列哪几个IP地址通信时，主机会发出ARP请求来获取网关的MAC地址？",
+            "number": 96,
+            "options": [
+                "A. 10.1.1.20",
+                "B. 10.1.1.1",
+                "C. 202.103.96.112",
+                "D. 127.0.0.1",
+                "E. 10.1.2.20"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "以下关于NAT说法正确的是",
+            "number": 97,
+            "options": [
+                "A. NAT的地址池可以与出接口地址在不同网段",
+                "B. NAT与策略路由不能同时配置",
+                "C. 多出口NAT的地址池中每个地址段都需要与inside口对应",
+                "D. 多出口NAT的地址池中每个地址段都需要和outside口对应"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列哪个选项是对命令ip route 172.16.3.0 255.255.255.0 192.168.2.4的正确解释",
+            "number": 98,
+            "options": [
+                "A. 配置路由器把所有未知ip地址的流量都转发到172.16.3.0",
+                "B. 宣告了通往172.16.30的静态路由",
+                "C. 如果存在多条路由到同一个目的地，那么这条路由最后才使用192.168.2.4",
+                "D. 宣告了通往192.1682.0的静态路由",
+                "E. 这条命令使用默认的管理距离"
+            ],
+            "answer": [
+                "B",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在单链路上联的接入交换机上部署环路预防策略时，需要做哪些生成树相关工作",
+            "number": 99,
+            "options": [
+                "A. 上联口开启spanning-tree bpdufilter enable",
+                "B. 下联口开启spanning-tree bpduguard enable",
+                "C. 下联口开启spanning-tree portfast",
+                "D. 下联口开启spanning-tree bpdufilter enable"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列说法中，扩展的访问控制列表，可以采用以下哪几个来允许或者拒绝报文",
+            "number": 100,
+            "options": [
+                "A. 源地址",
+                "B. 目标地址",
+                "C. 端口",
+                "D. 协议"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "101、IEEE 802.11定义无线服务集标识包含",
+            "options": [
+                "A. AD-hoc",
+                "B. BSSID",
+                "C. ESSID",
+                "D. Infrastructure"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "PPP协议既支持同步线路，又支持异步线路，相比HDLC更具扩展性，以下哪些描述不是PPP的功能特性",
+            "number": 102,
+            "options": [
+                "A. IP地址及数据压缩自动协商功能",
+                "B. 支持采用多种网络层协议",
+                "C. 不支持多链路逻辑绑定功能",
+                "D. 支持PAP、CHAP身份验证",
+                "E. 能够进行链路错误检测"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "为使交换机恢复到出厂状态，可以通过删除配置文件方式，删除以前配置信息。在锐捷交换机中，删除配置文件的命令是",
+            "number": 103,
+            "options": [
+                "A. del config.text",
+                "B. erase startup-config",
+                "C. startup-config",
+                "D. erase config.text"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "工程师需要以最少的配置条配置到达以下四个网络的静态路由:192.168.0.0/24、192.168.1.0/24、192.168.2.0/24、192.168.3.0/24，并且下一跳均为172.16.5.1,正确的配置方法是",
+            "number": 104,
+            "options": [
+                "A. ip route 192.168.0.0 255.255.252.0 172.16.5.1",
+                "B. ip route 192.168.1.0 255.255.252.0 172.16.5.1",
+                "C. ip route 192.168.2.0 255.255.252.0 172.16.5.1",
+                "D. ip route 192.168.3.0 255.255.252.0 172.16.5.1"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "为了确保OSPF数据传输的可靠性，OSPF协议使用LSAck对( )报文进行确认",
+            "number": 105,
+            "options": [
+                "A. LSA",
+                "B. LSU",
+                "C. DBD",
+                "D. LSR",
+                "E. LSAck",
+                "F. Hello"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "家企业因为内部主机数量过多，因此申请了多个公网IP地址用于NAT转换。在出口路由器配置NAT时，工程师使用了地址池的方式。但工程而认为，由于这些地址只存放在地址池中，并没有配置在路由器的外网接口上，因此从互联网返回的IP流量将会因为目的地不可达而被运营商的路由器丢弃。于是，他使用了secondary地址的方式，将地址池中的所有IP地址配置在了外网接口上。对干该工程师的操作，以下说法正确的是",
+            "number": 106,
+            "options": [
+                "A. 该工程师的想法是正确的。在使用地址池的方式配置NAT时，必须将地址池中的IP地址以secondary的方式配置在外网接口上，而且优先由于NAT转换的地址要首先配置。",
+                "B. 该工程师的想法是错误的。即使地址池中的IP地址没有配置在外网接口上，运营商的路由设备也会将返回流量正确转发到路由器的外网接口。该工程师没有必要将地址池中的IP地址配置在外网接口上，而且这样配置后将会对NAT造成影响。",
+                "C. 该工程师的想法是正确的。在使用地址池的方式配置NAT时，必须将地址池中的IP地址以secondary的方式配置在外网接口上，多个secondary地址的配置顺序没有强制要求。",
+                "D. 该工程师的想法是错误的。即使地址池中的IP地址没有配置在外网接口上，运营商的路由设备也会将返回流量正确转发到路由器的外网接口。该工程师没有必要将地址池中的IP地址配置在外网接口上，但这样配置后也不会对NAT造成影响。"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "使用snitter等工具对DHCP进行故障排除时，可以抓取到客户端与服务器之间交互的所有数据包。其中，客户端发出的DHCP Discover报文的源IP地址是",
+            "number": 107,
+            "options": [
+                "A. 127.0.0.1",
+                "B. 127.0.0.0",
+                "C. 255.255.255.255",
+                "D. 0.0.0.0"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在部署VLAN时，应该将用于转发多个VLAN数据的交换机端口设置为",
+            "number": 108,
+            "options": [
+                "A. access",
+                "B. no switchport",
+                "C. no proxy-arp",
+                "D. trunk"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在网络实施方案中，需要确切的说明网络中采用何种路由协议。在下列协议中，不属于路由协议的是",
+            "number": 109,
+            "options": [
+                "A. ICMP",
+                "B. BGP",
+                "C. RIP",
+                "D. OSPF"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在Windows的命令行下输入: telnet 10.1.1.1，到交换机进行远程管理。Windows发出的telnet流量的源端口号和目的端口号可能为",
+            "number": 110,
+            "options": [
+                "A. 1024、23",
+                "B. 23、1025",
+                "C. 1025、21",
+                "D. 21、1022"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "管理员使用SecureCRT工具软件，同时使用telnet登录多个网络设备进行管理，此时承载telnet数据的TCP协议，是通过( )来区分不同的连接的。",
+            "number": 111,
+            "options": [
+                "A. 端口号",
+                "B. IP地址",
+                "C. MAC地址+IP地址+端口号",
+                "D. IP地址+端口号"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "启用OSPF路由协议路由器之间，必须通过特定的OSPF报文建立和维持邻接关系。以下哪个命令可以查看到该报文的时间间隔以及超时死亡间隔？",
+            "number": 112,
+            "options": [
+                "A. show ip ospf",
+                "B. show ip route ospf",
+                "C. show ip ospf database",
+                "D. show ip ospf interface"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "管理员在查看汇聚交换机路由表时，发现在路由表中找不到远程服务器IP地址对应的路由条目，这种情况下如果接入层主机访问远程服务器，汇聚交换机会对发往远程服务器的数据包做出什么操作?",
+            "number": 113,
+            "options": [
+                "A. 转发数据包",
+                "B. 丢弃数据包",
+                "C. 分片数据包",
+                "D. 泛洪数据包"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "当启用生成树协议后，交换机会将BPDU封装在以太网中发送出去。在通过Vireshak抓取BPDU对生成树进行排错的时候，以下哪一个信息不会出现在BPDU数据中？",
+            "number": 114,
+            "options": [
+                "A. Forward Delay",
+                "B. Cost of Path",
+                "C. MAC Address Table",
+                "D. Root ID"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "下列关于PPP认证的说法中，错误的是",
+            "number": 115,
+            "options": [
+                "A. CHAP认证方式，密码是密文方式传输",
+                "B. PAP认证方式，密码是明文方式传输",
+                "C. PPP协议的IP地址协商过程，发生在LCP协商阶段",
+                "D. 2台路由器分别作为PPP的客户端和服务器端，服务器端的用户名密码通过以下方式配置username ruijie password ruijie"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "使用访问控制列表过滤流量时，由于数据包须匹配访问控制列表中的条目，会增加数据包转发的延迟。为了能够提高匹配效率，降低数据包转发延迟，访问控制列表条目的书写顺序至关重要。以下哪一项对条目书写的描述是能够降低转发延迟的",
+            "number": 116,
+            "options": [
+                "A. 匹配频率频繁的条目书写在列表的后面",
+                "B. permit语句书写在列表的前面",
+                "C. 匹配频率频繁的条目书写在列表的前面",
+                "D. deny语句书写在列表的前面",
+                "E. deny语句书写在列表的后面"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "某些接入层的用户向管理员反映;他们的主机不能够发送Email了，但他们仍然能够接收到新的电子邮件。那么作为管理员，下面哪一个选项是首先应该检查的",
+            "number": 117,
+            "options": [
+                "A. 处于客户端和Email服务器之间的某设备的接口ACL是否存在拒绝TCP 25号端口流量的条目",
+                "B. 处于客户端和Email服务器之间的某设备接口ACL是否存在deny any的条目",
+                "C. 处于客户端和Email服务器之间的某路由器接口的ACL是否存在拒绝TCP 110号端口流量的条目",
+                "D. 该email服务器目前是否未连接到网络上"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "工程师在部署VLAN时，把一个接口分配给一个不存在的VLAN，那么",
+            "number": 118,
+            "options": [
+                "A. 这个接口将进入error状态",
+                "B. 系统会提示操作者请在创建VLAN后，再配置此接口的VLAN信息",
+                "C. 系统会提示VLAN不存在，命令不被执行",
+                "D. 这个VLAN将自动被创建"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "为了防止用户使用NAT路由器连接多台主机，小区宽带运营商会在用户的上连设备上配置策略，将所有转发至用户的IP包的TTL值设置为1。这么做的理论依据是",
+            "number": 119,
+            "options": [
+                "A. 当路由器收到一个TTL值为1的数据包时，路由器会把该数据包返回至源节点",
+                "B. 当路由器收到一个TTL值为1的数据包时，路由器会把该数据包丢弃",
+                "C. 当路由器收到一个TTL值为1的数据包时，路由器会把该数据包的TTL减为0，转发给下一跳节点。下一跳节点会将数据包丢弃",
+                "D. 当路由器收到一个TTL值为1的数据包时，路由器会把该数据包发送至null接口"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在启用NAT的锐捷路由器上查看NAT转换条目的命令是",
+            "number": 120,
+            "options": [
+                "A. show ip nat table",
+                "B. show ip nat convert",
+                "C. show ip nat statistics",
+                "D. show ip nat translations"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "AP终结了与WiFi终端之间的802.11a/b/g/n协议，并转化为802.3以太网协议接入传统的LAN网络",
+            "number": 121,
+            "options": [
+                "A. 这种说法是错误的",
+                "B. 这种说法是正确的"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "两台配备有无线网卡的笔记本电脑想组网通讯互传文件，但此时没有网线，也没有无线AP，请问这两台笔记本电脑能否直接点对点无线互联",
+            "number": 122,
+            "options": [
+                "A. 不可以，因为两台PC之间互传文件只能通过网线",
+                "B. 不可以，必须有AP",
+                "C. 可以，将两台笔记本无线网卡的连接类型设置为Ad-Hoc模式就能无线通信了",
+                "D. 可以，将两台笔记本无线网卡的连接类型设置为基础架构模式就能无线通信了"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "当客户网络是单出口设备多线路时(有电信、联通两条出口线路)，以下哪个方法无法实现分流设计",
+            "number": 123,
+            "options": [
+                "A. 在出口设备上通过设置不同的明细静态路由以实现数据分流，例如将联通的明细路由都配置出来，再配置一条默认路由指向电信出口",
+                "B. 在出口设备上设置策略路由，将某些源IP的数据包强制转发到联通线路上，将某些源IP的数据包强制转发到电信线路上",
+                "C. 在出口设备上配置两条默认路由分别指向电信和联通，且这两条默认路由不是等价的",
+                "D. 以上说法都错误"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "multiple",
+            "question": "企业内部有一台服务器IP地址是192.168.12.3，需要对Internet提供WWW服务，为此，需要在出口路由器上把该地址映射为一个公网地址200.10.12.1，以下配置正确的是",
+            "number": 124,
+            "options": [
+                "A. 企业出口设备的内网口上配置ip nat inside",
+                "B. ip nat inside source static tcp 192.168.12.3 80 200.10.12.1 80",
+                "C. 企业出口设备的外网口上配置ip nat outside",
+                "D. ip nat inside source tcp 192.168.12.3 80 200.10.12.1 80"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于TCP/IP协议栈中网络层的说法中，正确的是",
+            "number": 125,
+            "options": [
+                "A. 网络层的ARP协议，提供了解析IP和MAC地址之间映射关系的功能",
+                "B. ping属于网络层，可以辅助IP工作，提供出错和控制信息",
+                "C. 在TCP/IP协议栈的网络层，包含了IP和CLNS",
+                "D. 网络层提供了主机到主机的传输服务"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "当交换机接收到的数据的目的MAC地址，在交换机的MAC表中没有对应的表项时，采取的策略说法错误的是",
+            "number": 126,
+            "options": [
+                "A. 向该vlan内的其他端口洪泛该分组",
+                "B. 丢掉该分组",
+                "C. 将该分组分片",
+                "D. 不转发此顿并由交换机保存起来"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "IEEE 802.11n协议使用的频段为",
+            "number": 127,
+            "options": [
+                "A. 2.4GHz",
+                "B. 4GHz",
+                "C. 5GHz",
+                "D. 3GHz"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "无线项目实施时，必须在AP安装前抄下AP的( )和物理位置对应表，便于在AP启动后对AP进行命名",
+            "number": 128,
+            "options": [
+                "A. 设备硬件型号",
+                "B. IP地址",
+                "C. MAC地址",
+                "D. 产品SN序列号"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "当链路故障发生时，运行802.1D生成树的交换网络中，Blocking状态的端口会因为生成树的重新计算进入转发状态。那么该端口由Blocking进入Forwarding状态的过程中，端口状态变化的顺序是",
+            "number": 129,
+            "options": [
+                "A. blocking->learning->listening->forwarding",
+                "B. blocking->discarding->listening->forwarding",
+                "C. blocking->discarding->learning->forwarding",
+                "D. blocking->listening->learning->forwarding"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在一个末稍网络中，如果数据包的目的地址在路由表中没有匹配表项时，该数据包将被丢弃，为此需要使用默认路由方式把数据包指向外部网络，下列哪条命令可以配置一条默认路由？",
+            "number": 130,
+            "options": [
+                "A. ruijie(config)# ip route 0.0.0.0 0.0.0.0 10.1.1.1",
+                "B. ruijie(config)# ip route 0.0.0.0 10.11.0 10.1.1.1",
+                "C. ruijie(config)# ip default-route 10.1.1.0",
+                "D. ruijie(config)# ip route 0.0.0.0 255.255.255.255 10.1.1.1"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "工程师在CLI界面中对一台锐捷交换机进行配置时，系统提示“% Incomplete command”，这个提示代表的含义是",
+            "number": 131,
+            "options": [
+                "A. 命令不存在",
+                "B. 命令需要的前提条件不满足",
+                "C. 命令不支持",
+                "D. 命令不完整"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "当核心交换机与汇聚交换机启用OSPF后，哪种OSPF报文可以建立两者之间的邻居关系？",
+            "number": 132,
+            "options": [
+                "A. LSAck",
+                "B. LSR",
+                "C. LSU",
+                "D. Hello",
+                "E. LSA",
+                "F. DBD"
+            ],
+            "answer": "F"
+        },
+        {
+            "type": "single",
+            "question": "同等厚度条件下，下列哪种材料对2.4GHz的RF信号的阻碍作用最小",
+            "number": 133,
+            "options": [
+                "A. 钢混土",
+                "B. 金属",
+                "C. 玻璃",
+                "D. 砖墙"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "某公司为提高会议效率，计划组织公司研发团队开发一款线上视频会议软件，这款软件很可能基于哪种传输层协议来工作？",
+            "number": 134,
+            "options": [
+                "A. FTP",
+                "B. TCP",
+                "C. UDP",
+                "D. TFTP"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在使用next-hop的方式配置静态路由时，该next-hop的IP地址，应该满足什么样的要求",
+            "number": 135,
+            "options": [
+                "A. next-hop必须是路由器根据当前路由表可达的IP地址",
+                "B. next-hop必须是与路由器直接相连设备的IP地址",
+                "C. next-hop必须是一台路由器的IP地址",
+                "D. next-hop可以是任意IP地址"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "园区网建设项目中，IP地址规划是非常重要的一个环节，下列关于IP地址的规划和使用，说法错误的是",
+            "number": 136,
+            "options": [
+                "A. 规划1loopback地址时，其子网掩码为32",
+                "B. 各个业务网关最好统一设定，比如网关IP地址的最后一个8位统一为1或者254",
+                "C. 规划设备之间的互联地址时，其子网掩码必须为30位",
+                "D. 园区网的终端可以通过手工配置或DHCP的方式来获得IP地址"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在小型分支机构中，出于成本原因，可能会使用路由器子接口互联多个WAN。下面哪一条命令，可以正确的为VLAN5定义一个子接口？",
+            "number": 137,
+            "options": [
+                "A. encapsulation dot1q 5",
+                "B. encaps ulation dot1q 5",
+                "C. encapsulation dot1q vlan 5",
+                "D. encapsulation dot1q vlan 5"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "multiple",
+            "question": "下列哪些情况将会导致OSPF无法建立邻居关系",
+            "number": 138,
+            "options": [
+                "A. 路由器的router-id不一致",
+                "B. 网络类型不一致",
+                "C. 以太网环境下，接口子网掩码不一致",
+                "D. areaID不一致",
+                "E. PPP网络环境下，子网掩码不一致"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下图所示网络中，采用锐捷设备。禁止除FTP外的所有流量访问HR Server，需要配置的ACL条目有",
+            "number": 139,
+            "options": [
+                "A. access-list 101 permit tcp any 192.168.44.252.0.0.0.0 eq 20",
+                "B. access-list 101 permit tcp any 192.168.44.252 0.0.0.0 eq 21",
+                "C. access-list 101 deny top any 192.168.44.252 0.0.0.0 gt 21",
+                "D. access-list 101 permit tcp 192.168.44.252 0.0.0.0 any eq 21",
+                "E. access-list 101 permit tcp 192.168.44.252 0.0.0.0 any gt 21",
+                "F. access-list 101 permit tcp 192.168.44.252 0.0.0.0 anv eg 20"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于DHCP offer报文的说法中，正确的是",
+            "number": 140,
+            "options": [
+                "A. 终端在收到DHCP offer之前是没有IP地址的，因此该报文的目的IP地址是0.0.0.0",
+                "B. 该报文是DHCP服务器返回的第一个报文",
+                "C. 网络中存在多个DHCP服务器时，终端只会保留最后收到的DHCP offer报文",
+                "D. 终端在收到DHCP offer之前是没有IP地址的，因此该报文的目的IP地址是空的",
+                "E. DHCP offer中包含了服务器可以提供给PC的IP地址、网关地址和DNS等信息"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "E"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "关于在交换机Ctrl层维护，下列说法正确的是",
+            "number": 141,
+            "options": [
+                "A. 查看文件使用dir，更改文件名使用rename",
+                "B. 用“？”来获取命令提示和帮助",
+                "C. 升级主程序的命令格式为:ftp电脑IP 设备IP 文件名-main",
+                "D. 加载主程序用load-main"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "园区网的建设离不开接入交换机的大量部署，下列关于接入交换机的说法，正确的是",
+            "number": 142,
+            "options": [
+                "A. 交换机的不同接口属于不同的冲突域",
+                "B. 早期的以太网使用HUB并非交换机实现终端互联，因此需要使用CSMA/CD来避免数据冲突",
+                "C. 接入交换机维护一张MAC地址表，并通过MAC地址进行二层数据帧的转发",
+                "D. 目前主流交换机的接口均为千兆全双工，且不支持通过命令方式修改为百兆或半双工"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "工程师在使用指向null0的静态路由的场景有以下哪些？",
+            "number": 143,
+            "options": [
+                "A. 常用于防止路由环路",
+                "B. 用于在进行流量限制时，将某些拒绝通过的流量引导向null0接口",
+                "C. 用于替代默认路由实现精确的转发",
+                "D. 用于在动态路由协议中，通过重分布的方式引入汇总路由"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "当一台运行OSPF的汇聚交换机新增一个SVI端口并将此端口加入OSPF进程时，该交换机会生成新的LSU并发送给DR。为了让DR能够收到此LSU,交换机会把LSU发送到哪一个IP地址",
+            "number": 144,
+            "options": [
+                "A. 224.0.0.6",
+                "B. 224.0.0.5",
+                "C. 224.0.0.9",
+                "D. 224.0.0.10"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在锐捷路由器上配置静态路由后，如果该路由关联的本地出口因链路故障进入“Domn”状态，那么该路由",
+            "number": 145,
+            "options": [
+                "A. 不会从路由表中消失，但暂时不可用",
+                "B. 将从路由表中消失，但配置信息不会消失",
+                "C. 将从路由表中消失，同时删除配置信息",
+                "D. 不会从路由表中消失，但管理距离变为255"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在三层设备上配置静态路由时，使用next-hop address和interface两种方式的管理距离值分别是()",
+            "number": 146,
+            "options": [
+                "A. 0/1",
+                "B. 0/0",
+                "C. 1/1",
+                "D. 1/0"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在所有端口均为100M的根交换机上，show spanning-tree显示信息中RootCost的值为",
+            "number": 147,
+            "options": [
+                "A. 19",
+                "B. 200000"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于传输层协议的说法中，正确的是",
+            "number": 148,
+            "options": [
+                "A. TCP连接的建立过程是3次握手，而TCP连接的拆除则需要经过4次握手",
+                "B. UDP使用SYN/ACK标志位来请求建立连接和确认建立连接",
+                "C. UDP适合传输对时延敏感的流量，并且可以依据报文头部中的序列号进行重组",
+                "D. 知名端口号的范围是0-1023"
+            ],
+            "answer": [
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在交换网络中配置trunk链路时，需要考虑nativeLAN的一致性和对特定LAN的修剪。下列关于nativeLAN和修剪的描述，正确的是",
+            "number": 149,
+            "options": [
+                "A. 在做trunk修剪时可以将VLAN1修剪掉生成树的BPDU报文仍然可以在trunk上传输",
+                "B. 在做trunk修剪时,vlan 不能被修剪,否则生成树的BPDU报文将无法在trunk上传输",
+                "C. 属于native vlan的数据在trunk上传输时携带vlan 1的标记",
+                "D. 属于native vlan的数据在trunk上传输时是不带tag的"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "下图中网络采用锐捷设备。HR路由器上的一个ACL要达到以下效果：1.允许穿过Internet到达HR Server的Telnet连接2.允许来自Internet的Http访问到达Web Server3.禁止其他一切连接以下选项中能够实现这些效果的是",
+            "number": 150,
+            "options": [
+                "A. access-list 101 permit tcp any 172.17.17.252 0.0.0.0 eq 23",
+                "B. access-list 101 permit tcp any 172.17.17.252 0.0.0.0 eq 23",
+                "C. access-list 101 permit tcp any 172.17.18.252 0.0.0.0 eq 80",
+                "D. access-list 101 deny tcp any 172.17.17.252 0.0.0.0 eq 23",
+                "E. access-list 101 permit tcp 172.17.17.252 0.0.0.0 any eq 23",
+                "F. access-list 101 deny tcp any 172.17.18.252 0.0.0.0 gt 80"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "IEEE 802.11定义无线服务集标识包含",
+            "number": 151,
+            "options": [
+                "A. AD-hoc",
+                "B. BSSID",
+                "C. ESSID",
+                "D. Infrastructure"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "在启用了STP的交换机上将某个接口设置为portfast接口，如果此时该端口收到了bpdu报文，针对这种情况，下列说法正确的是",
+            "number": 152,
+            "options": [
+                "A. 该接口收到bpdu报文后，接口会进入err-disable状态",
+                "B. 该端口收到bpdu报文后，将会直接进入转发状态",
+                "C. 设置为portfast的接口，将跳过30s的等待时间，直接进入转发状态",
+                "D. 该端口收到bpdu报文后，经过2个forwarding delay时间后将进入转发状态"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "使用CLI配置交换机，当从终端会话中滚动输出时，出现提示符“more”。对于该提示符，下列陈述正确的有",
+            "number": 153,
+            "options": [
+                "A. 按空格键滚动一页",
+                "B. 按回车键滚动一页",
+                "C. 按回车键滚动一行",
+                "D. 按空格键滚动一行"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "一家公司的城域网链路如图所示，从192.168.1.0子网到172.16.1.0子网有三条路径可达。对于在该网络中使用的不同的路由协议对路由选路产生的不同影响，下列陈述中正确的是",
+            "number": 154,
+            "options": [
+                "A. 如果使用OSPF，RA-RF为最优路径",
+                "B. 如果使用距离矢量类路由协议，RA-RB-RF为最优路径",
+                "C. 如果使用距离矢量类路由协议，RA-RC-RD-RF为最优路径",
+                "D. 如果使用OSPF，RA-RC-RD-RF为最优路径",
+                "E. 如果使用距离矢量类路由协议，RA-RF为最优路径",
+                "F. 如果使用OSPF，RA-RB-RF为最优路径"
+            ],
+            "answer": [
+                "E",
+                "F"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "关于spanning-tree bpduguard说法正确的是",
+            "number": 155,
+            "options": [
+                "A. 发送并接收BPDU，仅当收到自己发出的BPDU报文后，才会将端口disable掉",
+                "B. 发送并接收BPDU，不论收到谁发出的BPDU，都会将接口disable掉",
+                "C. 不发送但监听BPDU，不论收到谁发出的BPDU，都会将接口disable掉",
+                "D. 发送并接收BPDU，不论收到谁发出的BPDU，该接口都将重新参与STP计算"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "IGP路由协议使用的范围是",
+            "number": 156,
+            "options": [
+                "A. 一个area内部",
+                "B. 一个局域网内部",
+                "C. 一个自制系统内部",
+                "D. 一个数据链路内部"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "在图中所示的网络环境中，主机需要通过路由器访问互联网。已知路由器内网口的IP地址，以下可以指派给PC的IP地址是",
+            "number": 157,
+            "options": [
+                "A. 172.16.5.5",
+                "B. 172.16.5.32",
+                "C. 172.16.5.40",
+                "D. 172.16.5.63",
+                "E. 172.16.5.75"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "如果管理员在OSPF排错中使用sniffer抓包，通过抓取哪种协议的流量可以对OSPF进行分析",
+            "number": 158,
+            "options": [
+                "A. 端口89的UDP流量",
+                "B. 协议89的IP流量",
+                "C. 端口89的TCP流量",
+                "D. 类型89的以太网组播流量"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在网络部署工作中，出于安全控制的目的，经常在不同的设备上使用访问控制列表。以下需求可以使用访问控制列表实现的是",
+            "number": 159,
+            "options": [
+                "A. 禁止某子网中的主机使用Telnet的方式访问核心网络设备",
+                "B. 禁止使用Linux系统的用户访问某服务器",
+                "C. 只允许管理员账号可以访问某服务器",
+                "D. 禁止有CIH病毒的文件复制到用户的主机"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "不同的路由协议被赋予了不同的管理距离，当使用多种路由协议时，管理距离将影响路由决策。管理距离表示的含义是",
+            "number": 160,
+            "options": [
+                "A. 路由可信度的等级",
+                "B. 传输距离的远近",
+                "C. 线路质量的好坏",
+                "D. 路由的等级"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "想要知道锐捷交换机连接PC或无线AP的端口状态是Up还是down了，查看单个端口的命令是",
+            "number": 161,
+            "options": [
+                "A. show ip interface brief",
+                "B. show mac-address-table",
+                "C. show arp detail",
+                "D. show interface status"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "管理员在一台三层交换上做出了如下配置\n\nAccess-List 100 deny tcp 10.1.10.0 0.0.0.255 any eq 80\nAccess-List 100 permit ip any any\ninterface vlan 15\nip access-group 100 out\n这些配置达成时的效果是（ ）",
+            "number": 162,
+            "options": [
+                "A. 禁止任何主机通过telnet远程访问10.1.10.0子网中的主机",
+                "B. 禁止任何主机访问10.1.10.0子网中的WEB服务",
+                "C. 禁止10.1.10.0子网中的主机访问VLAN15中的https服务",
+                "D. 禁止10.1.10.0子网中的主机访问VLAN 15中的WEB服务"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "如果想删除某台交换机上的某个VLAN时，你可以在命令行状态下，输入命令no vlan 0030，这里的0030是",
+            "number": 163,
+            "options": [
+                "A. ID或name均可以",
+                "B. VLAN的ID",
+                "C. VLAN的name",
+                "D. 既不是ID也不是name，该命令错误"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在交换网络规划中，如果存在几余链路则需要启用生成树协议，以保证网络的健壮性。下面关于生成树协议的作用描述不正确的是",
+            "number": 164,
+            "options": [
+                "A. 生成树协议能够防止网络临时失去连通性",
+                "B. 生成树协议能够将多余链路阻断，并作为备份链路",
+                "C. 生成树协议能够防止桥接环路的产生",
+                "D. 生成树协议能够使交换机工作在存在物理环路的网络环境中"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在配置交换机Trunk接口的VLAN许可列表时，使用remove选项的含义是",
+            "number": 165,
+            "options": [
+                "A. 将指定VLAN移出许可VLAN列表",
+                "B. 将指定主机的MAC地址移出许可VLAN列表",
+                "C. 将指定的成员接口移出某个许可VLAN",
+                "D. 将某个成员接口转移到另一个许可VLAN中"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在配置交换机Trunk接口的VLAN许可列表时，使用expert选项的含义是",
+            "number": 166,
+            "options": [
+                "A. 将除列出的VLAN列表外的所有VLAN加入许可VLAN列表",
+                "B. 将除列出的VLAN列表外的所有VLAN加入移出VLAN列表",
+                "C. 将除列出的主机MAC地址外的所有主机加入某许可VLAN",
+                "D. 将除列出的access类型接口外的所有access接口加入某许可VLAN"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "在配置交换机Trunk接口的VLAN许可列表时，使用all选项的含义是",
+            "number": 167,
+            "options": [
+                "A. 许可VLAN列表包含当前创建的所有VLAN",
+                "B. 许可VLAN列表剪掉当前除VLAN1之外的所有VLAN",
+                "C. 许可VLAN列表包含VLAN1-VLAN4094",
+                "D. 许可VLAN列表包含当前存在成员接口的VLAN"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "某基于TCP协议的应用在工作时，由于网络异常而导致部分数据包没有传输成功，此时发送方根据TCP的哪个字段进行数据重传",
+            "number": 168,
+            "options": [
+                "A. SYN",
+                "B. FIN",
+                "C. RST",
+                "D. ACK"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "下列说法中，对于访问列表来说，下面的哪个说法是正确的",
+            "number": 169,
+            "options": [
+                "A. 如果将一条没有任何ACE的ACL应用到某一个接口上，则意味着允许所有报文通过",
+                "B. 一个接口只能被关联一条ACL",
+                "C. 每个访问列表的结尾是隐含允许访问所有信息",
+                "D. 每个访问列表的结尾是隐含拒绝所有信息"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在实施园区网的过程中，为了增加接入端口的数量，工程师将三台接入层交换机依次串联，拓扑为SW1-SW2-SW3。彼此互联接口配置为trunk。SW1和SW3创建有vlan20，SW2未创建VLAN20。那么连接在SW1属于vlan20的PC发出的ARP广播能否被连接SW3属于vlan20的PC收到",
+            "number": 170,
+            "options": [
+                "A. 能收到",
+                "B. 不能收到",
+                "C. 如果PC处于同一个IP子网，是可以收到的。如果PC处于不同的IP子网，则无法收到。",
+                "D. 不确定，需要查看3台交换机的完整配置才能确认"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "在盒式交换机的CTRL界面对RGOS软件升级过程中，PC的网线需要接在交换机的()端口，当交换机ftp功能启动时，该端口才会被激活",
+            "number": 171,
+            "options": [
+                "A. 最后一个端口",
+                "B. 任意一个端口",
+                "C. 第一个端口",
+                "D. 第一个电口"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在下列选项中，哪一个是直连网线的线序",
+            "number": 172,
+            "options": [
+                "A. 白橙-橙-白绿-蓝-白蓝绿-白棕-棕",
+                "B. 白-绿-白绿-蓝-白蓝-橙-白棕-棕",
+                "C. 白-橙-白绿-绿-白蓝-蓝-白棕-棕",
+                "D. 白绿-绿-白橙-蓝-白蓝-橙-白棕-棕"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "工程师在实施流量限制策略时，可以使用ACL访问控制列表或者配置指向null0的静态路由。相对于复杂的ACL访问控制列表，使用null0静态路由的优点是",
+            "number": 173,
+            "options": [
+                "A. null0配置简单，可以根据四层信息细化数据流量，并且可以面向整个路由器，而ACL列表利用起来就只能局限于接口下",
+                "B. null0配置简单，可以根据四层信息细化数据流量，并且是可以面向接口的入方向和出方向的，而ACL利用起来就比较繁琐",
+                "C. 使用null0口配置简单只需将禁止的数据流量的下一跳指向null0口，当禁止的数据流量到达时，会被null0接口直接丢弃",
+                "D. null0配置虽然较ACL复杂些，但它可以根据四层信息细化数据流量，并且面向整个路由器，而ACL利用起来就只能局限于接口下，不能做到把流量细致化。"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "multiple",
+            "question": "下列关于浮动路由的说法中，正确的是",
+            "number": 174,
+            "options": [
+                "A. 配置了多条浮动路由，只有管理距离最小的那条出现在路由表中",
+                "B. 浮动路由就是在静态路由的基础上，加上管理距离的参数",
+                "C. 可以配置多条管理距离不一致的默认路由，实现浮动路由的效果",
+                "D. 配置了多条浮动路由，这些路由都会出现在路由表中，但是只有管理距离最小的那条生效"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "在胖模式框架下，AP可以将( )数据转为8023并添加相应VLAN tag",
+            "number": 175,
+            "options": [
+                "A. 802.11",
+                "B. 802.1D",
+                "C. EthernetII顺",
+                "D. 802.1Q"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "针对一堵厚度均匀的砖墙，以什么方式穿透砖墙之后信号损耗最小？",
+            "number": 176,
+            "options": [
+                "A. 斜插穿透",
+                "B. 无论什么方式穿透砖墙，信号衰减的程度是一样的",
+                "C. 垂直穿透",
+                "D. 无法评估"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "关于spanning-tree portfast说法正确的是",
+            "number": 177,
+            "options": [
+                "A. 发送BPDU，不接受BPDU",
+                "B. 不发送BPDU，但接受BPDU，一旦接收到BPDU后，就开始恢复生成树的转发延迟等特性",
+                "C. 发送BPDU，接受BPDU，一旦接收到BPDU后，会进行生成树协议计算",
+                "D. 既不发送BPDU，也不接受BPDU，因为portfast表明了所连接的接口是主机端口，没有必要发送和接收BPDU"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "multiple",
+            "question": "在Windows的命令行下，下列哪些命令无法查看电脑的IP地址",
+            "number": 178,
+            "options": [
+                "A. ipconfig /all",
+                "B. ipconfig /renew",
+                "C. ipconfig /release",
+                "D. arp -d"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "锐捷交换机的一个端口Gi 0/1下有如下命令，下列说法正确的是,interface Gi0/1,switchport port-security mac-address 001a.a900.0001 vlan 1,switchport port-security binding 1414.bbcd.1aaf vlan 1 192.168.1.1,switchport port-security maximum 1,switchport port-security",
+            "number": 179,
+            "options": [
+                "A. IP地址为192.168.1.1的用户在该接口下可以上网",
+                "B. 该接口下发现违例报文后，违例报文将被丢弃，除此之外没有其他动作",
+                "C. 除了001a.a900.0001，该接口下无法学习其他MAC",
+                "D. 除了001a.a900.0001，该接口下还可以学习1个MAC地址",
+                "E. IP地址为192.168.1.1的用户在该接口下不可以上网"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "两台汇聚层交换机上配置了VRRP,配置如下:SW1:interface vlan 10 ip address 172.16.10.1 255.255.255.0 vrrp 10 ip 172.16.10.1 SW2:interface vlan 10 ip address 172.16.10.2 255.255.255.0 vrrp 10 172.16.10.1 vrrp 10 priority 120两台交换机能正常交换VRRP协议包，在SW1上使用show vrrp brief查看，正确的结果是()",
+            "number": 180,
+            "options": [
+                "A. vrrp状态为master",
+                "B. master address为172.16.10.2",
+                "C. 优先级为255",
+                "D. 优先级为100"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "某台锐捷路由器上有如下的配置:\n\n   ```\n\n   Router_A(config)#interface tunnel 1\n   Router_A(config-if-Tunnel 1)# ip address 172.16.100.1 255.255.255.0\n   Router_A(config-if-Tunnel 1)#tunnel source 20.1.1.1\n   Router_A(config-if-Tunnel 1)#tunnel destination 30.1.1.1\n   ```\n\n   关于以上配置说法错误的是？",
+            "number": 181,
+            "options": [
+                "A. 这样的配置是错误的，因为GRE隧道的源地址和目的地址不在同一个网段",
+                "B. 该路由器的GRE隧道地址是20.1.1.1",
+                "C. 该路由器配置了GRE隧道",
+                "D. 该路由器的GRE隧道地址是172.16.100.1"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "网络中2台S5750交换机作为核心，并承担网络中终端的网关设备，S5750-1和S5750-2互联接口是Gi0/1，相关配置如下。S5750-1上的配置如下:\n\n   ```\n\n   interface vlan 10\n   ip address 172.16.10.252 255.255.255.0\n   vrrp 10 ip 172.16.10.254\n   vrrp 10 priority 105\n   ```\n\n   S5750-2上的配置如下:\n\n   ```\n\n   interface vlan 10\n   ip address 172.16.10.253 255.255.255.0\n   vrrp 10 ip 172.16.10.254\n   ```\n\n   两台交换机能正常交换vrrp报文，那么，以下说法正确的是",
+            "number": 182,
+            "options": [
+                "A. S5750-1设备掉电后5750-2会自动成为主网关",
+                "B. 主网关是S5750-1",
+                "C. 主网关是S5750-2",
+                "D. S5750-1设备掉电后5750-2不会自动成为主网关"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "工程师在一台锐捷网络的设备上部署BFD和静态路由联动的功能，配置如下:\n\n   ```\n\n   RSR-A（config）#interface gigabitEthernet 2/1\n   RSR-A（config-GigabitEthernet 2/1）#ip address 12.1.1.1 255.255.255.252\n   RSR-A（config-GigabitEthernet 2/1）#bfd interval 500 min-rx 500 multiplier 3\n   RSR-A（config）# ip route 192.168.2.0 255.255.255.0 12.1.1.2\n   RSR-A（config）#ip route static bfd gigabitEthernet 2/1 12.1.1.2 source 12.1.1.1\n   ```\n\n   以下说法正确的是",
+            "number": 183,
+            "options": [
+                "A. 探测间隔为5s且静态路由配置有误",
+                "B. 探测间隔为500ms且静态路由配置正确",
+                "C. 探测间隔为5s且静态路由配置正确",
+                "D. 探测间隔为500ms且静态路由配置有误"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "下面是工程师在网络核心设备上部署VRRP时的部分配置。\n\n   ```\n\n   S5750E-B(config-mst)#interface vlan 10\n   S5750E-B(config-if-VLAN10)#ip address 172.16.1.2 255.255.255.0\n   S5750E-B(config-if-VLAN10)#vrrp 10 ip 172.16.1.254\n   S5750E-B(config-if-VLAN10)#interface vlan 20\n   S5750E-B(config-if-VLAN20)#ip address 172.16.2.2 255.255.255.0\n   S5750E-B(config-if-VLAN20)#vrrp 20 (1) 150\n   S5750E-B(config-if-VLAN20)#vrrp 20 (2) GigabitEthernet 0/24 80\n   S5750E-B(config-if-VLAN20)#vrrp 20 ip 172.16.2.254\n   ```\n\n   其中(1)和(2)的配置为",
+            "number": 184,
+            "options": [
+                "A. priority、ip",
+                "B. ip、priority",
+                "C. ip、track",
+                "D. priority、track"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "某园区网络中的核心设备S575E-A和S575E-B通过Gi0/20、Gi0/21口形成冗余和备份。并分别通过Gi0/23接口、Gi0/24接口连接到二层接入设备S29E交换机上Gi0/25、Gi0/26口上。接入设备S29E配置用户VLAN 10 VLAN 20。当S5750E-A交换机的Gi0/24接口因线路故障Down掉时，S575E-B交换机将成为VLAN10的主网关。在切换过程中，S29E交换机根据S5750E-B发送( )报文，将VRRP group10的虚MAC地址从Gi0/25接口转移到Gi0/26接口。",
+            "number": 185,
+            "options": [
+                "A. VRRP Hello",
+                "B. ICMP重定向",
+                "C. OSPF Hello",
+                "D. ARP"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "工程师在锐捷交换机上完成了如下配置:\n\n   ```\n\n   Ruijie(config)#vlan range 10,20,30,100\n   Ruijie(config)#vlan 100\n   Ruijie(config-vlan)#supervlan\n   Ruijie(config-vlan)#subvlan 10,20,30\n   Ruijie(config-vlan)#exit\n   Ruijie(config)#interface vlan 100\n   Ruijie(config-if-vlan 100)#ip address 192.168.1.1 255.255.255.0\n   Ruijie(config-if-vlan 100)#exit\n   Ruijie(config)#vlan 10\n   Ruijie(config-vlan)#subvlan-address-range 192.168.1.10 192.168.1.20\n   Ruijie(config)#vlan 20\n   Ruijie(config-vlan)#subvlan-address-range 192.168.1.21 192.168.1.100\n   Ruijie(config)#vlan 30\n   Ruijie(config-vlan)#subvlan-address-range 192.168.1.101 192.168.1.200\n   ```\n\n   下列说法中错误的是",
+            "number": 186,
+            "options": [
+                "A. 某台PC的IP地址为192.168.1.100，那么这台PC是位于sub vlan 20的",
+                "B. 工程师将Vlan 100定义为了super vlan，将vlan 10、20、30定义为了sub vlan",
+                "C. 无论PC属于哪个sub vlan，他们的网关IP地址都是192.168.1.1",
+                "D. 可以为某sub vlan配置一个SVI口地址，从而指定这个地址为该sub vlan内主机的网关地址"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在下图所示的网络中，使用OSPF作为路由协议，并且始终运行良好。由于管理上的要求，要限制172.16.1.0/24和172.16.2.0/24两个网段的上网应用，只允许这两个网络的主机访问internet中的http和https服务。为此，管理员在RouterA上做出了以下操作：",
+            "number": 187,
+            "options": [
+                "A. Fa0/1接口ACL作用的方向配置错误，应该配置为 out",
+                "B. 只允许了in方向的http和https，却没有配置out方向的permit策略",
+                "C. ACL中没有允许IP 89号协议，导致内部网路由不可达",
+                "D. ACL中没有允许TCP 89端口协议，导致内部路由失效"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "工程师在实施交换网络时，在汇聚层交换机上配置了DHCP Relay。具体配置如下：\n\n   ```\n\n   Ruijie(config)#service dhcp\n   Ruijie(config)#ip helper-address 10.1.1.1\n   Ruijie(config)#interface vlan 2\n   Ruijie(config-if)#ip helper-address 10.1.1.2\n   Ruijie(config-if)#ip add 172.16.2 253 255.255.255 0\n   Ruijie(config-if)#no shutdown\n   Ruijie(config)#end\n   Ruijie#write\n   ```\n\n   对于配置后的效果，以下说法正确的是()",
+            "number": 188,
+            "options": [
+                "A. VLAN2中的主机发出的DHCP请求，将会被中继转发到10.1.1.2",
+                "B. VLAN2中的主机发出的DHCP请求，将会被中继转发到10.1.1.1",
+                "C. VLAN2中的主机发出的DHCP请求，将会被同时中继转发到10.1.1.1和10.1.1.2",
+                "D. VLAN2中的主机发出的DHCP请求，将首先中继转发到10.1.1.2再中继转发到10.1.1.1"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "公司的出口路由器有两个快速以太网口，其中Fa0/0连接到办公楼，地址为172.16.3.0/24，Fa0/1连接到行政楼，地址为172.16.4.0/24，管理员在路由器的Fa0/1上的out方向调用了以下访问列表:\n\n   ```\n\n   access-list 199 deny tcp 172.16.3.0 0.0.0.255 any eq 23\n   access-list 199 remark deny telnet to Xingzheng\n   ```\n\n   对于该操作的结果，以下叙述哪个是正确的？",
+            "number": 189,
+            "options": [
+                "A. 172.16.3.0/24和172.16.4.0/24之间所有IP流量都被禁止",
+                "B. 允许从172.16.3.0/24上网浏览网页",
+                "C. 拒绝从172.16.3.0/24进行telnet操作，但允许从172.16.4.0/24进行telnet操作",
+                "D. 拒绝172.16.3.0/24进行ftp操作，但允许从172.16.3.0/24进行telnet操作"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "网络中的路由器上设置以下三条路由命令:\n\n   ```\n\n   router(config)#ip route 0.0.0.0 0.0.0.0 192.168.10.1\n   router(config)#ip route 10.10.10.0 255.255.255.192 192.168.11.1\n   router(config)#ip route 10.10.0.0 255.255.0.0 192.168.12.1\n   ```\n\n   当这台路由器收到目的地址为10.10.10.70数据包时，它应被转发给下列哪个地址？",
+            "number": 190,
+            "options": [
+                "A. 192.168.12.1",
+                "B. 三条路径都会发送，并进行负载均衡",
+                "C. 192.168.11.1",
+                "D. 192.168.10.1"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "multiple",
+            "question": "客户购买了锐捷的RSR路由器，在路由器上部署了如下访问控制列表规则:\n   ```\n   Access-List 100 deny icmp 172.18169.10 0.00255 any host-redirect\n   Access-List 100 deny tcp any 172.18.169.254 0.0.0.0 eq 23\n   iccess-list 100 permit ip any any\n   ```\n   现将此规则应用在接口上，下列说法正确的是()",
+            "number": 191,
+            "options": [
+                "A. 禁止从172.18.169.0网段主机发来的ICMP重定向报文通过",
+                "B. 禁止172.18169.254这台主机访问所有主机的23端口",
+                "C. 禁止所有用户通过telnet远程登录172.18.169.254这台设备",
+                "D. 以上说法都不正确"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "一个管理员想让自己的笔记本电脑无论连接到交换机S2328G的哪一个VLAN中，都能直接管理这台交换机。于是他在S2328G上，分别为当前存在的VLAN1、VLAN2和VLAN3的SVI接口配置了IP地址。具体操作脚本如下：\n   ...\n   之后，管理员将笔记本电脑连接到该交换机的VLAN2中，却发现无法通过172.16.2.254对交换机进行管理。此现象的原因是",
+            "number": 192,
+            "options": [
+                "A. 对于二层交换机，只有VLAN1的IP地址可用于管理",
+                "B. 对于二层交换机，只有VLAN1的SVI口可以被启用",
+                "C. 对于二层交换机，只能启用一个SVI口，即最后被启用的SVI口",
+                "D. 对于二层交换机，只能有一个SVI口用于管理，当为多个SVI口配置IP地址后，所有SVI均拒绝了管理访问"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "multiple",
+            "question": "由于WEB服务器对外提供服务，因此有必要对WEB服务器的服务端口进行限制。下列选项中，哪些操作可以实现以下需求？",
+            "number": 193,
+            "options": [
+                "A. access-list 100 permit tcp any 172.16.3.2 0.0.0.0 eq 80",
+                "B. access-list 100 permit tcp 172.16.1.10 0.0.0.0 172.16.3.2 0.0.0.0 eq 3389",
+                "C. access-list 100 permit ip any 172.16.3.3 0.0.0.0",
+                "D. access-list 100 permit tcp any 172.16.3.2 0.0.0.0 eq 80",
+                "E. access-list 100 permit tcp 172.16.1.10 0.0.0.0 172.16.3.2 0.0.0.0 eq 3389",
+                "F. access-list 100 deny ip any any",
+                "G. interface vlan 30\n           ip access-group 100 in\n           ip access-group 100 out"
+            ],
+            "answer": [
+                "A",
+                "G"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "为了简化客户端的TCP/IP属性配置，管理员在一台网关路由器上配置DHCP服务器。客户端所在网段为172.16.100.0/24并且该网段中有两台工作组服务器，IP地址分别为172.16.100.1和172.16.100.2。路由器的IP地址为172.16.100.254。以下关于DHCP服务的配置脚本，正确的是()",
+            "number": 194,
+            "options": [
+                "A. Enable Config t ip dhcp pool dhcp-pool Network 172.16.100.0 255.255.255.0 Lease 1 1 30 Default-router 172.16.100.254 Dns-server 8.8.8.8 Exit ip dhcp excluded-address 172.16.100.1 172.16.100.2 ip dhcp excluded-address 172.16.100.254 End Write",
+                "B. Enable Config t lp dhcp pool dhcp-pool Network 172.16.100.0 255.255.255.0 lp dhcp excluded-address 172.16.100.1 172.16.100.2 lp dhcp excluded-address 172.16.100.254 Lease 1 1 30 Default-router 172.16.100.254 Dns-server 8.8.8.8 Exit End Write",
+                "C. Enable Config t lp dhcp pool dhcp-pool Network 172.16.100.3 172.16.100.253 netmask 255.255.255.0 Lease 1 1 30 Default-router 172.16.100.254 Dns-server 8.8.8.8 Exit End Write",
+                "D. Enable Config tlp dhcp pool dhcp-pool Network 172.16.100.0 255.255.255.0 Lease 1 1 30 Exit lp dhcp excluded-address 172.16.100.1 172.16.100.2lp dhcp excluded-address 172.16.100.254 Default-router 172.16.100.254 Dns-server 8.8.8.8 End Write"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "下列关于锐捷S2900G-E二层交换机的说法中不正确的是",
+            "number": 195,
+            "options": [
+                "A. 按照以太网帧二层头部信息进行转发",
+                "B. 能够学习MAC地址",
+                "C. 工作在数据链路层",
+                "D. 需要对所转发的报文三层头部做特定修改，然后再转发数据包"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "当VLAN数据通过Trunk链路转发时，将会再以太网帧中加入802.1Q标记，以区分不同VLAN的数据帧，该标记插入到了原始以太网帧的",
+            "number": 196,
+            "options": [
+                "A. MAC地址后",
+                "B. FCS前",
+                "C. type后",
+                "D. 源MAC地址后"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "无法查看电脑IP",
+            "number": 197,
+            "options": [
+                "A. ipconfig/renen",
+                "B. arp-d",
+                "C. ipconfig/all",
+                "D. ipconfig/relet"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "通过（）命令将当前运行的配置保存",
+            "number": 198,
+            "options": [
+                "A. copy running-config startup-config",
+                "B. copy startup-config current-config",
+                "C. write",
+                "D. copy startup-config-config",
+                "E. copy current-config start-config"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "802.11b与802.11g工作频率范围是2.4GHz-2.4835GHz互不干涉的信道为？",
+            "number": 199,
+            "options": [
+                "A. 2、5、10",
+                "B. 4、8、14",
+                "C. 3、8、13",
+                "D. 1、6、11"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "以下哪些无线组网模式支持本地转发",
+            "number": 200,
+            "options": [
+                "A. 胖模式",
+                "B. 瘦模式",
+                "C. 以上都支持",
+                "D. 以上都不支持"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "某公司分支机构有3个部门，希望规划成独立的子网，但目前总公司分配给这个分支机构一个C类地址，其中最大的一个部门有58台计算机，子网掩码为",
+            "number": 201,
+            "options": [
+                "A. 255.255.255.0",
+                "B. 255.255.255.192",
+                "C. 255.255.255.224",
+                "D. 255.255.128.0"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "multiple",
+            "question": "用户电脑无法通过DHCP动态方式自动获得IP地址，可能的原因有",
+            "number": 202,
+            "options": [
+                "A. 客户端网卡设置错误，未启用自动获取IP地址的功能",
+                "B. DHCP服务器的IP地址池中地址用完",
+                "C. 客户端网卡故障，可以尝试禁用再启用网卡或者重启",
+                "D. 用户到DHCP服务器之间基本网络连通异常"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "为了在网络中部署VLAN并配置Trunk，在交换机设备上架之前，作为工程师你需要确认交换机支持( )标准",
+            "number": 203,
+            "options": [
+                "A. IEEE 802.1X",
+                "B. IEEE 802.1Q",
+                "C. IEEE 802.3AD",
+                "D. IEEE 802.1W"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "哪些路由表项是网络管理员手动配置",
+            "number": 204,
+            "options": [
+                "A. 静态路由",
+                "B. 动态路由",
+                "C. 直连路由",
+                "D. 缺省路由"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "multiple",
+            "question": "下列哪些属于WAN中数据链路层协议",
+            "number": 205,
+            "options": [
+                "A. HDLC",
+                "B. RS-232",
+                "C. LANE",
+                "D. V-35"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "type": "single",
+            "question": "哪些路由协议属于内部网关协议",
+            "number": 206,
+            "options": [
+                "A. RIP",
+                "B. BGP",
+                "C. OSPF",
+                "D. EIGRP"
+            ],
+            "answer": "A"
+        }
+    ]
+}
