@@ -1,0 +1,2363 @@
+{
+    "questions": [
+        {
+            "type": "single",
+            "question": "OSI参考模型中，从下往上的层次依次是？",
+            "options": [
+                "A. 物理层→传输层→数据链路层→网络层→会话层→表示层→应用层",
+                "B. 物理层→传输层→数据链路层→网络层→会话层→应用层→表示层",
+                "C. 物理层→数据链路层→传输层→网络层→会话层→应用层→表示层",
+                "D. 物理层→数据链路层→网络层→传输层→会话层一表示层→应用层"
+            ],
+            "answer": "D"
+        },
+        {
+            "type": "single",
+            "question": "在TCP/P模型中，“帧”是第几层的数据单元？",
+            "options": [
+                "A. 第一层",
+                "B. 第二层",
+                "C. 第三层",
+                "D. 第四层",
+                "E. 第五层"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "ARP的主要功能是（  ）。",
+            "options": [
+                "A. 将IP地址解析为物理地址",
+                "B. 将物理地址解析为IP地址",
+                "C. 将主机名解析为IP地址",
+                "D. 将IP地址解析为主机名"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "如果子网掩码是255.255.255.128，主机地址为195.16.15.14，则在该子网掩码下最多可以容纳多少个主机？",
+            "options": [
+                "A. 254",
+                "B. 126",
+                "C. 30",
+                "D. 62"
+            ],
+            "answer": "B"
+        },
+        {
+            "type": "single",
+            "question": "IP地址是202.114.18.190/26，其网络地址是。",
+            "options": [
+                "A. 202.114.18.128",
+                "B. 202.114.18.191",
+                "C. 202.114.18.0",
+                "D. 202.114.18.190"
+            ],
+            "answer": "A"
+        },
+        {
+            "type": "single",
+            "question": "以下那个IP可以和202.101.35.45/27直接通信。",
+            "options": [
+                "A. 202.101.35.31/27",
+                "B. 202.101.36.12/27",
+                "C. 202.101.35.60/27",
+                "D. 202.101.35.63/27"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "以下哪些地址能用在互联网上。",
+            "options": [
+                "A. 172.16.20.5",
+                "B. 10.103.202.1",
+                "C. 202.103.101.1",
+                "D. 192.168.1.1"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "MAC地址的位数是（  ）。",
+            "options": [
+                "A. 16",
+                "B. 32",
+                "C. 48",
+                "D. 64"
+            ],
+            "answer": "C"
+        },
+        {
+            "type": "single",
+            "question": "一台交换机有8个端口,一个单播帧从某一端口进入了该交换机,但交换机在 MAC 地址表中查不到关于该帧的目的 MAC 地址的表项,那么交换机对该帧进行的转发操作是?",
+            "options": [
+                "A. 丢弃",
+                "B. 泛洪"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "一台交换机有8个端口,一个单播帧从某一端口进入了该交换机，交换机在 MAC 地址表中查到了关于该帧的目的 MAC 地址的表项,那么交换机对该顿进行的转发操作是?",
+            "options": [
+                "A. 一定是点对点转发",
+                "B. 一定是丢弃",
+                "C. 可能是点对点转发，也可能是丢弃",
+                "D. 泛洪"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "携带ARP应答报文的帧应该是一个什么帧？",
+            "options": [
+                "A. 广播帧",
+                "B. 组播帧",
+                "C. 单播帧"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "携带ARP请求报文的帧应该是一个什么帧？",
+            "options": [
+                "A. 广播帧",
+                "B. 组播帧",
+                "C. 单播帧"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "关于STP，下列描述正确的是？",
+            "options": [
+                "A. STP树的收敛过程通常需要几十分钟",
+                "B. STP树的收敛过程通常需要几十秒钟",
+                "C. STP树的收敛过程通常需要几秒钟"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "RSTP定义了几种端口状态？",
+            "options": [
+                "A. 2",
+                "B. 3",
+                "C. 4",
+                "D. 5"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "下列选项中哪个不是正确启动RSTP保护功能的命令？",
+            "options": [
+                "A. [SW1- GigabitEthernet0/0/18]stp root-protection",
+                "B. [SW2- GigabitEthernet0/0/20]stp bpdu-protection",
+                "C. [SW3]stp tc-protection",
+                "D. [SW4- GigabitEthernet0/0/22]stp loop-protection"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 16,
+            "type": "single",
+            "question": "通过 display stp brief 命令得到ALTE字样的条目，ALTE代表什么意思？",
+            "options": [
+                "A. 根端口",
+                "B. 侦听端口",
+                "C. 备份端口",
+                "D. 替代端口"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 17,
+            "type": "single",
+            "question": "浮动静态路是如何实现的？",
+            "options": [
+                "A. 对比路由优先级值，数值最小的路由会被放入路由表",
+                "B. 对比路由优先级值，数值最大的路由会被放入路由表",
+                "C. 对比路由开销值，数值最小的路由会被放入路由表",
+                "D. 对比路由开销值，数值最大的路由会被放入路由表"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 18,
+            "type": "single",
+            "question": "对192.168.16.0/24、192.168.17.0/24、192.168.18.0/24、192.168.19.0/24四个子网进行汇总后的网络是？",
+            "options": [
+                "A. 192.168.16.0/20",
+                "B. 192.168.16.0/21",
+                "C. 192.168.16.0/22",
+                "D. 192.168.16.0/23"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 19,
+            "type": "single",
+            "question": "对172.16.1.0/24~172.16.65.0/24的65个子网进行汇总后的网络是？",
+            "options": [
+                "A. 172.16.0.0/17",
+                "B. 172.16.0.0/18",
+                "C. 172.16.0.0/19"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 20,
+            "type": "single",
+            "question": "以下针对路由优先级和路由度量值的说法中错误的是？",
+            "options": [
+                "A. 路由优先级用来从多种不同路由协议之间选择最终使用的路由",
+                "B. 路由度量值用来从同一种路由协议获得的多条路由中选择最终使用的路由",
+                "C. 默认的路由优先级和路由度量值都可以由管理员手动修改",
+                "D. 路由优先级和路由度量值都是选择路由的参数，但适用于不同的场合"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 21,
+            "type": "single",
+            "question": "下列哪条路由是静态路由？",
+            "options": [
+                "A. 路由器为本地接口生成的路由",
+                "B. 路由器上静态配置的路由",
+                "C. 路由器通过路由协议学来的路由",
+                "D. 路由器从多条路由中选出的最优路由"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 22,
+            "type": "single",
+            "question": "当路由器分别通过下列方式获取到了去往同一个子网的路由，那么这台路由器在默认情况下会选择通过哪种方式获得的路由？",
+            "options": [
+                "A. 静态配置的路由",
+                "B. 静态配置的路由（优先级的值修改为50）",
+                "C. RIP路由",
+                "D. OSPF路由"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 23,
+            "type": "single",
+            "question": "在华为路由器上查看IP路由表的命令是什么？",
+            "options": [
+                "A. display routing-table",
+                "B. display ip route table",
+                "C. display route table",
+                "D. display ip routing-table"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 24,
+            "type": "single",
+            "question": "在OSPF中，除了普通区域外还可以设置多种特殊区域，如骨干区域，以下区域属于骨干区域的是",
+            "options": [
+                "A. stub",
+                "B. area 0",
+                "C. NSSA",
+                "D. area 1"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 25,
+            "type": "single",
+            "question": "一台运行了OSPF的路由器，其物理接口IP地址分别为1.1.1.1/24、5.5.5.5/24；loopback 0的IP地址为3.3.3.3/24，loopback 1的IP地址为4.4.4.4/24，该路由器的Router ID值是",
+            "options": [
+                "A. 1.1.1.1",
+                "B. 3.3.3.3",
+                "C. 4.4.4.4",
+                "D. 5.5.5.5"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 26,
+            "type": "single",
+            "question": "通过修改下列哪个参数可以实现浮动静态路由",
+            "options": [
+                "A. nexthop",
+                "B. preference",
+                "C. Destination",
+                "D. Mask"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 27,
+            "type": "single",
+            "question": "VRRP组中的路由器的默认优先级是多少？",
+            "options": [
+                "A. 120",
+                "B. 150",
+                "C. 255",
+                "D. 100"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 28,
+            "type": "single",
+            "question": "下列有关VRRP组的说法中，正确的是？",
+            "options": [
+                "A. VRRP组的虚拟IP地址必须为组中某个物理接口的IP地址",
+                "B. 不同的VRRP组可以使用同一个虚拟IP地址，只要虚拟MAC地址不同就可以",
+                "C. 同一个物理接口可以同时参与多个VRRP组",
+                "D. 一个VRRP组中可以有多台主用路由器"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 29,
+            "type": "single",
+            "question": "路由器R1的G0/0/0端口IP地址为10.1.1.1，加入了VRRP组10，该组的VRRP虚拟IP为10.1.1.1，则此时，路由器R1的优先级应为",
+            "options": [
+                "A. 0",
+                "B. 100",
+                "C. 254",
+                "D. 255"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 30,
+            "type": "single",
+            "question": "在路由器上开启VRRP，若备用路由器从Backup状态转换为Master状态，则最可能的原因是",
+            "options": [
+                "A. Master与Backup之间链路Down",
+                "B. Master 优先级低于Backup优先级",
+                "C. Master优先级变为0",
+                "D. Master_down_time计时器超时"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 31,
+            "type": "single",
+            "question": "VRRP报文的组播地址是多少？",
+            "options": [
+                "A. 224.0.0.5",
+                "B. 224.0.0.9",
+                "C. 224.0.0.18",
+                "D. 224.0.0.20"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 32,
+            "type": "single",
+            "question": "以下哪个MAC地址是华为VRRP组的虚拟MAC地址？",
+            "options": [
+                "A. 00-00-E5-00-01-11",
+                "B. 00-00-5E-00-01-11",
+                "C. 00-E5-00-00-01-11",
+                "D. 00-00-00-5E-01-11"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 33,
+            "type": "single",
+            "question": "以下哪个属于华为的链路聚合？",
+            "options": [
+                "A. Aggregate-port",
+                "B. Eth-trunk",
+                "C. Port-Group",
+                "D. Group-Port"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 34,
+            "type": "single",
+            "question": "以下哪个不是堆叠交换机的角色？",
+            "options": [
+                "A. Master",
+                "B. Backup",
+                "C. Standby",
+                "D. Slave"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 35,
+            "type": "single",
+            "question": "下列哪项命令可以用来检查PPPoE客户端的会话状态？",
+            "options": [
+                "A. display ip interface brief",
+                "B. display current-configuration",
+                "C. display pppoe-client session packet",
+                "D. display pppoe-client session summary"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 36,
+            "type": "single",
+            "question": "配置一台AR2200路由器为PPPoE客户端时，下列哪项配置是不需要的？",
+            "options": [
+                "A. 配置拨号规则",
+                "B. 配置拨号接口",
+                "C. 在拨号接口上配置IP地址",
+                "D. 在拨号接口上配置密码"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 37,
+            "type": "single",
+            "question": "PPPoE 协议的工作分为以下哪两个阶段？",
+            "options": [
+                "A. PPPoE Discovery阶段， PPP Link Establishment阶段",
+                "B. PPPoE Discovery阶段， PPP Session阶段",
+                "C. PPPoE Discovery阶段， PPPoE Authentication阶段"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 38,
+            "type": "single",
+            "question": "PPPoE Discovery阶段会使用到以下哪4种 PPPoE 报文？",
+            "options": [
+                "A. PADI报文、PADO报文、PADR报文、PADT报文",
+                "B. PADI报文、PADO报文、PADR报文、PADS报文",
+                "C. PADI报文、PADO报文、PADS报文、PADT报文"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 39,
+            "type": "single",
+            "question": "关于 PPPoE 协议，以下说法中正确的是？",
+            "options": [
+                "A. 在 PPPoE 的 PPP Session阶段，IP报文是封装在PPP帧中的，PPP帧是封装在以太帧中的，以太帧是封装在 PPPoE报文中",
+                "B. 在PPDE的 Discovery阶段，IP报文是封装在PPP帧中的，PPP帧是封装在PPPoE报文中的， PPPoE报文是封装在以太帧中",
+                "C. 在 PPPoE的 Discovery阶段，IP报文是封装在PPP帧中的，PPP帧是封装在以太帧中的，以太帧是封装在 PPPoE报文中",
+                "D. 在 PPPoE的 PPP Session阶段，IP报文是封装在PPP帧中的，PPP帧是封装在PPPoE报文中的，PPPoE报文是封装在以太帧中"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 40,
+            "type": "single",
+            "question": "在华为AR G3系列路由器上进行有关AAA认证的配置时，最多能配置（）个域（domain）？",
+            "options": [
+                "A. 30",
+                "B. 31",
+                "C. 32",
+                "D. 33"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 42,
+            "type": "single",
+            "question": "PPP中，CHAP使用的加密算法是什么？",
+            "options": [
+                "A. DES",
+                "B. MD5",
+                "C. AES",
+                "D. 不使用加密算法"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 43,
+            "type": "single",
+            "question": "关于PPP配置和部署，下面说法正确的是？",
+            "options": [
+                "A. PPP不能用于下发IP地址",
+                "B. PPP支持CHAP和PAP两种认证方式",
+                "C. PPP不可以修改keepalive时间",
+                "D. PPP不支持双向认证"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 44,
+            "type": "single",
+            "question": "如果在PPP认证的过程中，被认证者发送了错误的用户名和密码给认证者，认证者将会发送哪种类型的报文给被认证者？",
+            "options": [
+                "A. Authenticate-Ack",
+                "B. Authenticate-Nak",
+                "C. Authenticate-Reject",
+                "D. Authenticate-Reply"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 45,
+            "type": "single",
+            "question": "下列选项中，哪一项才是一条合法的基本ACL的规则？",
+            "options": [
+                "A. rule permit ip",
+                "B. rule deny ip",
+                "C. rule permit source any",
+                "D. rule permit tcp source any"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 46,
+            "type": "single",
+            "question": "如果利用基本ACL来识别源IP地址为172.16.100/24网段的IP报文并执行“允许”的动作，那么应该采用下面哪一条规则？",
+            "options": [
+                "A. rule permit source 172.16.10.0 0.0.0.0",
+                "B. rule permit source 172.16.10.0 255.255.255.255",
+                "C. rule permit source 172.16.10.0 0.0.255.255",
+                "D. rule permit source 172.16.10.0 0.0.0.255"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 47,
+            "type": "single",
+            "question": "如果利用高级ACL来识别源IP地址为172.16.10.1且目的IP地址是172.16.20.0/24网段的IP报文并执行“拒绝”的动作，那么应该采用下面哪一条规则？",
+            "options": [
+                "A. rule deny source 172.16.10.1 0.0.0.0",
+                "B. rule deny source 172.16.10.1 0.0.0.0 destination 172.16.20.0 0.0.0.255",
+                "C. rule deny tcp source 172.16.10.1 0.0.0.0 destination 172.16.20.0 0.0.0.255",
+                "D. rule deny ip source 172.16.10.1 0.0.0.0 destination 172.16.20.0 0.0.0.255"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 48,
+            "type": "single",
+            "question": "以下选项中，哪一项暗含了公有IP地址利用率从低到高的顺序？",
+            "options": [
+                "A. 动态NAT，静态NAT，NAPT",
+                "B. NAPT，动态NAT，静态NAT",
+                "C. 静态NAT，NAPT，动态NAT",
+                "D. 静态NAT，动态NAT，NAPT"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 49,
+            "type": "single",
+            "question": "下列哪项参数不能用于高级访问控制列表？",
+            "options": [
+                "A. 物理接口",
+                "B. 目的端口号",
+                "C. 协议号",
+                "D. 时间范围"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 50,
+            "type": "single",
+            "question": "以下关于路由器的描述，说法错误的是？",
+            "options": [
+                "A. 路由器可以作为网关设备",
+                "B. 路由器不能隔离广播域",
+                "C. 路由器工作在网络层",
+                "D. 路由器能够实现 IP 报文转发"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 51,
+            "type": "single",
+            "question": "OSPF 协议使用哪种报文发现和维护邻居关系？",
+            "options": [
+                "A. LSU",
+                "B. LSR",
+                "C. HELLO",
+                "D. DD"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 52,
+            "type": "single",
+            "question": "RSTP 协议不包含以下哪个端口状态？",
+            "options": [
+                "A. Blocking",
+                "B. Learning",
+                "C. Discarding",
+                "D. Forwarding"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 53,
+            "type": "single",
+            "question": "以下关于 VLANIF 接口说法正确的是？",
+            "options": [
+                "A. 不同的 VLANIF 接口可以使用相同的 IP 地址",
+                "B. VLANIF 接口没有 MAC 地址",
+                "C. VLANIF 接口不需要学习 MAC 地址",
+                "D. VLANIF 接口是三层接口"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 54,
+            "type": "single",
+            "question": "路由器某个 ACL 中存在如下规则：rule deny tcp source 192.168.2.0 0.0.0.255 destination 172.16.10.2 0.0.0.0 下列说法正确的是？",
+            "options": [
+                "A. 源 IP 为 172.16.10.2，目的 IP 为 192.168.2.1 的所有 TCP 报文匹配这条规则",
+                "B. 源 IP 为 192.168.2.1，目的 IP 为 172.16.10.2 的所有 TCP 报文匹配这条规则",
+                "C. 源 IP 为 172.16.10.2，目的 IP 为 192.168.2.0 的所有 TCP 报文匹配这条规则",
+                "D. 源 IP 为 192.168.2.1，目的 IP 为 172.16.10.1 的所有 TCP 报文匹配这条规则"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 55,
+            "type": "single",
+            "question": "PPP 协议定义的是 OSI 参考模型中哪个层次的封装格式？",
+            "options": [
+                "A. 表示层",
+                "B. 应用层",
+                "C. 数据链路层",
+                "D. 网络层"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 56,
+            "type": "single",
+            "question": "在 RSTP 网络中，为提高收敛速度可以将交换机与用户终端相连的端口定义为？",
+            "options": [
+                "A. 快速端口",
+                "B. 备份端口",
+                "C. 根端口",
+                "D. 边缘端口"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 57,
+            "type": "single",
+            "question": "在华为路由器上 OSPF 的优先级为？",
+            "options": [
+                "A. 10",
+                "B. 0",
+                "C. 30",
+                "D. 70"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 58,
+            "type": "single",
+            "question": "掩码长度为 12 位可以表示为？",
+            "options": [
+                "A. 255.255.255.0",
+                "B. 255.248.0.0",
+                "C. 255.255.0.0",
+                "D. 255.240.0.0"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 59,
+            "type": "single",
+            "question": "基本 ACL 编号范围是？",
+            "options": [
+                "A. 4000-4999",
+                "B. 2000-2999",
+                "C. 6000-6031",
+                "D. 3000-3999"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 60,
+            "type": "single",
+            "question": "以下关于静态路由说法错误的是？",
+            "options": [
+                "A. 通过网络管理员手动配置",
+                "B. 路由器之间需要交互路由信息",
+                "C. 不能自动适应网络拓扑的变化",
+                "D. 对系统性能要求低"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 61,
+            "type": "single",
+            "question": "Ospf 协议使用哪种报文请求本地缺少的 LSA?",
+            "options": [
+                "A. LSACK",
+                "B. LSU",
+                "C. HELLO",
+                "D. LSR"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 62,
+            "type": "single",
+            "question": "使用命令\"vlan batch 10 20\"和\"valn batch 10 to 20\",分别能创建的 vlan 数量是？()",
+            "options": [
+                "A. 11 和 11",
+                "B. 2 和 2",
+                "C. 11 和 2",
+                "D. 2 和 11"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 63,
+            "type": "single",
+            "question": "二层 ACL 的编号范围是？",
+            "options": [
+                "A. 4000-4999",
+                "B. 2000-2999",
+                "C. 6000-6031",
+                "D. 3000-3999"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 64,
+            "type": "single",
+            "question": "高级 ACL 的编号范围是？",
+            "options": [
+                "A. 2000-2999",
+                "B. 4000-4999",
+                "C. 6000-6031",
+                "D. 3000-3999"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 65,
+            "type": "single",
+            "question": "DNS 协议的主要作用？",
+            "options": [
+                "A. 文件传输",
+                "B. 远程接入",
+                "C. 域名解析",
+                "D. 邮件传输"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 66,
+            "type": "single",
+            "question": "以下说法正确的是？",
+            "options": [
+                "A. 路由器工作在网络层",
+                "B. 交换机工作在物理层",
+                "C. 交换机工作在网络层",
+                "D. 路由器工作在物理层"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 67,
+            "type": "single",
+            "question": "PPPoE 会话建立和终结过程中不包括以下哪个阶段？",
+            "options": [
+                "A. 发现阶段",
+                "B. 数据转发阶段",
+                "C. 会话阶段",
+                "D. 会话终结阶段"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 68,
+            "type": "single",
+            "question": "以下哪种类型的 ACL 可以匹配传输层端口号？",
+            "options": [
+                "A. 高级 ACL",
+                "B. 基本 ACL",
+                "C. 二层 ACL",
+                "D. 中级 ACL"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 69,
+            "type": "single",
+            "question": "当采用 LACP 模式进行链路聚合时，华为交换机的默认系统优先级是？",
+            "options": [
+                "A. 36864",
+                "B. 24576",
+                "C. 4096",
+                "D. 32768"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 70,
+            "type": "single",
+            "question": "DHCP DISCOVER 报文的主要作用是？",
+            "options": [
+                "A. 服务器对 REQUEST 报文的确认响应",
+                "B. 客户端用来寻找 DHCP 服务器",
+                "C. 客户端请求配置确认，或者续借租期",
+                "D. DHCP 服务器用来响应 DHCP DISCOVER 报文，此报文携带了各种配置信息"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 71,
+            "type": "single",
+            "question": "OSPF 报文类型有多少种？",
+            "options": [
+                "A. 3",
+                "B. 5",
+                "C. 2",
+                "D. 4"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 72,
+            "type": "single",
+            "question": "以下哪个命令可以查看 OSPF 是否已经正确建立邻居关系？",
+            "options": [
+                "A. display ospf interface",
+                "B. display ospf peer",
+                "C. display ospf neighbor",
+                "D. display ospf brief"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 73,
+            "type": "single",
+            "question": "下面选项中，能使一台 IP 地址为 10.0.0.1 的主机访问 Internet 的必要技术是？",
+            "options": [
+                "A. 静态路由",
+                "B. 动态路由",
+                "C. NAT",
+                "D. 路由引入"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 74,
+            "type": "single",
+            "question": "园区网搭建的生命周期中哪个阶段是一个项目的开端？",
+            "options": [
+                "A. 网络优化",
+                "B. 网络运维",
+                "C. 规划与设计",
+                "D. 网络实施"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 75,
+            "type": "single",
+            "question": "OSPF 协议使用哪种报文对接收到的 LSU 报文进行确认？",
+            "options": [
+                "A. LSU",
+                "B. LSACK",
+                "C. LSR",
+                "D. LSA"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 76,
+            "type": "single",
+            "question": "交换机和主机之间相连，交换机常用的端口链路类型为？",
+            "options": [
+                "A. Hybrid 链路",
+                "B. Trunk 链路",
+                "C. Access 链路",
+                "D. 干线链路"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 77,
+            "type": "single",
+            "question": "ARG3 系列路由器上 ACL 缺省步长为？",
+            "options": [
+                "A. 10",
+                "B. 5",
+                "C. 20",
+                "D. 15"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 78,
+            "type": "single",
+            "question": "以太网交换机工作在 OSI 参考模型的哪一层？",
+            "options": [
+                "A. 数据链路层",
+                "B. 传输层",
+                "C. 物理层",
+                "D. 网络层"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 79,
+            "type": "single",
+            "question": "缺省情况下，STP 协议 Forward Delay 时间是多少秒？",
+            "options": [
+                "A. 15",
+                "B. 10",
+                "C. 20",
+                "D. 5"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 80,
+            "type": "single",
+            "question": "园区网络搭建时，使用以下哪种协议可以避免出现二层环路？",
+            "options": [
+                "A. SNMP",
+                "B. NAT",
+                "C. OSPF",
+                "D. RSTP"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 81,
+            "type": "single",
+            "question": "在路由表中不包含以下哪项内容？",
+            "options": [
+                "A. MAC",
+                "B. NextHop",
+                "C. Cost",
+                "D. Destination/Mask"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 82,
+            "type": "single",
+            "question": "在交换机 MAC 地址表中，以下哪一类表项不会老化？",
+            "options": [
+                "A. 动态 MAC 地址表项",
+                "B. 设备 MAC 地址表项",
+                "C. 静态 MAC 地址表项",
+                "D. 端口 MAC 地址表项"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 83,
+            "type": "single",
+            "question": "OSPF 协议用哪种报文来描述自己的 LSDB?",
+            "options": [
+                "A. DD",
+                "B. LSU",
+                "C. LSU",
+                "D. HELLO"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 84,
+            "type": "single",
+            "question": "生成树协议中使用哪个参数来进行根桥的选举？",
+            "options": [
+                "A. 桥优先级",
+                "B. 端口 ID",
+                "C. 根路径开销",
+                "D. 桥 ID"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 85,
+            "type": "single",
+            "question": "AAA 不包含下列哪一项？",
+            "options": [
+                "A. Authorization(授权)",
+                "B. Accounting(计费)",
+                "C. Authentication(认证)",
+                "D. Audit(审计)"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 86,
+            "type": "single",
+            "question": "当主机经常移动位置时，使用哪种 VLAN 划分方式最合适？",
+            "options": [
+                "A. 基于端口划分",
+                "B. 基于 IP 子网划分",
+                "C. 基于 MAC 地址划分",
+                "D. 基于策略划分"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 87,
+            "type": "single",
+            "question": "下列哪一类地址不能作为主机的 IPv4 地址？",
+            "options": [
+                "A. C 类地址",
+                "B. A 类地址",
+                "C. B 类地址",
+                "D. D 类地址"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 88,
+            "type": "single",
+            "question": "路由器工作在 OSI 参考模型的哪一层？()",
+            "options": [
+                "A. 应用层",
+                "B. 网络层",
+                "C. 数据链路层",
+                "D. 传输层"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 89,
+            "type": "single",
+            "question": "以下关于直连路由说法正确的是？",
+            "options": [
+                "A. 直连路由优先级低于动态路由",
+                "B. 直连路由需要管理员手工配置目的网络和下一跳地址",
+                "C. 直连路由优先级低于静态路由",
+                "D. 直连路由优先级最高"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 90,
+            "type": "single",
+            "question": "在系统视图下输入什么命令可以切换到用户视图？",
+            "options": [
+                "A. quit",
+                "B. souter",
+                "C. system-view",
+                "D. user-view"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 91,
+            "type": "single",
+            "question": "二层以太网交换机根据端口所接收到报文的( )生成 MAC 地址表选项。",
+            "options": [
+                "A. 源 MAC 地址",
+                "B. 目的 MAC 地址",
+                "C. 源 IP 地址",
+                "D. 目的 IP 地址"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 92,
+            "type": "single",
+            "question": "RSTP 协议存在几种端口状态？",
+            "options": [
+                "A. 2",
+                "B. 4",
+                "C. 3",
+                "D. 1"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 93,
+            "type": "single",
+            "question": "以下哪个层次不属于中型园区网络架构常见的网络层次？",
+            "options": [
+                "A. 汇聚层",
+                "B. 核心层",
+                "C. 网络层",
+                "D. 接入层"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 94,
+            "type": "single",
+            "question": "OSPF 协议基于以下哪种协议？",
+            "options": [
+                "A. UDP",
+                "B. HTTP",
+                "C. TCP",
+                "D. IP"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": 95,
+            "type": "single",
+            "question": "在存在冗余链路的二层网络中，可以使用下列哪种协议避免出现环路？",
+            "options": [
+                "A. STP",
+                "B. UDP",
+                "C. ARP",
+                "D. VRRP"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 96,
+            "type": "single",
+            "question": "在路由表中存在到达同一个目的网络的多个路由条目，这些路由称之为？",
+            "options": [
+                "A. 等价路由",
+                "B. 次优路由",
+                "C. 默认路由",
+                "D. 多径路由"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 97,
+            "type": "single",
+            "question": "在 RSTP 标准中，为了提高收敛速度，可以将交换机直接与终端相连的端口定义 为（）",
+            "options": [
+                "A. 根端口",
+                "B. 边缘端口",
+                "C. 快速端口",
+                "D. 备份端口"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 98,
+            "type": "single",
+            "question": "以下关于链路聚合 LACP 模式选举主动端的说法，正确的是？",
+            "options": [
+                "A. 系统优先级数值小的设备作为主动端",
+                "B. 比较接口编号",
+                "C. 优先级数值小的优先，如果相同则比较设备 MAC,越小越优。",
+                "D. MAC 地址小的设备作为主动端"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 99,
+            "type": "single",
+            "question": "单臂路由的方式实现 VLAN 间路由互通，有以下哪种优势？",
+            "options": [
+                "A. 减少设备数量",
+                "B. 减少路由表条目",
+                "C. 减少链路连接的数量",
+                "D. 减少 IP 地址的使用"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": 100,
+            "type": "single",
+            "question": "PPP 协议 LCP 协商阶段，如果完全接受对方发送的参数，则发送以下哪个报文？",
+            "options": [
+                "A. Configure-Ack",
+                "B. Configure-Reject",
+                "C. Configure-Nak",
+                "D. Configure-Request"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "以下哪些是网络通信的例子？（ ）",
+            "options": [
+                "A. 使用即时通信软件（如QQ）与好友聊天",
+                "B. 使用计算机在线观看视频",
+                "C. 从公司的邮箱下载邮件到自己的电脑中",
+                "D. 使用传统座机进行通话"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "OSPF 协议邻居关系有哪几种稳定状态？（ ）",
+            "options": [
+                "A. 2-way",
+                "B. Full",
+                "C. Down",
+                "D. attempt"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "以下哪些是具体的网络协议？（ ）",
+            "options": [
+                "A. HTTP",
+                "B. FTP",
+                "C. TCP",
+                "D. IP"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "当路由器运行在同一个 OSPF 区域中时，对它们的 LSDB 和路由表的描述正确的是？（ ）",
+            "options": [
+                "A. 所有路由器得到的链路状态数据库是相同的",
+                "B. 所有路由器得到的路由表是相同的",
+                "C. 各台路由器得到的链路状态数据库是不同的",
+                "D. 各台路由器的路由表是不同的"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "下列描述中正确的是？（ ）",
+            "options": [
+                "A. ARP的作用是根据已知的MAC地址信息获取相应的IP地址信息",
+                "B. ARP的作用是根据已知的IP地址信息获取相应的MAC地址信息",
+                "C. ARP是一个数据链路层协议",
+                "D. ARP是一个网络层协议"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "面关于路由器的主要功能的说法中错误的是？（ ）",
+            "options": [
+                "A. 根据路由表指导数据转发",
+                "B. 通过多种协议建立路由表",
+                "C. 实现相同网段设备之间相互通信",
+                "D. 根据收到数据包的源 IP 地址进行转发"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "关于STP，下列描述正确的是？（    ）",
+            "options": [
+                "A. 根桥上不存在指定端口",
+                "B. 根桥上不存在根端口",
+                "C. 一个非根桥上可能存在一个根端口和多个指定端口",
+                "D. 一个非根桥上可能存在多个根端口和一个指定端口"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "OSPF 协议 DR 和 BDR 的作用有？",
+            "options": [
+                "A. 减少邻接关系的数量",
+                "B. 减少邻接关系建立的时间",
+                "C. 减少 OSPF 协议报文的类型",
+                "D. 减少链路状态信息的交换次数"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "交换机上，哪些 VLAN 可以通过使用 undo 命令来对其进行删除？",
+            "options": [
+                "A. Vlan1",
+                "B. Vlan2",
+                "C. Vlan1024",
+                "D. Vlan4094"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "某个 ACL 规则如下：则下列哪些 IP 地址可以被 permit 规则匹配 Rule5 permit ip source 10.0.2.0 0.0.254.255",
+            "options": [
+                "A. 10.0.4.5",
+                "B. 10.0.5.6",
+                "C. 10.0.6.7",
+                "D. 10.0.2.1"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 11,
+            "type": "multiple",
+            "question": "堆叠、集群技术有以下哪些优势？",
+            "options": [
+                "A. 扩展端口数量",
+                "B. 简化设备管理，管理一台逻辑上的设备即可",
+                "C. 可以部署跨物理设备的链路聚合",
+                "D. 有效避免单点故障"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 12,
+            "type": "multiple",
+            "question": "下列关于单臂路由的说法正确的有？",
+            "options": [
+                "A. 每个 VLAN 一个物理连接",
+                "B. 在路由器上需要创建子接口",
+                "C. 交换机上，把连接到路由器的端口配置成 Tunk 类型的端口，并允许相关 VLAN 的通过",
+                "D. 交换机和路由器之间仅使用一条物理链路连接"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 13,
+            "type": "multiple",
+            "question": "一个网段 150.25.0.0 的子网掩码是 255.255.224.0，那么（）是该网段中的有效的主机地址？",
+            "options": [
+                "A. 150.15.3.30",
+                "B. 150.25.0.0",
+                "C. 150.25.2.24",
+                "D. 150.25.1.255"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 14,
+            "type": "multiple",
+            "question": "下列哪些 IPV4 地址是 A 类地址？",
+            "options": [
+                "A. 100.1.1.1",
+                "B. 172.16.1.1",
+                "C. 192.168.1.1",
+                "D. 127.0.0.1"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "number": 15,
+            "type": "multiple",
+            "question": "以下关于 OSPF 的 Router ID 描述不正确的是？",
+            "options": [
+                "A. OSPF 协议正常运行的前提条件是该路由器有 Router ID",
+                "B. 在同一区域内 Router ID 必须相同，在不同区域内的 Router ID 可以不同",
+                "C. Router ID 必须是路由器某接口的 IP 地址",
+                "D. 必须通过手工配置方式来指定 Router ID"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 16,
+            "type": "multiple",
+            "question": "备链路聚合支持哪些模式？",
+            "options": [
+                "A. 手工负载分担模式",
+                "B. 手工主备模式",
+                "C. 混合模式",
+                "D. LACP 模式"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "number": 17,
+            "type": "multiple",
+            "question": "华为交换机可以支持哪些保护功能？",
+            "options": [
+                "A. 环路保护",
+                "B. BPDU保护",
+                "C. 根保护",
+                "D. 拓扑变更保护"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 18,
+            "type": "multiple",
+            "question": "下列有关静态路由的说法中，正确的是（  ）",
+            "options": [
+                "A. 静态路由是指管理员手动配置在路由器上的路由",
+                "B. 静态路由的路由优先级值为60，管理员可以调整这个默认值",
+                "C. 路由器可以同时使用路由优先级相同的静态路由",
+                "D. 路由器可以同时使用路由优先级不同的静态路由"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 19,
+            "type": "multiple",
+            "question": "PPPoE 会话建立过程可分为哪两个阶段？",
+            "options": [
+                "A. Discovery 阶段",
+                "B. PPPoE Session 阶段",
+                "C. PPP connecting 阶段",
+                "D. DHCP 阶段"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "number": 20,
+            "type": "multiple",
+            "question": "默认路由的格式是（    ）",
+            "options": [
+                "A. 0.0.0.0 0.0.0.0",
+                "B. 0.0.0.0 0",
+                "C. 255.255.255.255 255.255.255.255",
+                "D. 255.255.255.255 32"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "number": 21,
+            "type": "multiple",
+            "question": "路由信息的三种来源分别是（    ）",
+            "options": [
+                "A. 默认路由",
+                "B. 直连路由",
+                "C. 静态路由",
+                "D. 动态路由"
+            ],
+            "answer": [
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 22,
+            "type": "multiple",
+            "question": "关于DR与BDR的选举规则错误的是（  ）",
+            "options": [
+                "A. 在同一个网络中DR和BDR不能是同一台路由器",
+                "B. 如果一个路由器的优先级为0，则不参加DR或BDR的选举。",
+                "C. 路由器优先级的值最小优先级最高，优先级最大的路由器将成为DR",
+                "D. 如果两台路由器优先级一样，则Router-ID值较小的路由器将成为DR"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 23,
+            "type": "multiple",
+            "question": "OSPF 协议支持以下哪些网络类型？",
+            "options": [
+                "A. 广播类型",
+                "B. 点到多点",
+                "C. 点到点类型",
+                "D. NBMA"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 24,
+            "type": "multiple",
+            "question": "下列有关VRRP的说法中正确的是？（   ）",
+            "options": [
+                "A. VRRP是一种FHRP",
+                "B. 一台路由器上只能配置一个VRRP虚拟IP地址",
+                "C. 一个VRRP组中只能有一个虚拟IP地址",
+                "D. VRRP对于终端用户来说是透明的"
+            ],
+            "answer": [
+                "A",
+                "D"
+            ]
+        },
+        {
+            "number": 25,
+            "type": "multiple",
+            "question": "有关链路聚合的优势有哪些？（   ）",
+            "options": [
+                "A. 提高连接的带宽",
+                "B. 防止链路上出现环路",
+                "C. 为连接动态地提供备用链路",
+                "D. 提升了连接的可扩展性且降低了成本"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 26,
+            "type": "multiple",
+            "question": "以下关于链路聚合的相关配置命令，描述错误的是（   ）",
+            "options": [
+                "A. 【interface eth-trunk 10】命令，用来创建并进入Eth-Trunk接口，指定Eth-Trunk接口的编号为10；",
+                "B. 【trunkport GigabitEthernet 0/0/1 to 0/0/3】命令，用来把接口GE0/0/1和GE0/0/3作为成员接口添加到Eth-Trunk中；",
+                "C. 【port link-type trunk】命令是设置接口的链路类型为Trunk；",
+                "D. 【port trunk allow-pass vlan all】命令是允许这个Trunk链路能够发送所有VLAN流量。"
+            ],
+            "answer": [
+                "B",
+                "D"
+            ]
+        },
+        {
+            "number": 27,
+            "type": "multiple",
+            "question": "基于 ACL 规则，ACL 可以划分为以下哪些类型？",
+            "options": [
+                "A. 基本 ACL",
+                "B. 用户 ACL",
+                "C. 高级 ACL",
+                "D. 二层 ACL"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 28,
+            "type": "multiple",
+            "question": "下列有关LACP的配置，说法正确的是？（    ）",
+            "options": [
+                "A. 一个Eth-Trunk中的物理接口编号必须连续",
+                "B. 一个Eth-runk中的所有物理口必须都为UP状态",
+                "C. 一个物理接口只能够加入一个 Eth-Trunk中",
+                "D. 一个Eth-Trunk中的所有物理接口速率、双工必须相同"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 29,
+            "type": "multiple",
+            "question": "关于PPP，以下说法中正确的是？（）",
+            "options": [
+                "A. LCP是PPP的一个成员协议",
+                "B. PAP是PPP的一个成员协议",
+                "C. IPCP是PPP的一个成员协议",
+                "D. IPCP是一种NCP"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 30,
+            "type": "multiple",
+            "question": "关于PPP，以下说法中正确的是？（）",
+            "options": [
+                "A. PPP的工作包含Link dead阶段，Link establishment阶段，Authentication阶段（可选），Network Layer Protocol阶段，Link Termination阶段",
+                "B. 在PPP的Link establishment阶段，PPP接口之间是通过交互NCP报文来协商PPP链路的有关参数的",
+                "C. 在PPP的Link establishment阶段，PP链路上是允许传递IP报文的",
+                "D. 如果PPP链路上需要传递IP报文，则必须先经历NCP协商过程"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "number": 31,
+            "type": "multiple",
+            "question": "对于PPP链路建立过程的描述，下面说法错误的是（）？",
+            "options": [
+                "A. Dead 阶段也称为物理层不可用阶段，当通信双方的两端检测到物理线路激活时，就会从 Dead 阶段迁移至 Establish 阶段，即建立阶段",
+                "B. 在 Establish 阶段，PPP 链路进行 LCP 参数协商。协商内容包括最大接收单元 MRU、认证方式、魔术字等选项",
+                "C. PPP 链路支持半双工和全双工两种模式",
+                "D. NCP 协商成功后，PPP 链路将保持通信状态，并且进入 Terminate 阶段"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 32,
+            "type": "multiple",
+            "question": "下面关于 PPP 描述正确的是（）？",
+            "options": [
+                "A. 对物理层而言，PPP 支持异步链路和同步链路",
+                "B. PPP 扩展性不好，不可以部署在以太网链路上",
+                "C. PPP 支持明文和密文认证",
+                "D. PPP 支持多种网络层协议，如 IPCP、IPXCP"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 33,
+            "type": "multiple",
+            "question": "PPP比HDLC更安全可靠，是因为PPP支持（）？",
+            "options": [
+                "A. PAP",
+                "B. MD5",
+                "C. CHAP",
+                "D. SSH"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "number": 34,
+            "type": "multiple",
+            "question": "关于高级ACL的规则，下列说法中正确的是？（    ）",
+            "options": [
+                "A. 高级ACL的规则可用于识别报文的TCP目的端口号",
+                "B. 高级ACL的规则可用于识别报文的TCP源端口号",
+                "C. 高级ACL的规则可用于识别报文的UDP目的端口号",
+                "D. 高级ACL的规则可用于识别报文的UDP源端口号"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 35,
+            "type": "multiple",
+            "question": "关于NAT技术，以下说法中正确的是？（    ）",
+            "options": [
+                "A. 使用NAT技术时的基本场景是：公网内部进行通信",
+                "B. 使用NAT技术时的基本场景是：私网内部进行通信",
+                "C. 使用NAT技术时的基本场景是：私网与公网进行通信",
+                "D. NAT技术可以在一定程度上节约公有IP地址资源"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 36,
+            "type": "multiple",
+            "question": "用Telnet方式登录路由器时，哪几种方式不可用？（    ）",
+            "options": [
+                "A. password认证",
+                "B. AAA本地认证",
+                "C. MD5密文认证",
+                "D. 不认证"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 37,
+            "type": "multiple",
+            "question": "RSTP 协议包含以下哪些端口状态？",
+            "options": [
+                "A. Discarding",
+                "B. Forwarding",
+                "C. Listening",
+                "D. Learning"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "number": 38,
+            "type": "multiple",
+            "question": "运行 STP 协议的交换网络在进行生成树计算时用到了以下哪些参数？",
+            "options": [
+                "A. 端口 ID",
+                "B. Forward Delay",
+                "C. 桥 ID",
+                "D. 根路径开销"
+            ],
+            "answer": [
+                "A",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 39,
+            "type": "multiple",
+            "question": "用 Telnet 方式登录路由器时，可以选择哪几种认证方式",
+            "options": [
+                "A. password 认证",
+                "B. AAA 本地认证",
+                "C. 不认证",
+                "D. MD5 密文认证"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "number": 40,
+            "type": "multiple",
+            "question": "在 STP 协议中，下面哪些因素会影响根交换机的选举？",
+            "options": [
+                "A. 交换机优先级",
+                "B. 交换机接口 ID",
+                "C. 交换机的 IP 地址",
+                "D. 交换机接口带宽",
+                "E. 交换机的 MAC 地址"
+            ],
+            "answer": [
+                "A",
+                "E"
+            ]
+        },
+        {
+            "number": 41,
+            "type": "multiple",
+            "question": "关于访问控制列表编号与类型的对应关系，下面描述正确的是？",
+            "options": [
+                "A. 高级的访问控制列表编号范围是 3000-3999",
+                "B. 二层的访问控制列表编号范围是 4000-4999",
+                "C. 基于接口的访问控制列表编号范围是 1000-2000",
+                "D. 基本的访问控制列表编号范围是 1000-2999"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "number": 42,
+            "type": "multiple",
+            "question": "路由表当中包含以下哪些要素？",
+            "options": [
+                "A. Interface",
+                "B. NextHop",
+                "C. Destination/Mask",
+                "D. Protocol",
+                "E. Cost"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ]
+        },
+        {
+            "number": 43,
+            "type": "multiple",
+            "question": "下列关于 OSPF 区域描述正确的是？",
+            "options": [
+                "A. 在配置 OSPF 区域之前必须给路由器的 loopback 接口配置 IP 地址",
+                "B. 所有的网络都应在区域 0 中宣告",
+                "C. 骨干区域的编号不能为 2",
+                "D. 区域的编号范围是从 0.0.0.0 到 255.255.255.255"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 44,
+            "type": "multiple",
+            "question": "OSPF 协议支持的网络类型有哪些？",
+            "options": [
+                "A. Point-to-Point",
+                "B. Non-Broadcast Multi-Access",
+                "C. Point-to-Multipoint",
+                "D. Broadcast"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 45,
+            "type": "multiple",
+            "question": "以下哪些网络属于局域网？",
+            "options": [
+                "A. 一个家庭网络",
+                "B. 宽带城域网",
+                "C. 某公司办公网络",
+                "D. 因特网"
+            ],
+            "answer": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "number": 46,
+            "type": "multiple",
+            "question": "当两台交换机之间使用链路聚合技术进行互连时，各个成员端口需要满足以下哪些条件？",
+            "options": [
+                "A. 两端相连的物理口数量一致",
+                "B. 两端相连的物理口速率一致",
+                "C. 两端相连的物理口双工模式一致",
+                "D. 两端相连的物理口物理编号一致",
+                "E. 两端相连的物理口使用的光模块型号一致"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 47,
+            "type": "multiple",
+            "question": "以下哪些是通信网络？",
+            "options": [
+                "A. 使用计算机在线看视频",
+                "B. 使用计算机访问官方网络",
+                "C. 从公司的邮箱里下载邮件在自己电脑里",
+                "D. 使用即时通信软件（如：QQ、微信）与好友聊天"
+            ],
+            "answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 48,
+            "type": "multiple",
+            "question": "网络管理员使用 ping 来测试网络连通性用哪些协议？",
+            "options": [
+                "A. UDP",
+                "B. TCP",
+                "C. ARP",
+                "D. ICMP"
+            ],
+            "answer": [
+                "C",
+                "D"
+            ]
+        },
+        {
+            "number": 49,
+            "type": "multiple",
+            "question": "为了实现 VLANIF 接口上的网络层功能，需要在 VLANIF 接口上配置？",
+            "options": [
+                "A. MAC 地址",
+                "B. 子网掩码",
+                "C. IP 地址",
+                "D. IP 前缀"
+            ],
+            "answer": [
+                "B",
+                "C"
+            ]
+        },
+        {
+            "number": 50,
+            "type": "multiple",
+            "question": "下列对于 oSpf 描述正确的是？",
+            "options": [
+                "A. 骨干区域编号不能为 2",
+                "B. 区域编号从 0.0.0.0-255.255.255.255",
+                "C. 所有网络都应在区域 0 中宣告",
+                "D. 配置 ospf 区域前必须为路由器的 loopback 口配置 IP 地址"
+            ],
+            "answer": [
+                "A",
+                "B"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "路由器进行数据包转发时需要修改数据包中的目的 IP 地址。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "根桥交换机上所有的端口都是指定端口。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "二层组网中，如果发生环路则可能会导致广播风暴。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "Telnet 基于 TCP 协议。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "数据链路层使用 ppp 封装，链路两端的 IP 地址可以不在同一个网段。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "运行 ospf 协议的路由器在完成 LSDB 同步后才能达到 FULL 状态？",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "路由器所有的接口属于同一个广播域？",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 8,
+            "type": "judgement",
+            "question": "动态路由协议能够自动适应网络拓扑的变化？",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 9,
+            "type": "judgement",
+            "question": "运行 STP 协议的交换机，端口在任何状态下都可以直接转化为 Disabled 状态。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 10,
+            "type": "judgement",
+            "question": "如果报文匹配 ACL 的结果是“拒绝”，该报文最终被丢弃。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 11,
+            "type": "judgement",
+            "question": "ARP 协议能够根据目的 IP 地址解析目标设备的 MAC 地址，从而实现 MAC 地址与 IP 地址的映射。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 12,
+            "type": "judgement",
+            "question": "运行 OSPF 协议的路由器先达到 FULL 状态，然后进行 LSDB 同步。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 13,
+            "type": "judgement",
+            "question": "同一台交换机 VLANIF 接口的 IP 地址不能相同。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 14,
+            "type": "judgement",
+            "question": "主机使用 IP 地址 192.168.1.2 访问 Internet 一定要经过 NAT",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 15,
+            "type": "judgement",
+            "question": "二层 ACL 可以匹配源 MAC、目的 MAC、源 IP、目的 IP 等信息。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 16,
+            "type": "judgement",
+            "question": "Eth-Trunk 两端的负载分担模式可以不一致。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 17,
+            "type": "judgement",
+            "question": "RSTP 中处于 Discarding 状态下的端口，虽然会对接收到的数据帧做丢弃处理，但可以根据该端口收到的数据帧维护 MAC 地址表。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 18,
+            "type": "judgement",
+            "question": "静态路由协议的优先级不能手工指定。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 19,
+            "type": "judgement",
+            "question": "路由表中某条路由信息的 Proto 为 OSPF,则此路由的优先级一定为 10。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 20,
+            "type": "judgement",
+            "question": "用户不能将 VLAN ID 配置为 0。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 21,
+            "type": "judgement",
+            "question": "Hybird 端口既可以连接用户主机，又可以连接其他交换机。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 22,
+            "type": "judgement",
+            "question": "默认情况下，STP 协议中根桥的根路径开销一定是 0。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 23,
+            "type": "judgement",
+            "question": "NAPT 是通过 TCP 或者 UDP 或者 IP 报文中的协议号区分不同用户的 IP 地址。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 24,
+            "type": "judgement",
+            "question": "树型网络拓扑实际上是一种层次化的星型结构，易于扩充网络规模但是层级越高的节点故障导致的网络问题越严重",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 25,
+            "type": "judgement",
+            "question": "缺省情况下，STP 协议中的端口状态由 Disable 转化为 Forwarding 状态至少需要 30s 的时间。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 26,
+            "type": "judgement",
+            "question": "交换机收到一个单播数据帧，如果该数据帧目的 MAC 在 MAC 表中能够找到，此数据帧一定会从此 MAC 对应端口转发出去。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 27,
+            "type": "judgement",
+            "question": "运行 STP 的设备收到 RSTP 的配置 BPDU 时会丢弃。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 28,
+            "type": "judgement",
+            "question": "华为交换机上不能创建 VLAN4095,不可以删除 VLAN1。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 29,
+            "type": "judgement",
+            "question": "园区网络规划时，服务器建议采用静态 IP 地址。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 30,
+            "type": "judgement",
+            "question": "Trunk 端口可以允许多个 VLAN 通过包括 VLAN4096。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 31,
+            "type": "judgement",
+            "question": "STP 中 Backup 端口可以替换发生故障的根端口。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 32,
+            "type": "judgement",
+            "question": "OSPF 的 Router ID 必须和路由器的某个接口 IP 地址相同。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 33,
+            "type": "judgement",
+            "question": "一台主机和其它主机通信一定要配置网关。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 34,
+            "type": "judgement",
+            "question": "园区网可以通过链路聚合和堆叠提高网络可靠性。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 35,
+            "type": "judgement",
+            "question": "交换机上可以用 vlan batch 批量创建 vlan 简化配置。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 36,
+            "type": "judgement",
+            "question": "交换机堆叠支持两台以上设备，通过堆叠可以将多台交换机组成逻辑上的一台设备。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 37,
+            "type": "judgement",
+            "question": "使用传统座机进行通话，是网络通信的一种方式。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 38,
+            "type": "judgement",
+            "question": "路由表中某条路由信息的 proto 为 direct,则路由优先级一定为 0。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 39,
+            "type": "judgement",
+            "question": "由于 TCP 协议在建立连接和关闭连接时都采用三次握手机制，所以 TCP 支持可靠传输。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": 40,
+            "type": "judgement",
+            "question": "OSPF 进程的 Router ID 修改之后立即生效。",
+            "options": [
+                "A. 正确",
+                "B. 错误"
+            ],
+            "answer": "B"
+        }
+        
+    ]
+}
