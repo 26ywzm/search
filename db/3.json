@@ -1,0 +1,564 @@
+{
+    "questions": [
+        {
+            "number": 1,
+            "type": "single",
+            "question": "变量age被赋值为20后，使用type(age)将返回什么？",
+            "options": [
+                "A、<class 'NoneType'>",
+                "B、<class 'str'>",
+                "C、<class 'float'>",
+                "D、<class 'int'>"
+            ],
+            "answer": "D、<class 'int'>"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "在Python中，整数类型(int)可以表示的最大数值是多少？",
+            "options": [
+                "A、无上限，直到内存耗尽",
+                "B、256",
+                "C、有固定上限",
+                "D、1024"
+            ],
+            "answer": "A、无上限，直到内存耗尽"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "在Python中，以下哪个是合法的变量名？",
+            "options": [
+                "A、for",
+                "B、class-name",
+                "C、my-variable",
+                "D、2times"
+            ],
+            "answer": "C、my-variable"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "如果想要在Python中输出变量的值，应该使用哪个函数？( )",
+            "options": [
+                "A、`print()`",
+                "B、`display()`",
+                "C、`input()`",
+                "D、`format()`"
+            ],
+            "answer": "A、`print()`"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "以下哪个Python数据类型是用于存储无序的不重复元素集？",
+            "options": [
+                "A、字典(dict)",
+                "B、列表(list)",
+                "C、集合(set)",
+                "D、元组(tuple)"
+            ],
+            "answer": "C、集合(set)"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在Python中，用于将信息输出到控制台的内置函数是( )",
+            "options": [
+                "A、`display`",
+                "B、`output`",
+                "C、`print`",
+                "D、`echo`"
+            ],
+            "answer": "C、`print`"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "当使用type()函数检查一个变量的数据类型时，以下哪个结果是正确的？",
+            "options": [
+                "A、type((1, 2, 3))将返回<class 'list'>",
+                "B、type(10)将返回<class 'str'>",
+                "C、type(\"Hello\")将返回<class 'str'>",
+                "D、type([1, 2, 3])将返回<class 'tuple'>"
+            ],
+            "answer": "C、type(\"Hello\")将返回<class 'str'>"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "在Python中，元组(tuple)与列表(list)的主要区别是：",
+            "options": [
+                "A、元组比列表更节省内存",
+                "B、列表可以被修改，元组不可以",
+                "C、元组可以被修改，列表不可以",
+                "D、列表和元组都可以被修改"
+            ],
+            "answer": "B、列表可以被修改，元组不可以"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，以下哪个选项是正确的字符串转数值类型的方法？",
+            "options": [
+                "A、int(\"123\")",
+                "B、float(\"123\")",
+                "C、bool(\"123\")",
+                "D、str(123)"
+            ],
+            "answer": "A、int(\"123\")"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python中，哪些选项可以用于输入操作？",
+            "options": [
+                "A、getline()",
+                "B、input()",
+                "C、scanf()",
+                "D、readline()"
+            ],
+            "answer": "B、input()"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，使用`%`操作符进行字符串格式化时，哪个类型码用于表示整数？( )",
+            "options": [
+                "A、`d`",
+                "B、`i`",
+                "C、`f`",
+                "D、`s`"
+            ],
+            "answer": "A、`d`"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "在Python中，哪个函数用于获取变量的数据类型？",
+            "options": [
+                "A、class()",
+                "B、isinstance()",
+                "C、id()",
+                "D、type()"
+            ],
+            "answer": "D、type()"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "Python中的幂运算符是哪个？( )",
+            "options": [
+                "A、<<",
+                "B、%",
+                "C、**",
+                "D、//"
+            ],
+            "answer": "C、**"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "下列哪个Python表达式的结果是一个布尔值？( )",
+            "options": [
+                "A、10 > 5",
+                "B、[1, 2, 3]",
+                "C、'hello' + 'world'",
+                "D、5 + 3"
+            ],
+            "answer": "A、10 > 5"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "在Python中，以下哪个选项是正确的字符串格式化方法？",
+            "options": [
+                "A、\"Hello, \".format(\"World\")",
+                "B、\"Hello, \" + \"World\"",
+                "C、\"Hello, \" + 25",
+                "D、\"Hello, %s\" % \"World\""
+            ],
+            "answer": "D、\"Hello, %s\" % \"World\""
+        },
+        {
+            "number": 16,
+            "type": "single",
+            "question": "Python语言的创始人是( )",
+            "options": [
+                "A、Bjarne Stroustrup",
+                "B、Guido van Rossum",
+                "C、James Gosling",
+                "D、Dennis Ritchie"
+            ],
+            "answer": "B、Guido van Rossum"
+        },
+        {
+            "number": 17,
+            "type": "single",
+            "question": "以下哪个选项是Python中的保留字？",
+            "options": [
+                "A、loop",
+                "B、None",
+                "C、list",
+                "D、run"
+            ],
+            "answer": "B、None"
+        },
+        {
+            "number": 18,
+            "type": "single",
+            "question": "下列哪个IDE是教程中推荐的用于Python开发的？( )",
+            "options": [
+                "A、Eclipse",
+                "B、Atom",
+                "C、VSCode",
+                "D、Visual Studio"
+            ],
+            "answer": "C、VSCode"
+        },
+        {
+            "number": 19,
+            "type": "single",
+            "question": "在Python中，以下哪个是不可变序列数据类型？",
+            "options": [
+                "A、集合(set)",
+                "B、列表(list)",
+                "C、元组(tuple)",
+                "D、字典(dict)"
+            ],
+            "answer": "C、元组(tuple)"
+        },
+        {
+            "number": 20,
+            "type": "single",
+            "question": "以下哪个选项是Python中字符串的正确表示方式？( )",
+            "options": [
+                "A、`1234`",
+                "B、\"1234\"",
+                "C、{1234}",
+                "D、$1234"
+            ],
+            "answer": "B、\"1234\""
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "在Python中，以下哪些是正确的注释方式？( )",
+            "options": [
+                "A、使用/*开始和*/结束进行多行注释",
+                "B、使用三个单引号'''进行多行注释",
+                "C、使用#进行单行注释",
+                "D、使用三个双引号\"\"\"进行多行注释"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，哪些数据类型可以作为字典的键？",
+            "options": [
+                "A、元组(tuple)",
+                "B、字符串(str)",
+                "C、集合(set)",
+                "D、列表(list)"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "在Python中，哪些运算符用于逻辑操作？",
+            "options": [
+                "A、not",
+                "B、and",
+                "C、xor",
+                "D、or"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "`print`函数的高级特性包括哪些？( )",
+            "options": [
+                "A、结束符",
+                "B、逗号分隔和空格",
+                "C、自定义分隔符",
+                "D、打印变量类型"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "安装Python解释器时，以下哪些步骤是必要的？( )",
+            "options": [
+                "A、下载适合操作系统的Python版本",
+                "B、忽略环境变量设置",
+                "C、访问Python官方网站",
+                "D、按照提示完成安装"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "在Python中，哪些运算符用于逻辑操作？( )",
+            "options": [
+                "A、and",
+                "B、or",
+                "C、==",
+                "D、not"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "使用IDLE时，以下哪些操作是正确的？( )",
+            "options": [
+                "A、使用F5执行代码文件",
+                "B、使用Ctrl + S保存文件",
+                "C、使用Ctrl + N创建新文件",
+                "D、使用鼠标右键执行代码"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "在Python中，哪些选项是集合数据类型？",
+            "options": [
+                "A、frozenset",
+                "B、tuple",
+                "C、set",
+                "D、list"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "在Python中，哪些运算符用于数学运算？",
+            "options": [
+                "A、+",
+                "B、/",
+                "C、*",
+                "D、-"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "哪些因素会影响变量的命名？",
+            "options": [
+                "A、可以是中文",
+                "B、不能以数字开头",
+                "C、变量名必须唯一",
+                "D、可以包含空格"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 11,
+            "type": "multiple",
+            "question": "字符串格式化方法中，以下哪些是Python支持的？( )",
+            "options": [
+                "A、f-string",
+                "B、使用加号`+`连接字符串",
+                "C、`.format()`方法",
+                "D、`%`操作符"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 12,
+            "type": "multiple",
+            "question": "下列哪些选项是Python中的赋值运算符？( )",
+            "options": [
+                "A、=",
+                "B、+=",
+                "C、==",
+                "D、-="
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 13,
+            "type": "multiple",
+            "question": "在Python中，哪些选项是算术运算符？",
+            "options": [
+                "A、-",
+                "B、*",
+                "C、+",
+                "D、/"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 14,
+            "type": "multiple",
+            "question": "在Python中，哪些操作可以用来声明变量？",
+            "options": [
+                "A、var := 10(Python 3.8+)",
+                "B、var = 10",
+                "C、var = 10.5",
+                "D、var = \"string\""
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 15,
+            "type": "multiple",
+            "question": "Python中的`print`函数可以输出哪些类型的数据？( )",
+            "options": [
+                "A、变量",
+                "B、数字",
+                "C、字符串",
+                "D、表达式结果"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "元组(tuple)和列表(list)的主要区别在于元组是不可变的。( )",
+            "answer": "对"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "Python代码文件的后缀是.pyw。( )",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "在Python中，input()函数接收的输入总是字符串类型。",
+            "answer": "对"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "在Python中，可以同时使用空格和制表符进行缩进。( )",
+            "answer": "错"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "变量name = \"Alice\"和Name = \"Bob\"在Python中指向同一个变量。",
+            "answer": "错"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "在Python中，f-string是一种格式化字符串的高级方法。",
+            "answer": "对"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "Python中的元组(tuple)是可变序列数据类型。",
+            "answer": "错"
+        },
+        {
+            "number": 8,
+            "type": "judgement",
+            "question": "在Python中，可以通过type()函数来检查一个对象的数据类型。",
+            "answer": "对"
+        },
+        {
+            "number": 9,
+            "type": "judgement",
+            "question": "Python 3.0发布于2010年，旨在解决2版本中的一些设计缺陷和不一致性。( )",
+            "answer": "错"
+        },
+        {
+            "number": 10,
+            "type": "judgement",
+            "question": "Python是一种静态类型语言。( )",
+            "answer": "错"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "当需要在字符串中嵌入变量时，可以使用____操作符。",
+            "answer": ["%"]
+            
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "在Python中，使用____运算符可以连接两个字符串。",
+            "answer":  ["+"]
+            
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "在Python中，可以使用(____)函数来接收用户的输入，并将输入的字符串赋值给一个变量。",
+            "answer": ["input"] 
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "集合类型在Python中用(____)表示，而冻结集合用(____)表示。",
+            "answer": ["set","frozenset"] 
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "格式化字符串时，如果需要至少5个字符宽，小数点后保留两位数字，可以使用格式化表达式____。",
+            "answer": ["%5.2f"] 
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "使用VSCode创建Python脚本文件后，可以通过快捷键(____)来执行脚本。",
+            "answer": ["F5"] 
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "在Python中，可以使用(____)运算符来进行幂运算，例如计算2的3次方。",
+            "answer": ["**"] 
+        },
+        {
+            "number": 8,
+            "type": "fillblank",
+            "question": "在IDLE中，可以通过快捷键(____)来保存文件。",
+            "answer": ["Ctrl + S"] 
+        },
+        {
+            "number": 9,
+            "type": "fillblank",
+            "question": "变量名____是Python中的一个保留字，不能用作变量名。",
+            "answer": ["class"] 
+        },
+        {
+            "number": 10,
+            "type": "fillblank",
+            "question": "在Python中，可以使用____方法来实现字符串的连接。",
+            "answer": ["加号`+`"] 
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "题目：请简述Python中的字符串格式化方法，并给出一个使用.format()方法的示例。",
+            "answer": "Python中的字符串格式化是将变量或值嵌入到字符串中的过程。有几种字符串格式化方法，包括使用%操作符、.format()方法和f-string。.format()方法使用花括号{}作为占位符，并在方法中按顺序或通过关键字指定参数值。示例代码:\n\n```python\nname = \"John\"\nage = 20\nprint(\"My name is {} and I am {} years old.\".format(name, age))\n```\n这段代码会输出: My name is John and I am 20 years old."
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "解释Python中的序列数据类型有哪些，并简述它们各自的特点。",
+            "answer": "Python中的序列数据类型包括字符串(str)、列表(list)、元组(tuple)和范围对象(range)。字符串是由字符组成的有序序列，不可变;列表是有序的元素集合，可变，可以增加、删除元素;元组类似于列表，但一旦创建，其内容不可变;range对象生成一个整数序列，常用于for循环中。"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "请简述Python中基本数据类型和序列数据类型的区别和联系。",
+            "answer": "基本数据类型包括整数(int)、浮点数(float)、布尔值(bool)等，它们代表单个值。序列数据类型如字符串(str)、列表(list)、元组(tuple)等，用于存储一系列有序的元素。基本数据类型是不可变的，而序列数据类型可以是可变(如列表)或不可变(如元组和字符串)的。序列数据类型可以包含基本数据类型作为其元素。"
+        }
+    ]
+}
