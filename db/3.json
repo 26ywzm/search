@@ -559,6 +559,370 @@
             "type": "essay",
             "question": "请简述Python中基本数据类型和序列数据类型的区别和联系。",
             "answer": "基本数据类型包括整数(int)、浮点数(float)、布尔值(bool)等，它们代表单个值。序列数据类型如字符串(str)、列表(list)、元组(tuple)等，用于存储一系列有序的元素。基本数据类型是不可变的，而序列数据类型可以是可变(如列表)或不可变(如元组和字符串)的。序列数据类型可以包含基本数据类型作为其元素。"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "浮点数在Python中的除法结果总是整数。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "在Python中，整数类型可以表示的最大数值是( )",
+            "options": [
+                "A、有下限的",
+                "B、有上限的",
+                "C、没有上限",
+                "D、没有下限"
+            ],
+            "answer": "C、没有上限"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "复数在Python中的表示形式是( )",
+            "options": [
+                "A、a + bj",
+                "B、a - b",
+                "C、a / b",
+                "D、a * b"
+            ],
+            "answer": "A、a + bj"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "下列哪个选项是Python字符串的不可变属性的正确描述？",
+            "options": [
+                "A、字符串是可变的。",
+                "B、字符串内容可以被更改。",
+                "C、字符串是不可变的。",
+                "D、字符串的不可变性取决于其内容。"
+            ],
+            "answer": "C、字符串是不可变的。"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "在Python中，哪个函数可以用于获取一个数字的绝对值？",
+            "options": [
+                "A、round()",
+                "B、abs()",
+                "C、max()",
+                "D、min()"
+            ],
+            "answer": "B、abs()"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "以下哪些Python函数可用于计算数字的绝对值？",
+            "options": [
+                "A、abs()",
+                "B、get_absolute()",
+                "C、total()",
+                "D、absolute()"
+            ],
+            "answer": "A、abs()"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "在Python中，字符串的索引从哪个数字开始？",
+            "options": [
+                "A、0",
+                "B、随机数字",
+                "C、-1",
+                "D、1"
+            ],
+            "answer": "A、0"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "以下哪些Python函数用于字符串的复制？",
+            "options": [
+                "A、multiply()",
+                "B、copy()",
+                "C、*",
+                "D、replicate()"
+            ],
+            "answer": "C、*"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，哪个函数用于计算两个整数的最大公约数？",
+            "options": [
+                "A、min()",
+                "B、gcd()",
+                "C、pow()",
+                "D、max()"
+            ],
+            "answer": "B、gcd()"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python中，哪个函数可以用于将字符串转换为复数？",
+            "options": [
+                "A、str()",
+                "B、complex()",
+                "C、float()",
+                "D、int()"
+            ],
+            "answer": "B、complex()"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，sorted()函数不能对字符串进行排序。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "**运算符在Python中用于执行幂运算，例如计算x的y次幂。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "B、对"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "在Python中，整数类型int可以表示任意大小的整数。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "在Python中，哪个字符串方法可以用于将字符串转换为大写？",
+            "options": [
+                "A、title()",
+                "B、capitalize()",
+                "C、lower()",
+                "D、upper()"
+            ],
+            "answer": "D、upper()"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "下列哪个方法用于Python字符串中的字符替换？",
+            "options": [
+                "A、`strip()`",
+                "B、`split()`",
+                "C、`find()`",
+                "D、`replace()`"
+            ],
+            "answer": "D、`replace()`"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "Python中字符串的基本操作包括哪些？",
+            "options": [
+                "A、切片",
+                "B、连接",
+                "C、复制",
+                "D、索引"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，以下哪些函数可用于数字的四舍五入？",
+            "options": [
+                "A、round()",
+                "B、truncate()",
+                "C、floor()",
+                "D、ceil()"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "整数类型在Python中可以进行哪些运算？( )",
+            "options": [
+                "A、除法",
+                "B、加法",
+                "C、乘法",
+                "D、减法"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "浮点数的精度问题可以通过以下哪些方法来解决？( )",
+            "options": [
+                "A、使用decimal模块",
+                "B、四舍五入",
+                "C、使用更高精度的数据类型",
+                "D、避免使用浮点数"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "在Python中，以下哪些方法用于字符串的索引和切片？",
+            "options": [
+                "A、使用冒号:在方括号中",
+                "B、直接使用变量名后跟方括号[]",
+                "C、index()",
+                "D、使用.运算符"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "下列哪些是Python字符串的高级格式化技术？",
+            "options": [
+                "A、对齐和填充",
+                "B、精度控制",
+                "C、宽度控制",
+                "D、使用`+`运算符连接字符串"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "以下哪些Python内置函数可用于数字的比较？",
+            "options": [
+                "A、<",
+                "B、==",
+                "C、!=",
+                "D、>"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "在Python中，以下哪些运算符适用于整数？",
+            "options": [
+                "A、加(+)",
+                "B、减(-)",
+                "C、除(/)",
+                "D、乘(*)"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "关于Python中的复数，以下说法正确的是？",
+            "options": [
+                "A、仅在物理学中有应用",
+                "B、可以表示为a + bj的形式",
+                "C、虚部必须紧跟j或J",
+                "D、由实部和虚部组成"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "以下哪些Python内置函数可用于字符串格式化？",
+            "options": [
+                "A、f\"\"",
+                "B、.format()",
+                "C、str()",
+                "D、%"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "在Python中，整数类型用(____)表示。",
+            "answer": ["int"]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "格式化字符串中的.2f表示保留(____)位小数。",
+            "answer": ["两"]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "在Python中，复数由实部和虚部组成，虚部必须紧跟(____)或(____)。",
+            "answer": ["j", "J"]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "在Python中，整数类型用关键字(____)表示。",
+            "answer": ["int"]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "要获取字符串的长度，可以使用Python内置函数(____)。",
+            "answer": ["len"]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "请解释Python中整数类型和浮点数类型在内存管理和运算效率上的区别。",
+            "answer": "内存管理:在Python中，整数类型(int)可以表示非常大的数值，其大小只受限于机器的内存。Python的动态类型系统和自动内存管理允许整数类型根据需要自动分配内存。相比之下，浮点数(float)也有较大的表示范围，但它们需要更多的内存来存储小数部分，并且是基于IEEE 754标准的二进制近似表示。\n运算效率:整数运算通常比浮点数运算更快，因为整数运算更简单且易于硬件优化。整数加、减、乘、除等操作直接对应于处理器的指令集，可以快速执行。然而，浮点数运算可能涉及更复杂的数学算法，尤其是在处理非整数结果时，这可能导致运算速度降低。此外，浮点数的精度问题也可能在某些情况下影响运算的准确性和性能。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "请简述Python中字符串的不可变性质对编程实践有哪些影响？",
+            "answer": "字符串的不可变性质意味着一旦创建，就不能更改其内容。这导致每次需要修改字符串时，实际上都会创建一个新的字符串对象。这种特性有助于保护字符串数据不被意外修改，并且在设计数据结构时可以利用这一点来提高程序的性能和安全性。"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "`strip()`方法可以去除字符串两端的空白字符。( )",
+            "answer": "对"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "`startswith()`方法可以检查字符串是否以特定子字符串结尾。( )",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "Python的内置函数`round`总是四舍五入到最接近的整数。",
+            "answer": "错"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "使用Python的decimal模块可以解决浮点数的精度问题。",
+            "answer": "对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "使用Python的f-strings可以嵌入任意表达式。( )",
+            "answer": "对"
         }
     ]
 }
