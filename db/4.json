@@ -3335,6 +3335,1604 @@
                 "D、管理接口故障"
             ],
             "answer": "AB"
+        },
+        {
+            "number": "1",
+            "type": "multiple",
+            "question": "AAA是网络安全的一种管理机制，提供了（ ）三种安全功能。",
+            "options": [
+                "A、认证",
+                "B、授权",
+                "C、计费",
+                "D、验证"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "2",
+            "type": "multiple",
+            "question": "防火墙支持的认证方式有( )。",
+            "options": [
+                "A、不认证",
+                "B、本地认证",
+                "C、远端认证",
+                "D、远程认证"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "3",
+            "type": "multiple",
+            "question": "防火墙支持的授权方式有（）。",
+            "options": [
+                "A、不授权",
+                "B、本地授权",
+                "C、远端授权",
+                "D、远程授权"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "4",
+            "type": "multiple",
+            "question": "防火墙支持的AAA计费方式有()",
+            "options": [
+                "A、不计费",
+                "B、远端计费",
+                "C、本地计费",
+                "D、远程计费"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "5",
+            "type": "multiple",
+            "question": "RADIUS协议的主要特征如下：",
+            "options": [
+                "A、客户端/服务器模式",
+                "B、安全的消息交互机制",
+                "C、良好的扩展性",
+                "D、客户端/中继器模式"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "6",
+            "type": "multiple",
+            "question": "用户组织架构中涉及哪三个概念？",
+            "options": [
+                "A、安全组",
+                "B、认证域",
+                "C、认证策略",
+                "D、用户组/用户"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": "7",
+            "type": "multiple",
+            "question": "防火墙通过认证来验证访问者的身份，防火墙对访问者进行认证的方式包括（）",
+            "options": [
+                "A、本地认证",
+                "B、服务器认证",
+                "C、单点登录",
+                "D、多点登录"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "8",
+            "type": "multiple",
+            "question": "单点登录有（）。",
+            "options": [
+                "A、AD单点登录",
+                "B、RADIUS单点登录",
+                "C、不认证",
+                "D、免认证"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "9",
+            "type": "multiple",
+            "question": "认证策略是多个规则的集合。认证策略规则由（）组成，条件指的是防火墙匹配报文的依据，动作指的是防火墙对匹配到的数据流采取的处理方式。",
+            "options": [
+                "A、安全策略",
+                "B、隧道",
+                "C、条件",
+                "D、动作"
+            ],
+            "answer": "CD"
+        },
+        {
+            "number": "10",
+            "type": "multiple",
+            "question": "用户免认证可以通过绑定那些地址实现？",
+            "options": [
+                "A、IP/MAC",
+                "B、IP",
+                "C、MAC",
+                "D、网关"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "11",
+            "type": "multiple",
+            "question": "内置Portal认证有（）。",
+            "options": [
+                "A、会话认证",
+                "B、事前认证",
+                "C、用户免认证",
+                "D、用户自定义Portal认证"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "12",
+            "type": "multiple",
+            "question": "以下选项中属于远端认证的有(  )。",
+            "options": [
+                "A. RADIUS",
+                "B. Local",
+                "C. HWTACACS",
+                "D. LDAP"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": "13",
+            "type": "multiple",
+            "question": "认证策略用于决定防火墙需要对哪些数据流进行认证，其认证动作包括(  )。",
+            "options": [
+                "A. Portal 认证",
+                "B.免认证",
+                "C.不认证",
+                "D.匿名认证"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "14",
+            "type": "multiple",
+            "question": "防火墙双机热备场景下必须配置的命令有(  )。",
+            "options": [
+                "A. hrp enable",
+                "B. hrp mirror session enable",
+                "C. hrp preempt [ delay interval ]",
+                "D. hrp interface interface-type interface-number remote { ipv4-address | ipv6-address }"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": "1",
+            "type": "multiple",
+            "question": "通过（）三种技术，企业可以防止非法用户接入企业网络中。",
+            "options": [
+                "A、加密技术",
+                "B、签名技术",
+                "C、PKI证书认证技术",
+                "D、AAA技术"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "2",
+            "type": "multiple",
+            "question": "VPN把现有的物理网络分解成逻辑上隔离的网络，在不改变网络现状的情况下实现( )的连接。",
+            "options": [
+                "A、不安全",
+                "B、安全",
+                "C、可靠",
+                "D、不可靠"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": "3",
+            "type": "multiple",
+            "question": "VPN具有以下两个基本特征：",
+            "options": [
+                "A、不专用",
+                "B、专用",
+                "C、不虚拟",
+                "D、虚拟"
+            ],
+            "answer": "B D"
+        },
+        {
+            "number": "4",
+            "type": "multiple",
+            "question": "隧道是由隧道协议形成的，分为第（）层隧道协议。",
+            "options": [
+                "A、二",
+                "B、三",
+                "C、四",
+                "D、五"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "5",
+            "type": "multiple",
+            "question": "三层隧道主要有( )等。",
+            "options": [
+                "A、L2F",
+                "B、GRE",
+                "C、IPSec",
+                "D、L2TP"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": "6",
+            "type": "multiple",
+            "question": "网络封装技术，其基本的构成要素都可以分为三个部分：",
+            "options": [
+                "A、乘客协议",
+                "B、封装协议",
+                "C、传输协议",
+                "D、GRE"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "7",
+            "type": "multiple",
+            "question": "GRE是按照协议栈对报文进行逐层封装。封装过程可以分成两步：",
+            "options": [
+                "A.第一步是为原始报文添加GRE头；",
+                "B.第一步是为新的IP头添加GRE头；",
+                "C.第二步是在GRE头前面再加上新的IP头。",
+                "D.第二步是在新的IP头前面再加上GRE头。"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": "8",
+            "type": "multiple",
+            "question": "IPSec包括(  )两个安全协议。",
+            "options": [
+                "A. GRE",
+                "B. AH",
+                "C. ESP",
+                "D. IKE"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": "9",
+            "type": "multiple",
+            "question": "AH是报文头验证协议，主要提供（）功能。",
+            "options": [
+                "A. 数据源验证",
+                "B. 数据完整性验证",
+                "C. 防报文重放",
+                "D. 加密"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "10",
+            "type": "multiple",
+            "question": "ESP是封装安全载荷协议，主要提供（）功能。",
+            "options": [
+                "A. 数据源验证",
+                "B. 数据完整性验证",
+                "C. 防报文重放",
+                "D. 加密"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "11",
+            "type": "multiple",
+            "question": "IPSec封装模式 有（） 两种。",
+            "options": [
+                "A、传输模式",
+                "B、隧道模式",
+                "C、加密模式",
+                "D、认证模式"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "12",
+            "type": "multiple",
+            "question": "IPSec提供了( )两种安全机制。",
+            "options": [
+                "A、加密",
+                "B、验证",
+                "C、隧道",
+                "D、认证"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "13",
+            "type": "multiple",
+            "question": "安全联盟（Security Association，SA）是通信对等体间对某些要素的协定，它描述了对等体间如何利用安全服务（如加密）进行安全的通信。这些要素包括：",
+            "options": [
+                "A、对等体间使用何种安全协议；",
+                "B、需要保护的数据流特征；",
+                "C、对等体间传输的数据的封装模式；",
+                "D、协议采用的加密和验证算法和用于数据安全转换、传输的密钥和SA的生存周期等。"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "14",
+            "type": "multiple",
+            "question": "IPSec安全联盟简称IPSec SA，它由一个三元组来唯一标识，这个三元组包括",
+            "options": [
+                "A.SPI（Security Parameter Index，安全参数索引）",
+                "B. 目的IP地址",
+                "C.安全协议（AH或ESP）",
+                "D.IKE"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "15",
+            "type": "multiple",
+            "question": "IPSec SA是单向的逻辑连接，通常成对建立（）两个方向。",
+            "options": [
+                "A、Inbound",
+                "B、Outbound",
+                "C、IKEv1",
+                "D、IKEv2"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "16",
+            "type": "multiple",
+            "question": "IKE有( )两个版本。",
+            "options": [
+                "A、IKEv1",
+                "B、IKEv2",
+                "C、IKEv3",
+                "D、IKEv4"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "网络安全包括广义的网络安全和狭义的网络安全。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "状态检测防火墙是基于连接状态的检测机制来工作的。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "针对日益严重的网络安全问题，国家已经出台了网络安全等级保护等相关标准和规范，旨在引导企业建立信息安全管理体系。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "Smurf攻击属于单包攻击。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "可控性和不可否认性已经成为保密性、完整性和可用性三个原则外，新的信息安全焦点。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "企业网络资源可以直接暴露在公网中，不具有任何安全隐患。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "DDos是加密狗的英文缩写。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "安全套接层协议的英文缩写是SSH。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "虚拟专用网的英文缩写是VPN。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "在每一个被防火墙分割的网络内部中，所有的计算机被认为是“可信任的”。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "防火墙认为在同一安全区域内部发生的数据流动是存在安全风险的，需要实施安全策略。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "防火墙对内部网起到了很好的保护作用，并且它是坚不可摧的。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "防火墙策略也称为防火墙的安全规则，它是防火墙实施网络保护的重要依据。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "包过滤又称“报文过滤”，它是防火墙最传统、最基本的过滤技术。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "包过滤防火墙通常工作在OSI参考模型的三层及三层以上。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "应用级网关的安全性高并且有较好的访问控制,是目前最安全的防火墙技术。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "防火墙可以阻止外部人员对内部的攻击。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "防火墙可以阻止内部人员对外部的攻击。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "代理型防火墙对所有协议都通用，无需针对特定协议开发。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "安全策略的动作包括允许和拒绝两种。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "NAT会导致网络监控难度加。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "NAT不会限制任何应用。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "NAT No-PAT可以提高公有地址的使用率。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "为FTP协议开启ASPF和NAT ALG功能的命令是detect ftp。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "网络地址转换技术的英文缩写是Network Address Translation。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "防火墙作为安全设备，一般会部署在需要保护的网络和不受保护的网络之间，如果仅仅使用一台防火墙设备，无论其可靠性多高，系统都可能会承受因为单点故障而导致网络中断的风险。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "为了防止一台设备出现意外故障而导致网络业务中断，可以采用两台防火墙形成双机备份。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "为了防止一台设备出现意外故障而导致网络业务中断，可以采用多台防火墙形成双机备份。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "双机热备需要两台硬件和软件配置均相同的防火墙设备，两台防火墙之间通过一条独立的链路连接，这条链路通常被称之为“心跳线”。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "双机热备需要两台硬件和软件配置均不相同的防火墙设备，两台防火墙之间通过一条独立的链路连接，这条链路通常被称之为“心跳线”。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "双机热备需要两台硬件和软件配置均相同的防火墙设备，两台防火墙之间通过一条独立的链路连接，这条链路通常被称之为“心跳线”。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "两台防火墙通过心跳线了解对端的健康状况，向对端备份配置和各种表项（如会话表等）。当一台防火墙出现故障时，业务流量能平滑地切换到另一台设备上处理，保障业务不中断。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "主备备份模式：一台作为主用设备，一台作为备用设备。正常情况下，主用设备处理整个网络的业务流量。当主用设备故障时，备用设备接替主用设备处理业务流量，保证业务不中断。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "负载分担模式：正常情况下，两台设备共同分担整个网络的业务流量。当其中一台设备故障时，另外一台设备会承担故障设备的业务，保证原本通过该设备转发的业务不中断。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "组成双机热备的两台防火墙对设备硬件、软件以及License等没有严格的要求。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 16,
+            "type": "single",
+            "question": "组成双机热备的硬件要求：两台防火墙的型号必须相同，安装的单板类型、数量以及单板安装的位置必须相同，硬盘配置可以不同。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 17,
+            "type": "single",
+            "question": "组成双机热备的硬件要求：两台防火墙的型号必须相同，安装的单板类型、数量以及单板安装的位置必须相同，硬盘配置也要求必须相同。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 18,
+            "type": "single",
+            "question": "组成双机热备的软件要求：在系统软件版本升级或回退的过程中，两台防火墙可以暂时运行不同版本的系统软件。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 19,
+            "type": "single",
+            "question": "组成双机热备的License要求：双机热备功能自身不需要License。但对于其他需要License的功能，如IPS、反病毒等，组成双机热备的两台防火墙需要分别申请和加载License，两台防火墙之间不能共享License，而且两台防火墙的License控制项种类、资源数量、升级服务到期时间都要相同。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 20,
+            "type": "single",
+            "question": "VRRP（Virtual Router Redundancy Protocol，虚拟路由冗余协议）能够在不改变组网的情况下，采用将多台路由设备组成一个虚拟路由器，即VRRP备份组。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 21,
+            "type": "single",
+            "question": "同一VRRP备份组内的路由器有两种角色：Master设备（活动状态）和Backup设备（备份状态）。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 22,
+            "type": "single",
+            "question": "VGMP是华为的私有协议，在协议中定义了VGMP组，防火墙基于VGMP组实现设备主备状态管理。每台防火墙都有一个VGMP组，用户不能删除这个VGMP组，也不能再创建其他的VGMP组。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 23,
+            "type": "single",
+            "question": "VGMP是华为的私有协议，在协议中定义了VGMP组，防火墙基于VGMP组实现设备主备状态管理。每台防火墙都有一个VGMP组，用户可以删除这个VGMP组，也可以再创建其他的VGMP组。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 24,
+            "type": "single",
+            "question": "VGMP组优先级决定了VGMP组的状态，且不可配置。设备正常启动后，会根据设备的硬件配置自动生成一个VGMP组优先级，这个优先级被称之为初始优先级。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 25,
+            "type": "single",
+            "question": "防火墙VGMP组状态分为四类：initialize、load-balance、active和standby。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 26,
+            "type": "single",
+            "question": "设备自身的VGMP组优先级等于对端设备的VGMP组优先级时，设备的VGMP组状态为load-balance；",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 27,
+            "type": "single",
+            "question": "设备自身的VGMP组优先级大于对端设备的VGMP组优先级时，设备的VGMP组状态为active；",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 28,
+            "type": "single",
+            "question": "设备自身的VGMP组优先级小于对端设备的VGMP组优先级时，设备的VGMP组状态为standby；",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 29,
+            "type": "single",
+            "question": "正常情况下两台设备的VGMP组优先级是不等的，VGMP组状态为load-balance。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 30,
+            "type": "single",
+            "question": "如果某一台设备发生了故障，该设备的VGMP组优先级会降低。故障设备的VGMP组优先级小于无故障设备的VGMP组优先级，故障设备的VGMP组状态会变成standby，无故障设备的VGMP组状态会变成active。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 31,
+            "type": "single",
+            "question": "防火墙能根据VGMP组的状态调整VRRP备份组状态、动态路由（如OSPF、OSPFv3和BGP）的开销值、VLAN的状态以及接口的状态（如镜像模式），从而实现主备备份或负载分担模式的双机热备。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 32,
+            "type": "single",
+            "question": "双机热备组网中，心跳线是多台防火墙交互消息了解对端状态、备份配置命令和各种表项的通道。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 33,
+            "type": "single",
+            "question": "心跳线两端的接口通常被称之为“心跳接口”；",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 34,
+            "type": "single",
+            "question": "HRP心跳接口共有五种状态：Invalid、Down、Negotiation Failed、Ready、Running。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 35,
+            "type": "single",
+            "question": "在防火墙上，VRRP优先级是不可以配置的，防火墙启用双机热备功能后，VRRP优先级固定为120。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 36,
+            "type": "single",
+            "question": "当防火墙接口故障时，接口下VRRP备份组状态active。接口无故障时，接口下VRRP备份组状态由VGMP组的状态决定，从而保证同一台防火墙上所有VRRP备份组状态的一致性。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 37,
+            "type": "single",
+            "question": "故障切换的触发条件包括心跳丢失和VGMP组状态变化。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 38,
+            "type": "single",
+            "question": "心跳丢失：防火墙通过监控对端设备的心跳报文来判定对端设备是否存活，如果防火墙连续五个心跳周期没有收到对端的心跳报文，就判断对端设备发生故障并触发故障切换。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 39,
+            "type": "single",
+            "question": "心跳丢失：防火墙通过监控对端设备的心跳报文来判定对端设备是否存活，如果防火墙连续一个心跳周期没有收到对端的心跳报文，就判断对端设备发生故障并触发故障切换。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 40,
+            "type": "single",
+            "question": "VGMP组状态变化：防火墙通过心跳线接收对端设备的VGMP报文，了解对端设备的VGMP组优先级，如果本端的VGMP组优先级低于对端，本端的VGMP组状态会切换为Standby。同时，防火墙会向对端设备发送一个VGMP报文，通知对端进行故障切换。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 41,
+            "type": "single",
+            "question": "HRP技术可以实现备防火墙不需要配置任何信息，所有配置信息均由主防火墙通过HRP同步至备防火墙，且重启后配置信息不丢失。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 42,
+            "type": "single",
+            "question": "启用双机热备功能后，防火墙能根据VGMP组状态动态调整OSPF、OSPFv3发布路由的开销值、动态调整BGP发布路由的MED值。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 37,
+            "type": "single",
+            "question": "支持备份的配置命令默认只能在主设备上执行，这些命令会自动备份到备设备上。例如，安全策略配置命令、NAT策略配置命令等；",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 38,
+            "type": "single",
+            "question": "主备备份组网中，只有主设备会处理业务，主设备上生成业务表项，并向备设备备份。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 39,
+            "type": "single",
+            "question": "负载分担组网中，两台防火墙都会处理业务，都会生成业务表项并向对端设备备份。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 41,
+            "type": "single",
+            "question": "授权内容通常包括用户组、VLAN配置、ACL编号等安全设置。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 42,
+            "type": "single",
+            "question": "计费功能用于监控授权用户的网络行为和网络资源的使用情况。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 43,
+            "type": "single",
+            "question": "RADIUS是一种分布式的、客户端/服务器结构的信息交互协议，能保护网络不受未授权访问的干扰，常应用在既要求有较高安全性、又允许远程用户访问的各种网络环境中。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 44,
+            "type": "single",
+            "question": "RADIUS协议定义了基于TCP的RADIUS报文格式及其传输机制，并规定UDP端口1812、1813分别作为默认的认证、计费端口。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 45,
+            "type": "single",
+            "question": "只有防火墙设备可以作为RADIUS客户端，负责收集用户信息（如用户名、密码等），并将这些信息发送到RADIUS服务器。RADIUS服务器则根据这些信息完成用户身份认证以及认证通过后的用户授权和计费。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 46,
+            "type": "single",
+            "question": "LDAP是轻量级目录访问协议的简称。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 47,
+            "type": "single",
+            "question": "LDAP基于客户端/服务器架构。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 48,
+            "type": "single",
+            "question": "LDAP服务器负责对来自应用服务器的请求进行认证，同时还指定用户登录的应用服务器所允许访问的资源范围等。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 49,
+            "type": "single",
+            "question": "LDAP协议中目录是按照图型结构组织，目录由条目（Entry）组成，条目是具有区别名DN的属性集合。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 50,
+            "type": "single",
+            "question": "LDAP协议中目录是按照树型结构组织，目录由条目（Entry）组成，条目是具有区别名DN的属性集合。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 51,
+            "type": "single",
+            "question": "防火墙中的用户组织结构是实际企业中组织结构的映射，是基于用户进行权限管控的基础。用户组织结构分为按部门进行组织的树形维度和按跨部门群组进行组织的横向维度。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 52,
+            "type": "single",
+            "question": "防火墙中的用户组织结构是实际企业中组织结构的映射，是基于用户进行权限管控的基础。用户组织结构分为按部门进行组织的横向维度和按跨部门群组进行组织的纵向维度。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "B、错误"
+        },
+        {
+            "number": 53,
+            "type": "single",
+            "question": "缺省情况下，防火墙不对经过自身的数据流进行认证，仅认证匹配认证策略的数据流。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 54,
+            "type": "single",
+            "question": "防火墙匹配报文时总是在多条认证策略规则之间进行，从上往下进行匹配。当数据流的属性和某条规则的所有条件匹配时，认为匹配该条规则成功，就不会再匹配后续的规则。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 55,
+            "type": "single",
+            "question": "防火墙匹配报文时总是在多条认证策略规则之间进行，从下往上进行匹配。当数据流的属性和某条规则的所有条件匹配时，认为匹配该条规则成功，就不会再匹配后续的规则。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "B、错误"
+        },
+        {
+            "number": 56,
+            "type": "single",
+            "question": "如果所有规则都没有匹配到，则按照默认认证策略进行处理。防火墙上存在一条默认的认证策略，所有匹配条件均为任意（any），动作为免认证。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "B、错误"
+        },
+        {
+            "number": 57,
+            "type": "single",
+            "question": "如果所有规则都没有匹配到，则按照默认认证策略进行处理。防火墙上存在一条默认的认证策略，所有匹配条件均为任意（any），动作为不认证。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 58,
+            "type": "single",
+            "question": "用户免认证是指通过识别IP/MAC和用户的双向绑定关系，确定访问者的身份。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 59,
+            "type": "single",
+            "question": "用户不认证是指通过识别IP/MAC和用户的双向绑定关系，确定访问者的身份。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "B、错误"
+        },
+        {
+            "number": 60,
+            "type": "single",
+            "question": "认证域：用户组织结构的容器，防火墙缺省存在default认证域，用户可以根据需求新建认证域。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 61,
+            "type": "single",
+            "question": "用户组/用户：用户按树形结构组织，用户隶属于组（部门）。管理员可以根据企业的组织结构来创建部门和用户。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 62,
+            "type": "single",
+            "question": "安全组：横向组织结构的跨部门群组。当需要基于部门以外的维度对用户进行管理可以创建跨部门的安全组。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 63,
+            "type": "single",
+            "question": "本地认证：防火墙上存储了密码，验证过程在防火墙上进行。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 64,
+            "type": "single",
+            "question": "服务器认证：防火墙上没有存储密码，防火墙将用户名和密码发送至第三方认证服务器，验证过程在认证服务器上进行。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 65,
+            "type": "single",
+            "question": "单点登录：防火墙获取用户在其它认证系统的认证结果，使用户在防火墙上线，不再重新进行认证。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 66,
+            "type": "single",
+            "question": "会话认证：用户不主动进行身份认证，先进行HTTP业务访问，在访问过程中进行认证。认证通过后，再进行业务访问。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 67,
+            "type": "single",
+            "question": "事前认证：访问者在访问网络资源之前，先主动进行身份认证，认证通过后，再访问网络资源。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 68,
+            "type": "single",
+            "question": "防火墙与自定义Portal联动，使用外部Portal服务器对用户进行认证。用户访问HTTP业务时，防火墙向用户推送自定义Portal认证页面，触发身份认证。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 69,
+            "type": "single",
+            "question": "用户免认证：不需要输入用户名和密码，并不是不需要认证，它是将本地用户名与IP、MAC或IP-MAC进行双向绑定，防火墙通过识别IP/MAC和用户的双向绑定关系，确定访问者的身份。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 70,
+            "type": "single",
+            "question": "认证策略用于决定防火墙需要对哪些数据流进行认证，匹配认证策略的数据流必须经过防火墙的身份认证才能通过。",
+            "options": [
+                "A、正确",
+                "B、错误"
+            ],
+            "answer": "A、正确"
+        },
+        {
+            "number": 71,
+            "type": "single",
+            "question": "VPN即虚拟专用网，用于在公用网络上构建私人专用虚拟网络，并在此虚拟网络中传输私网流量。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 72,
+            "type": "single",
+            "question": "虚拟（Virtual）：VPN用户内部的通信是通过公共网络进行的，而这个公共网络同时也可以被其他非VPN用户使用，VPN用户获得的只是一个逻辑意义上的专网。这个公共网络称为VPN骨干网。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 73,
+            "type": "single",
+            "question": "加密对象有数据报文和协议报文之分, 能够实现协议报文和数据报文都加密的协议安全系数更低。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 74,
+            "type": "single",
+            "question": "GRE协议本身不提供加密技术，所以通常结合IPSec协议一起使用，依赖IPSec的加密技术。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 75,
+            "type": "single",
+            "question": "IPSec：支持对数据报文和协议报文进行加密。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 76,
+            "type": "single",
+            "question": "在源目两端都对报文进行验证，只有摘要不一致的报文才被接受。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 77,
+            "type": "single",
+            "question": "Tunnel接口是一个通用的隧道接口，所以GRE协议在使用这个接口的时候，会将接口的封装协议设置为GRE协议。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 78,
+            "type": "single",
+            "question": "在防火墙A发出的原始报文进入Tunnel接口这个过程中，报文经过的安全域间是Trust->DMZ。原始报文被GRE封装后，防火墙A在转发这个报文时，报文经过的安全域间是Local->Untrust。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 79,
+            "type": "single",
+            "question": "当防火墙A发出的GRE报文到达防火墙B时，防火墙B会进行解封装。在此过程中，报文经过的安全域间是Untrust->Local。GRE报文被解封装后，防火墙B在转发原始报文时，报文经过的安全域间是DMZ->Trust。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 80,
+            "type": "single",
+            "question": "IPSec是IETF制定的一组开放的网络安全协议，它并不是一个单独的协议，而是一系列为IP网络提供安全性的协议和服务的集合。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 81,
+            "type": "single",
+            "question": "AH是报文头验证协议，主要提供数据源验证、数据完整性验证和防报文重放功能，不提供加密功能。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 82,
+            "type": "single",
+            "question": "AH是报文头验证协议，主要提供数据源验证、数据完整性验证和防报文重放功能，还提供加密功能。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 83,
+            "type": "single",
+            "question": "ESP是封装安全载荷协议，主要提供加密、数据源验证、数据完整性验证和防报文重放功能。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 84,
+            "type": "single",
+            "question": "ESP是封装安全载荷协议，主要提供数据源验证、数据完整性验证和防报文重放功能，不提供加密功能。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 85,
+            "type": "single",
+            "question": "IPSec封装模式 有 传输模式和隧道模式两种。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 86,
+            "type": "single",
+            "question": "在传输模式中，AH头或ESP头被插入到IP头与传输层协议头之间，保护TCP/UDP/ICMP负载。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 87,
+            "type": "single",
+            "question": "在隧道模式下，AH头或ESP头被插到原始IP头之前，另外生成一个新的报文头放到AH头或ESP头之前，保护IP头和负载。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 88,
+            "type": "single",
+            "question": "IPSec提供了加密和验证两种安全机制。验证机制保证数据的机密性，防止数据在传输过程中被窃听。加密机制能保证数据真实可靠，防止数据在传输过程中被仿冒和篡改。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 89,
+            "type": "single",
+            "question": "安全联盟（Security Association，SA）是通信对等体间对某些要素的协定，它描述了对等体间如何利用安全服务（如加密）进行安全的通信。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 90,
+            "type": "single",
+            "question": "IPSec安全传输数据的前提是在IPSec对等体（即运行IPSec协议的两个端点）之间成功建立安全联盟SA（Security Association）。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 91,
+            "type": "single",
+            "question": "IPSec安全联盟简称IPSec SA，它由一个三元组来唯一标识，这个三元组包括SPI（Security Parameter Index，安全参数索引）、目的IP地址和使用的安全协议（AH或ESP）。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 92,
+            "type": "single",
+            "question": "IPSec SA是双向的逻辑连接，通常成对建立（Inbound和Outbound）。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 93,
+            "type": "single",
+            "question": "两个IPSec对等体之间的双向通信，最少需要建立1对IPSec SA形成1个安全互通的IPSec隧道，分别对两个方向的数据流进行安全保护。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 94,
+            "type": "single",
+            "question": "IKE属于一种混合型协议，由Internet安全联盟、密钥管理协议（ISAKMP）和两种密钥交换协议Oakley与SKEME组成。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 95,
+            "type": "single",
+            "question": "IKE有IKEv1和IKEv2两个版本。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "题目：请简述防火墙能防范哪些威胁，并简要描述每一类威胁的攻击手段和方式。",
+            "answer": "(1) 窃听：通过窃听网络数据获取银行卡号、密码等重要信息。\n\n(2) 篡改：将网站主页、邮件等通信内容恶意修改。\n\n(3) 破坏：通过电脑病毒或DoS攻击等破坏系统的正常工作。\n\n(4) 冒充：冒充他人发送邮件，对接收方进行钓鱼、诈骗等行为。\n\n(5) 信息泄露：电脑或服务器上的重要信息或文档泄露。\n\n(6) 攻击跳板：作为病毒部署或DDoS攻击的跳板。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "题目：2.完整地配置一台USG6000V防火墙的步骤有哪些？。",
+            "answer": "(1) 配置防火墙的接口IP\n\n(2) 将接口加入到对应安全区域里。\n\n(3) 配置防火墙的安全策略"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "题目：3.网络地址转换技术（NAT）根据应用场景的不同，NAT可以分为哪三类？并简述其分别转换报文中的哪些信息，以及适用于哪些访问场景。",
+            "answer": "(1) 源NAT（Source NAT）：对报文中的源地址进行转换。适用于用户通过私网地址访问Internet的场景；\n\n(2) 目的NAT（Destination NAT）：对报文中的目的地址进行转换。适用于用户通过公网地址访问私网服务器的场景；\n\n(3) 双向NAT（Bidirectional NAT）：在转换过程中同时转换报文的源信息和目的信息。适用于通信双方访问对方的时候目的地址都不是真实的地址，而是NAT转换后的地址的场景。"
+        },
+        {
+            "number": 4,
+            "type": "essay",
+            "question": "题目：组成双机热备的两台防火墙对设备硬件、软件以及License等都有严格的要求。",
+            "answer": "(1) 硬件要求：两台防火墙的型号必须相同，安装的单板类型、数量以及单板安装的位置必须相同，硬盘配置可以不同。\n\n(2) 软件要求：在系统软件版本升级或回退的过程中，两台防火墙可以暂时运行不同版本的系统软件。\n\n(3) License要求：双机热备功能自身不需要License。但对于其他需要License的功能，如IPS、反病毒等，组成双机热备的两台防火墙需要分别申请和加载License，而且两台防火墙的License控制项种类、资源数量、升级服务到期时间都要相同。"
+        },
+        {
+            "number": 5,
+            "type": "essay",
+            "question": "题目：解释一下AAA是什么, 并分别给出三种安全功能的概念?",
+            "answer": "AAA是Authentication（认证）、Authorization（授权）和Accounting（计费）的简称，是网络安全的一种管理机制，提供了认证、授权、计费三种安全功能。(1) 认证：验证用户是否可以获得访问权，确定哪些用户可以访问网络；\n\n(2) 授权：授权用户可以使用哪些服务；\n\n(3) 计费：记录用户使用网络资源的情况。"
+        },
+        {
+            "number": 6,
+            "type": "essay",
+            "question": "题目：简述vpn四种技术?",
+            "answer": "(1) 隧道技术是指在隧道的两端通过封装以及解封装技术在公网上建立一条数据通道，使用这条通道对数据报文进行传输。\n\n(2) 身份认证技术，其主要用于移动办公用户远程接入的情况，总部的VPN网关对用户的身份进行认证，确保接入内部网络的用户是合法用户，而非恶意用户。\n\n(3) 加密技术就是把明文加密成密文的过程。\n\n(4) 数据验证技术就是对报文的真伪进行检查，丢弃伪造的、被篡改的报文。"
         }
+
+
     ]
 }
