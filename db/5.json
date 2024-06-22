@@ -1,0 +1,3496 @@
+{
+    "questions": [
+        {
+            "number": "1",
+            "type": "single",
+            "question": "HTTP、Telnet和FTP协议在传输用户名、口令和数据时，是以什么形式传输的?",
+            "options": [
+                "A、对称加密",
+                "B、加密",
+                "C、明文",
+                "D、不传输口令"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "2",
+            "type": "single",
+            "question": "用来为网络中的主机自动分配IP地址、子网掩码、默认网关、WINS服务器地址的网络协议是哪一个?",
+            "options": [
+                "A、ARP",
+                "B、IGMP",
+                "C、ICMP",
+                "D、DHCP协议"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "3",
+            "type": "single",
+            "question": "在进行协议分析时，为了捕获到网络有全部协议数据，可以在交换机上配置什么功能?",
+            "options": [
+                "A、端口镜像功能",
+                "B、VLAN",
+                "C、Trunk",
+                "D、MAC地址绑定"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "4",
+            "type": "single",
+            "question": "ARP欺骗攻击一般是伪造哪一部分信息实现的?",
+            "options": [
+                "A、发送者MAC和IP对应关系",
+                "B、目标MAC和IP对应关系",
+                "C、数据帧二层的源MAC地址",
+                "D、数据帧二层的目的MAC地址"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "5",
+            "type": "single",
+            "question": "在计算机中查看ARP缓存记录的命令是什么?",
+            "options": [
+                "A、“arp -a”",
+                "B、“ipconfig /all”",
+                "C、“netstat -an”",
+                "D、“arp -d”"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "6",
+            "type": "single",
+            "question": "在进行协议分析时，为了捕获到流经网卡的全部协议数据，要使网卡工作在什么模式下?",
+            "options": [
+                "A、广播模式",
+                "B、单播模式",
+                "C、工作在混杂模式",
+                "D、多播模式"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "7",
+            "type": "single",
+            "question": "在广播式网络中，发送报文分组的目的地址有( )地址、多站(播)地址和广播地址三种?",
+            "options": [
+                "A、本地",
+                "B、远程",
+                "C、单一物理(单播)",
+                "D、逻辑"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "8",
+            "type": "single",
+            "question": "ARP协议工作过程中，当一台主机A向另一台主机B发送ARP查询请求时，以太网帧封装的目的MAC地址是什么?",
+            "options": [
+                "A、源主机A的MAC地址",
+                "B、目标主机B的MAC地址",
+                "C、任意地址:000000000000",
+                "D、广播地址:FFFFFFFFFFFF"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "9",
+            "type": "single",
+            "question": "在计算机中清除ARP缓存记录的命令是什么?",
+            "options": [
+                "A、“arp -a”",
+                "B、“arp -d”",
+                "C、“netstat -an”",
+                "D、“ipconfig /all”"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "10",
+            "type": "single",
+            "question": "一帧ARP协议数据中，如果其中显示操作代码(Opcode)值为1，表示此数据帧为ARP的哪种操作?",
+            "options": [
+                "A、单播帧",
+                "B、应答帧",
+                "C、多播帧",
+                "D、请求数据帧"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "11",
+            "type": "single",
+            "question": "协议分析技术可以解决以下哪一个安全问题?",
+            "options": [
+                "A、进行访问控制",
+                "B、清除计算机病毒",
+                "C、捕获协议数据并进行分析、定位网络故障点",
+                "D、加密以保护数据"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "12",
+            "type": "single",
+            "question": "TCP/IP中哪一个协议是用来报告错误并对消息进行控制?",
+            "options": [
+                "A、ICMP协议",
+                "B、IGMP",
+                "C、ARP",
+                "D、SNMP"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "13",
+            "type": "single",
+            "question": "在Windows系统中用于显示本机各网络端口详细情况的命令是什么?",
+            "options": [
+                "A、“netshow”",
+                "B、“netstat”",
+                "C、“ipconfig”",
+                "D、“netview”"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "14",
+            "type": "single",
+            "question": "交换机在学习MAC地址是依据对应接口所接收到的数据帧的哪个字段值?",
+            "options": [
+                "A、数据帧的源MAC地址",
+                "B、数据帧的目的MAC地址",
+                "C、类型字段",
+                "D、FCS字段"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "15",
+            "type": "single",
+            "question": "一个以太网数据帧头部封装的类型字段值为0x0806，表示内部上层包装的是什么协议?",
+            "options": [
+                "A、IP",
+                "B、ARP协议",
+                "C、ICMP",
+                "D、UDP"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "16",
+            "type": "single",
+            "question": "配置交换机端口安全时，以下哪种不是接口获得MAC地址方式?",
+            "options": [
+                "A、动态学习",
+                "B、静态指定",
+                "C、Sticky",
+                "D、自动配置方式"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "17",
+            "type": "single",
+            "question": "关于交换机端口安全设置的违规模式中，哪下种模式对发生违规发生后仅过滤违规流量但不发日志消息?",
+            "options": [
+                "A、Protect模式",
+                "B、Restrict",
+                "C、Shutdown",
+                "D、Sticky"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "18",
+            "type": "single",
+            "question": "关于交换机端口安全设置的违规模式中，哪下种模式对发生违规发生后会关闭对应的接口?",
+            "options": [
+                "A、Protect",
+                "B、Restrict",
+                "C、Shutdown模式",
+                "D、Sticky"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "19",
+            "type": "single",
+            "question": "以太网交换机一个端口在接收到数据帧时，依据数据帧的哪个地址决定转发去向?",
+            "options": [
+                "A、源MAC地址",
+                "B、目的MAC地址决定",
+                "C、源IP地址",
+                "D、目的IP地址"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "20",
+            "type": "single",
+            "question": "以太网交换机一个端口在接收到数据帧时，检查数据帧的哪个地址更新MAC地址表中的对应关系?",
+            "options": [
+                "A、检查源MAC地址",
+                "B、目的MAC地址",
+                "C、源IP地址",
+                "D、目的IP地址"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "21",
+            "type": "single",
+            "question": "什么设备可以隔离ARP广播帧",
+            "options": [
+                "A、路由器",
+                "B、网桥",
+                "C、以太网交换机",
+                "D、集线器"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "22",
+            "type": "single",
+            "question": "以下哪项是对抗ARP欺骗有效的手段?",
+            "options": [
+                "A、使用静态的ARP缓存",
+                "B、在网络上防止ARP报文的发送",
+                "C、安装杀毒软件并更新到最新的病毒库",
+                "D、使用Linux系统提高安全性"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "23",
+            "type": "single",
+            "question": "下列关于交换机端口安全的说法中哪项正确?",
+            "options": [
+                "A、三种可配置的违规模式都会通过SNMP记录违规情况",
+                "B、动态获知的安全MAC地址会在交换机重新启动后丢失",
+                "C、三种可配置的违规模式都需要用户干预才能重新启用端口",
+                "D、输入sticky 参数后，只有随后获知的MAC地址才会被转换为安全MAC地址"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "24",
+            "type": "single",
+            "question": "使用 port-security enable命令的影响是什么?",
+            "options": [
+                "A、启用接口上的端口安全",
+                "B、全局启用交换机上的端口安全",
+                "C、自动关闭接口(若应用至中继端口)",
+                "D、检测进入端口的帧中的第一个MAC地址，并将该MAC地址置于MAC地址表中"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "25",
+            "type": "single",
+            "question": "网络管理员在交换机上配置端口安全性。安全策略规定,各接入端口应最多允许两个MAC地址。达到最大MAC地址数量时,丢弃源MAC地址未知的帧,并将通知发送至系统日志服务器。为各接入端口应配置哪种安全违规模式?",
+            "options": [
+                "A、配置成限制安全违规模式",
+                "B、保护",
+                "C、警告",
+                "D、关闭"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "26",
+            "type": "single",
+            "question": "下列哪项操作可以将错误禁用交换机端口返回至运行状态?",
+            "options": [
+                "A、在接口上删除并重新配置端口安全",
+                "B、在接口上发出switchport mode access 命令",
+                "C、清除交换机上的MAC地址表",
+                "D、发出shutdown和undo shutdown接口命令操作"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "27",
+            "type": "single",
+            "question": "在以下认证方式中，最常用的认证方式是什么?",
+            "options": [
+                "A、基于摘要算法认证",
+                "B、基于PKI认证",
+                "C、基于数据库认证",
+                "D、基于账户名/口令认证"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "28",
+            "type": "single",
+            "question": "SSL(HTTPS)安全套接字协议所使用的端口是什么?",
+            "options": [
+                "A、80",
+                "B、3389",
+                "C、1433",
+                "D、443"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "29",
+            "type": "single",
+            "question": "HTTPS采用什么协议实现安全网站访问?",
+            "options": [
+                "A、SSL",
+                "B、IPSec",
+                "C、PGP",
+                "D、SET"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "30",
+            "type": "single",
+            "question": "PKI/CA 技术不能解决信息传输中的什么问题?",
+            "options": [
+                "A、完整性",
+                "B、不可抵赖性",
+                "C、可用性",
+                "D、身份认证"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "31",
+            "type": "single",
+            "question": "关于数字证书，以下哪种说法是错误的?",
+            "options": [
+                "A、数字证书包含有证书拥有者的私钥信息",
+                "B、数字证书包含有证书拥有者的公钥信息",
+                "C、数字证书包含有证书拥有者的基本信息",
+                "D、数字证书包含有CA的签名信息"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "32",
+            "type": "single",
+            "question": "数字证书上的签名是由CA使用什么制作的?",
+            "options": [
+                "A、CA的公钥",
+                "B、CA的私钥",
+                "C、证书持有者的私钥",
+                "D、证书持有者的公钥"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "33",
+            "type": "single",
+            "question": "数字证书的作用是证明证书中列出的用户合法拥有证书中列出的什么?",
+            "options": [
+                "A、私人密钥",
+                "B、公开密钥",
+                "C、解密密钥",
+                "D、加密密钥"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "34",
+            "type": "single",
+            "question": "管理数字证书的权威机构CA是什么?",
+            "options": [
+                "A、加密方",
+                "B、解密方",
+                "C、可信任的第三方",
+                "D、双方"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "35",
+            "type": "single",
+            "question": "以下关于CA认证中心说法正确的是什么?",
+            "options": [
+                "A、CA认证是使用对称密钥机制的认证方法",
+                "B、CA认证中心只负责签名，不负责证书的产生",
+                "C、CA认证中心不用保持中立，可以随便找一个用户来做为CA认证中心",
+                "D、CA认证中心负责证书的颁发和管理.并依靠证书证明一个用户的身份"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "36",
+            "type": "single",
+            "question": "CA指的是什么?",
+            "options": [
+                "A、虚拟专用网",
+                "B、加密认证",
+                "C、证书授权",
+                "D、安全套接层"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "37",
+            "type": "single",
+            "question": "证书中一般不包括以下内容中的什么?",
+            "options": [
+                "A、证书主体的名称",
+                "B、证书主体的公钥",
+                "C、签发者的签名",
+                "D、签发者的公钥"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "38",
+            "type": "single",
+            "question": "下列哪一项功能可以不由认证中心CA完成?",
+            "options": [
+                "A、撤销和中止用户的证书",
+                "B、产生并分发CA的公钥",
+                "C、在请求实体和它的公钥间建立链接",
+                "D、将证书分发给用户"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "39",
+            "type": "single",
+            "question": "认证中心(CA)的核心职责是什么?",
+            "options": [
+                "A、签发和管理数字证书",
+                "B、验证信息",
+                "C、公布黑名单",
+                "D、撤销用户的证书"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "40",
+            "type": "single",
+            "question": "关于PKI/CA证书，下面那一种说法是错误的?",
+            "options": [
+                "A、证书上具有证书授权中心的数字签名",
+                "B、证书上刊有证书拥有者的基本信息",
+                "C、证书上刊有证书拥有者的公开密钥",
+                "D、证书上刊有证书拥有者的秘密密钥(私钥)"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "41",
+            "type": "single",
+            "question": "A用A私钥加密的摘要，如何解密?",
+            "options": [
+                "A、用A的私钥解密",
+                "B、用B的私钥解密",
+                "C、用B的公钥解密",
+                "D、用A的公钥解密"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "42",
+            "type": "single",
+            "question": "数字签名技术主要提供哪种数据安全性检查?",
+            "options": [
+                "A、机密性",
+                "B、源认证(真实性)",
+                "C、可用性",
+                "D、完整性"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "43",
+            "type": "single",
+            "question": "SHA算法可以提供哪种数据安全性检查?",
+            "options": [
+                "A、可用性",
+                "B、机密性",
+                "C、完整性",
+                "D、以上三者均有"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "44",
+            "type": "single",
+            "question": "A用A公钥加密的文件，如何解密?",
+            "options": [
+                "A、用A的私钥解密",
+                "B、用B的私钥解密",
+                "C、用B的公钥解密",
+                "D、用A的公钥解密"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "45",
+            "type": "single",
+            "question": "数字摘要技术中常用的算法有?",
+            "options": [
+                "A、SHA1",
+                "B、MD5",
+                "C、SHA2",
+                "D、以上三者均有"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "46",
+            "type": "single",
+            "question": "DES属于?",
+            "options": [
+                "A、对称加密算法",
+                "B、非对称加密算法",
+                "C、散列算法",
+                "D、私钥加密体制"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "47",
+            "type": "single",
+            "question": "数字信封技术采用了对称与非对称加密技术的结合，其中非对称加密的对象是什么?",
+            "options": [
+                "A、公钥",
+                "B、对称加密的密钥",
+                "C、数据",
+                "D、以上都不对"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "48",
+            "type": "single",
+            "question": "A用A私钥加密的摘要，称之为?",
+            "options": [
+                "A、数字签名",
+                "B、数字摘要",
+                "C、数字信封",
+                "D、密文"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "49",
+            "type": "single",
+            "question": "A用B公钥加密的文件，如何解密?",
+            "options": [
+                "A、用A的私钥解密",
+                "B、用B的私钥解密",
+                "C、用B的公钥解密",
+                "D、用A的公钥解密"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "50",
+            "type": "single",
+            "question": "RSA属于?",
+            "options": [
+                "A、对称加密算法",
+                "B、非对称加密算法",
+                "C、散列算法",
+                "D、私钥加密体制"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "51",
+            "type": "single",
+            "question": "MD5算法可以提供哪种数据安全性检查?",
+            "options": [
+                "A、可用性",
+                "B、机密性",
+                "C、完整性",
+                "D、以上三者均有"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "52",
+            "type": "single",
+            "question": "数字签名中，制作签名时要使用什么?",
+            "options": [
+                "A、用户名",
+                "B、公钥",
+                "C、密码",
+                "D、私钥"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "53",
+            "type": "single",
+            "question": "3DES属于?",
+            "options": [
+                "A、对称加密算法",
+                "B、非对称加密算法",
+                "C、散列算法",
+                "D、私钥加密体制"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "54",
+            "type": "single",
+            "question": "非对称加密中需要严格保密的密钥只有?",
+            "options": [
+                "A、自己的私钥",
+                "B、自己的公钥",
+                "C、别人的公钥",
+                "D、别人的私钥"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "55",
+            "type": "single",
+            "question": "AES属于?",
+            "options": [
+                "A、对称加密算法",
+                "B、非对称加密算法",
+                "C、散列算法",
+                "D、私钥加密体制"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "56",
+            "type": "single",
+            "question": "在公钥密码体制中，用于加密的密钥是什么?",
+            "options": [
+                "A、私钥",
+                "B、公钥",
+                "C、公钥与私钥",
+                "D、公钥或私钥"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "57",
+            "type": "single",
+            "question": "数字摘要，可以通过以下哪种算法制作?",
+            "options": [
+                "A、DH",
+                "B、DES",
+                "C、MD5",
+                "D、RSA"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "58",
+            "type": "single",
+            "question": "在公钥密码体制中，不公开的是什么?",
+            "options": [
+                "A、公钥",
+                "B、私钥",
+                "C、加密算法",
+                "D、数字证书"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "59",
+            "type": "single",
+            "question": "密码处理依靠使用密钥，密钥是密码系统里的最重要因素。以下哪一个密钥算法在加密数据与解密时使用相同的密钥?",
+            "options": [
+                "A、对称的公钥算法",
+                "B、非对称私钥算法",
+                "C、对称加密算法",
+                "D、非对称加密算法"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "60",
+            "type": "single",
+            "question": "数字签名是使用什么生成的?",
+            "options": [
+                "A、己方的私钥",
+                "B、己方的公钥",
+                "C、对方的私钥",
+                "D、对方的公钥"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "61",
+            "type": "single",
+            "question": "在网络通信中，一般用哪一类算法来保证机密性?",
+            "options": [
+                "A、对称加密算法",
+                "B、消息认证码算法",
+                "C、消息摘要算法",
+                "D、数字签名算法"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "62",
+            "type": "single",
+            "question": "完整性机制可以防范以下哪种攻击?",
+            "options": [
+                "A、假冒源地址或用户的地址的欺骗攻击",
+                "B、抵赖做过信息的递交行为",
+                "C、数据传输中被窃听获取",
+                "D、数据传输中被篡改或破坏"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "63",
+            "type": "single",
+            "question": "加密和解密是对数据进行的某种交换，加密和解密的过程都是在什么的控制下进行的?",
+            "options": [
+                "A、明文",
+                "B、密文",
+                "C、信息",
+                "D、密钥"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "64",
+            "type": "single",
+            "question": "Hash算法的碰撞是指什么?",
+            "options": [
+                "A、两个不同的消息，得到相同的消息摘要",
+                "B、两个相同的消息，得到不同的消息摘要",
+                "C、消息摘要和消息的长度相同",
+                "D、消息摘要比消息长度更长"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "65",
+            "type": "single",
+            "question": "信息发送者使用什么进行数字签名?",
+            "options": [
+                "A、己方的私钥",
+                "B、己方的公钥",
+                "C、对方的私钥",
+                "D、对方的公钥"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "66",
+            "type": "single",
+            "question": "以下哪一个安全机制可以提供抗抵赖安全服务?",
+            "options": [
+                "A、加密",
+                "B、数字签名",
+                "C、访问控制",
+                "D、路由控制"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "67",
+            "type": "single",
+            "question": "常见密码系统包含的元素是什么?",
+            "options": [
+                "A、明文，密文，信道，加密算法，解密算法",
+                "B、明文，摘要，信道，加密算法，解密算法",
+                "C、明文，密文，密钥，加密算法，解密算法",
+                "D、消息，密文，信道，加密算法，解密算法"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "68",
+            "type": "single",
+            "question": "RSA与DES相比的优点是什么?",
+            "options": [
+                "A、它可以提供数字签名和加密功能",
+                "B、由于使用对称密钥它使用的资源少加密速度快",
+                "C、前者是分组加密后者是流加密",
+                "D、它使用一次性加密本"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "69",
+            "type": "single",
+            "question": "在密码学的Kerchhoff 假设中，密码系统的安全性仅依赖于什么?",
+            "options": [
+                "A、明文",
+                "B、密文",
+                "C、密钥",
+                "D、信道"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "70",
+            "type": "single",
+            "question": "以下哪种公钥加密算法被广泛应用于密钥交换?",
+            "options": [
+                "A、DSS",
+                "B、Diffie-Hellman(DH)",
+                "C、RSA",
+                "D、AES"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "71",
+            "type": "single",
+            "question": "RSA与DSA相比的优点是什么?",
+            "options": [
+                "A、它可以提供数字签名和加密功能",
+                "B、由于使用对称密钥它使用的资源少加密速度快",
+                "C、前者是分组加密后者是流加密",
+                "D、它使用一次性加密本"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "72",
+            "type": "single",
+            "question": "通过对称加密算法进行安全消息传输的必要条件是什么?",
+            "options": [
+                "A、在安全的传输信道上进行通信",
+                "B、通讯双方通过某种方式，安全且秘密地共享密钥",
+                "C、通讯双方使用不公开的加密算法",
+                "D、通讯双方将传输的信息夹杂在无用信息中传输并提取"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "73",
+            "type": "single",
+            "question": "为什么在数字签名中含有消息摘要?",
+            "options": [
+                "A、防止发送方否认发送过消息",
+                "B、加密明文",
+                "C、提供加密密码",
+                "D、可以检验发送内容是否在途中被他人篡改"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "74",
+            "type": "single",
+            "question": "数字签名技术是公开密钥算法的一个典型应用，在接收端，采用什么对信息进行验证?",
+            "options": [
+                "A、发送者的公钥",
+                "B、发送者的密钥",
+                "C、接收者的公钥",
+                "D、接收者的密钥"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "75",
+            "type": "single",
+            "question": "利用SSL安全套接字协议访问某个网站时，使用哪个协议?",
+            "options": [
+                "A、HTTPS",
+                "B、FTP",
+                "C、TFTP",
+                "D、IPSec"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "76",
+            "type": "single",
+            "question": "SSL协议比IPSec协议的优势在于?",
+            "options": [
+                "A、实现简单、易于配置",
+                "B、能有效的工作在网络层",
+                "C、能支撑更多的应用层协议",
+                "D、能实现更高强度的加密"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "77",
+            "type": "single",
+            "question": "下面对于SSL工作过程的说法错误的是?",
+            "options": [
+                "A、加密过程使用的加密算法是通过握手协议确定的",
+                "B、通信双方的身份认证是通过记录协议实现的",
+                "C、警告协议用于指示在什么时候发生了错误",
+                "D、通信双方的身份认证需要借助于PKI/CA"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "78",
+            "type": "single",
+            "question": "为控制企业内部对外的访问以及抵御外部对内部网的攻击,最好的选择是?",
+            "options": [
+                "A、IDS",
+                "B、杀毒软件",
+                "C、防火墙",
+                "D、路由器"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "79",
+            "type": "single",
+            "question": "Internet 病毒主要通过什么途径传播?",
+            "options": [
+                "A、光盘",
+                "B、软盘",
+                "C、电子邮件、下载文件",
+                "D、Word 文档"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "80",
+            "type": "single",
+            "question": "计算机病毒造成的影响不包括?",
+            "options": [
+                "A、数据、文件的丢失",
+                "B、计算机运行速度下降",
+                "C、主机系统软件损毁",
+                "D、显视器产生坏点"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "81",
+            "type": "single",
+            "question": "可以通过什么将网络划分成不同的区域，来管理和控制网络内部和外部的通讯?",
+            "options": [
+                "A、CA中心",
+                "B、防火墙",
+                "C、加密机",
+                "D、防病毒产品"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "82",
+            "type": "single",
+            "question": "计算机病毒是指?",
+            "options": [
+                "A、带细菌的磁盘",
+                "B、具有破坏性的特制程序",
+                "C、已损坏的磁盘",
+                "D、被破坏了的程序"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "83",
+            "type": "single",
+            "question": "一台需要与互联网通信的WEB服务器放在以下哪个位置最安全?",
+            "options": [
+                "A、在DMZ区",
+                "B、在内网中",
+                "C、和防火墙在同一台计算机上",
+                "D、在互联网防火墙外"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "84",
+            "type": "single",
+            "question": "包过滤型防火墙对数据包的检查内容一般不包括?",
+            "options": [
+                "A、源地址",
+                "B、目的地址",
+                "C、协议",
+                "D、有效载荷"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "85",
+            "type": "single",
+            "question": "在包过滤型防火墙中，定义数据包过滤规则的是?",
+            "options": [
+                "A、路由表",
+                "B、ARP",
+                "C、NAT",
+                "D、ACL"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "86",
+            "type": "single",
+            "question": "在某个攻击中，由于系统用户或系统管理员主动泄漏，使得攻击者可以访问系统资源的行为被称作?",
+            "options": [
+                "A、社会工程",
+                "B、非法窃取",
+                "C、电子欺骗",
+                "D、电子窃听"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "87",
+            "type": "single",
+            "question": "下列哪个是病毒的特性?",
+            "options": [
+                "A、不感染、依附性",
+                "B、不感染、独立性",
+                "C、可感染、依附性",
+                "D、可感染、独立性"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "88",
+            "type": "single",
+            "question": "下列关于防火墙功能的说法最准确的是?",
+            "options": [
+                "A、访问控制",
+                "B、内容控制",
+                "C、数据加密",
+                "D、查杀病毒"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "89",
+            "type": "single",
+            "question": "某单位将对外提供服务的服务器部署在防火墙DMZ区，为了检测到该区域中的服务器受到的攻击行为，应将防火墙探头接口镜像那个位置的流量?",
+            "options": [
+                "A、内网核心交换机",
+                "B、防火墙互联网接口",
+                "C、防火墙DMZ 区接口",
+                "D、以上都可以"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "90",
+            "type": "single",
+            "question": "下面对访问控制技术描述最准确的是以下哪项?",
+            "options": [
+                "A、保证系统资源的可靠性",
+                "B、实现系统资源的可追查性",
+                "C、防止对系统资源的非授权访问",
+                "D、保证系统资源的可信性"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "91",
+            "type": "single",
+            "question": "简单包过滤防火墙主要工作在哪层?",
+            "options": [
+                "A、链路层/网络层",
+                "B、网络层/传输层",
+                "C、应用层",
+                "D、会话层"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "92",
+            "type": "single",
+            "question": "下列关于防火墙的主要功能包括以下哪项?",
+            "options": [
+                "A、访问控制",
+                "B、内容控制",
+                "C、数据加密",
+                "D、查杀病毒"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "93",
+            "type": "single",
+            "question": "入侵检测系统的第一步是?",
+            "options": [
+                "A、信号分析",
+                "B、信息收集",
+                "C、数据包过滤",
+                "D、数据包检查"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "94",
+            "type": "single",
+            "question": "以下哪一项属于基于主机的入侵检测方式的优势?",
+            "options": [
+                "A、监视整个网段的通信",
+                "B、适应交换和加密",
+                "C、不要求在大量的主机上安装和管理软件",
+                "D、具有更好的实时性"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "95",
+            "type": "single",
+            "question": "以下哪个不属于入侵检测系统的功能?",
+            "options": [
+                "A、监视网络上的通信数据流",
+                "B、捕捉可疑的网络活动",
+                "C、提供安全审计报告",
+                "D、过滤非法的数据包"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "96",
+            "type": "single",
+            "question": "以下哪一种方式是入侵检测系统所通常采用的?",
+            "options": [
+                "A、基于网络的入侵检测",
+                "B、基于IP的入侵检测",
+                "C、基于服务的入侵检测",
+                "D、基于域名的入侵检测"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "97",
+            "type": "single",
+            "question": "入侵检测系统在进行分析时，哪一个不属于通常的三种技术手段?",
+            "options": [
+                "A、模式匹配",
+                "B、统计分析",
+                "C、密码分析",
+                "D、完整性分析"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "98",
+            "type": "single",
+            "question": "下列哪种RAID类型的安全性最差?",
+            "options": [
+                "A、RAID1",
+                "B、RAID0",
+                "C、RAID5",
+                "D、RAID3"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "99",
+            "type": "single",
+            "question": "以下选项中哪一项是对于信息安全风险采取的纠正机制?",
+            "options": [
+                "A、访问控制",
+                "B、入侵检测",
+                "C、灾难恢复",
+                "D、防病毒系统"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "100",
+            "type": "single",
+            "question": "小李在使用super scan对目标网络进行扫描时发现，某一个主机开放了25和110端口，此主机最有可能是?",
+            "options": [
+                "A、文件服务器",
+                "B、邮件服务器",
+                "C、WEB服务器",
+                "D、DNS服务器"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "101",
+            "type": "single",
+            "question": "攻击者在进程WEB页面的HTML代码中插入具有恶意目的的数据，用户认为该页面是可信赖的，但是当浏览器下载该页面，嵌入其中的脚本将被解释执行。这是那种类型的漏洞?",
+            "options": [
+                "A、缓冲区溢出",
+                "B、SQL 注入",
+                "C、设计错误",
+                "D、跨站脚本"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "102",
+            "type": "single",
+            "question": "\"TCP SYN Flooding\" 建立大量处于半连接状态的TCP 连接，其攻击目标是网络的?",
+            "options": [
+                "A、保密性",
+                "B、完整性",
+                "C、真实性",
+                "D、可用性"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "103",
+            "type": "single",
+            "question": "信息安全等级保护制度是国家保障和促进信息化建设健康发展的一项基本制度，信息系统安全保护等级分为?",
+            "options": [
+                "A、3级",
+                "B、4级",
+                "C、5级",
+                "D、6级"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "104",
+            "type": "single",
+            "question": "下列哪种技术不是恶意代码的生存技术?",
+            "options": [
+                "A、反跟踪技术",
+                "B、加密技术",
+                "C、模糊变换技术",
+                "D、自动解压缩技术"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "105",
+            "type": "single",
+            "question": "关于数据库注入攻击的说法错误的是?",
+            "options": [
+                "A、它的主要原因是程序对用户的输入缺乏过滤",
+                "B、一般情况下防火墙对它无法防范",
+                "C、对它进行防范时要关注操作系统的版本和安全补丁",
+                "D、注入成功后可以获取部分权限"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "106",
+            "type": "single",
+            "question": "做渗透测试的第一步是?",
+            "options": [
+                "A、信息收集",
+                "B、漏洞分析与目标选定",
+                "C、拒绝服务攻击",
+                "D、尝试漏洞利用"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "107",
+            "type": "single",
+            "question": "拒绝服务攻击导致的危害中，以下哪个说法是不正确的?",
+            "options": [
+                "A、网络带宽被耗尽，网络被堵塞，无法访问网络",
+                "B、主机资源被耗尽，主机无法响应请求",
+                "C、应用资源被耗尽，应用无法响应请求",
+                "D、应用系统被破坏，应用无法响应请求"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "108",
+            "type": "single",
+            "question": "下列哪一些对信息安全漏洞的描述是错误的?",
+            "options": [
+                "A、漏洞是存在于信息系统的某种缺陷",
+                "B、漏洞存在于一定的环境中，寄生在一定的客体上",
+                "C、漏洞可以被攻击者利用，从而给信息系统安全带来威胁和损失",
+                "D、漏洞都是人为故意引入的一种信息系统的弱点"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "109",
+            "type": "single",
+            "question": "通过网页上的钓鱼攻击来获取密码的方式，实质上是一种?",
+            "options": [
+                "A、社会工程学攻击",
+                "B、密码分析学",
+                "C、旁路攻击",
+                "D、暴力破览攻击"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "110",
+            "type": "single",
+            "question": "下面哪一项不是黑客攻击在信息收集阶段使用的工具或命令?",
+            "options": [
+                "A、Nmap",
+                "B、Nslookup",
+                "C、LC",
+                "D、Xscan"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "111",
+            "type": "single",
+            "question": "以下哪个问题不是导致DNS欺骗的原因之一?",
+            "options": [
+                "A、DNS是一个分布式的系统",
+                "B、为提高效率，DNS 查询信息在系统中会缓存",
+                "C、DNS协议传输没有经过加密的数据",
+                "D、DNS协议是缺乏严格的认证"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "112",
+            "type": "single",
+            "question": "计算机应急响应小组的简称是?",
+            "options": [
+                "A、CERT(Computer Emergency Response Team)",
+                "B、FIRST",
+                "C、SANA",
+                "D、CEAT"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "113",
+            "type": "single",
+            "question": "以下工作哪个不是计算机取证准备阶段的工作?",
+            "options": [
+                "A、获得授权",
+                "B、准备工具",
+                "C、介质准备",
+                "D、保护数据"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "114",
+            "type": "single",
+            "question": "下面哪一项是社会工程?",
+            "options": [
+                "A、缓冲器溢出",
+                "B、SQL 注入攻击",
+                "C、电话联系组织机构的接线员询问用户名和口令",
+                "D、利用PK/CA 构建可信网络"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "115",
+            "type": "single",
+            "question": "黑客进行攻击的最后一个步骤是?",
+            "options": [
+                "A、侦查与信息收集",
+                "B、漏洞分析与目标选定",
+                "C、获取系统权限",
+                "D、打扫战场、清除证据"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "116",
+            "type": "single",
+            "question": "下面哪类设备常用于识别系统中存在的脆弱性?",
+            "options": [
+                "A、防火墙",
+                "B、IDS",
+                "C、漏洞扫描器",
+                "D、UTM"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "117",
+            "type": "single",
+            "question": "操作系统安全的基础是建立在?",
+            "options": [
+                "A、安全安装",
+                "B、安全配置",
+                "C、安全管理",
+                "D、以上都对"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "118",
+            "type": "single",
+            "question": "下列哪一项不是信息安全漏洞的载体?",
+            "options": [
+                "A、网络协议",
+                "B、操作系统",
+                "C、应用系统",
+                "D、业务数据"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "119",
+            "type": "single",
+            "question": "以下哪个不是网络安全渗透测试方法?",
+            "options": [
+                "A、黑盒测试",
+                "B、白盒测试",
+                "C、灰盒测试",
+                "D、沙盒测试"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "120",
+            "type": "single",
+            "question": "下面哪一个工具不支持漏洞扫描?",
+            "options": [
+                "A、BT5/Kali",
+                "B、Nmap",
+                "C、Wireshark",
+                "D、Nessus"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "121",
+            "type": "single",
+            "question": "为了防止发生不可预测的灾难，一般会如何处理数据?",
+            "options": [
+                "A、存在保险柜里一份",
+                "B、在远离数据中心的地方备份",
+                "C、安装灾害预测系统",
+                "D、常做备份"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "122",
+            "type": "single",
+            "question": "SNMP报文使用什么协议传送?",
+            "options": [
+                "A、TCP",
+                "B、FTP",
+                "C、HTTP",
+                "D、UDP"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "123",
+            "type": "single",
+            "question": "SNMP是属于哪一层的协议?",
+            "options": [
+                "A、网络层",
+                "B、应用层",
+                "C、传输层",
+                "D、物理层"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "124",
+            "type": "single",
+            "question": "ISO定义的系统管理功能域中，哪个包括的功能有发现安全漏洞，设计和改进安全策略等内容?",
+            "options": [
+                "A、配置管理",
+                "B、故障管理",
+                "C、安全管理",
+                "D、性能管理"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "125",
+            "type": "single",
+            "question": "下列哪项不是SNMP报文的组成部分?",
+            "options": [
+                "A、公共SNMP首部",
+                "B、Trap尾部",
+                "C、Get/Set首部Trap首部",
+                "D、变量绑定"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "126",
+            "type": "single",
+            "question": "SNMP网络管理中，被管理设向管理工作站发送Trap消息时使用的是什么端口号是?",
+            "options": [
+                "A、UDP/161",
+                "B、TCP/161",
+                "C、UDP/162",
+                "D、TCP/162"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "127",
+            "type": "single",
+            "question": "常用的AAA客户端与AAA服务器之间的国际标准通信协议是?",
+            "options": [
+                "A、RADIUS",
+                "B、VPN",
+                "C、RAID",
+                "D、HTTP"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "128",
+            "type": "single",
+            "question": "AAA是网络安全的一种管理机制，提供的安全功能是?",
+            "options": [
+                "A、认证",
+                "B、授权",
+                "C、计费(也称为审计)",
+                "D、以上全部"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "129",
+            "type": "single",
+            "question": "以下对于进程用户拨号认证系统(RADIUS)协议说法正确的是?",
+            "options": [
+                "A、它是一种B/S 结构的协议",
+                "B、它是一项通用的认证计费协议",
+                "C、它使用TCP 通信",
+                "D、它的基本组件包括认证、授权和加密"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "130",
+            "type": "single",
+            "question": "一个用户通过验证登录后,系统需要确定该用户可以做些什么,这项服务是?",
+            "options": [
+                "A、认证",
+                "B、授权访问控制",
+                "C、不可否定性",
+                "D、数据完整性"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "131",
+            "type": "single",
+            "question": "流量控制设备AC主要功能?",
+            "options": [
+                "A、身份认证、上网行为管理",
+                "B、网页过滤、应用控制",
+                "C、审计、上网安全",
+                "D、大多具体以上全部功能"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "132",
+            "type": "single",
+            "question": "以下哪个入侵检测技术能检测到未知的攻击行为?",
+            "options": [
+                "A、基于误用的检测技术",
+                "B、基于异常的检测技术",
+                "C、基于日志分析的技术",
+                "D、基于漏洞机理研究的技术"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "133",
+            "type": "single",
+            "question": "有一类IDS系统将所观察到的活动同认为正常的活动进行比较并识别重要的偏差来发现入侵事件，这种机制称作?",
+            "options": [
+                "A、异常检测",
+                "B、特征检测",
+                "C、差距分析",
+                "D、比对分析"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "134",
+            "type": "single",
+            "question": "以下哪一项不是IDS可以解决的问题?",
+            "options": [
+                "A、弥补网络协议的弱点",
+                "B、识别和报告对数据文件的改动",
+                "C、统计分析系统中异常活动模式",
+                "D、提升系统监控能力"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "135",
+            "type": "single",
+            "question": "下面哪一项安全控制措施不是用来检测未经授权的信息处理活动?",
+            "options": [
+                "A、设置网络链接时限",
+                "B、记录并分析系统错误日志",
+                "C、记录并分析用户和管理员操作日志",
+                "D、启用时钟同步"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "136",
+            "type": "single",
+            "question": "为了保护系统日志可靠有效，以下哪一项不是日志必需具备的特征?",
+            "options": [
+                "A、统一而精确的时间",
+                "B、全面覆盖系统资产",
+                "C、包括访问源、访问日志和访问活动等重要信息",
+                "D、可以让系统的所有用户方便的读取"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "137",
+            "type": "single",
+            "question": "下面哪类设备常用于识系统中存在的脆弱性?",
+            "options": [
+                "A、防火墙",
+                "B、IDS",
+                "C、漏洞扫描器",
+                "D、UTM"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "138",
+            "type": "single",
+            "question": "某单位采购主机入侵检测，用户提出了相关的要求，其中哪条要求是错误的?",
+            "options": [
+                "A、实时分析网络数据，检测网络系统的非法行为",
+                "B、不占用其他计算机系统的任何资源",
+                "C、不会增加网络中主机的负担",
+                "D、可以检测加密通道中传输的数据"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "139",
+            "type": "single",
+            "question": "下面哪一项不是主机型入侵检测系统的优点?",
+            "options": [
+                "A、性能价格比高",
+                "B、视野集中",
+                "C、敏感细腻",
+                "D、占资源少"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "140",
+            "type": "single",
+            "question": "下面哪一项不是通用IDS模型的组成部分?",
+            "options": [
+                "A、传感器",
+                "B、过滤器",
+                "C、分析器",
+                "D、管理器"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "141",
+            "type": "single",
+            "question": "下列对密罐网络功能描述不正确的是?",
+            "options": [
+                "A、可以吸引或转移攻击者的注意力， 延缓他们对真正目标的攻击",
+                "B、吸引入侵者来嗅探、攻击，同时不被视察地将入侵者的活动记录下来",
+                "C、可以进行攻击检测和实时报警",
+                "D、可以对攻击活动进行监视、检测和分析"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "142",
+            "type": "single",
+            "question": "DES加密算法的密钥长度是多少?",
+            "options": [
+                "A、64位",
+                "B、56位",
+                "C、168位",
+                "D、40位"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "143",
+            "type": "single",
+            "question": "以下对于蠕虫病毒的说法错误的是:( )",
+            "options": [
+                "A、通常蠕虫的传播无需用户的操作",
+                "B、蠕虫病毒的主要危害体现在对数据保密性的破坏",
+                "C、蠕虫的工作原理与病毒相似，除了没有感染文件阶段",
+                "D、是一段能不以其他程序为媒介，从一个电脑系统复制到另一个电脑系统的程序"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "144",
+            "type": "single",
+            "question": "公钥密码的应用不包括:( )",
+            "options": [
+                "A、数字签名",
+                "B、非安全信道的密钥交换",
+                "C、消息认证码",
+                "D、身份认证"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "145",
+            "type": "single",
+            "question": "一般来说，网络入侵者的步骤不包括下列哪个阶段",
+            "options": [
+                "A、信息收集",
+                "B、信息分析",
+                "C、漏洞挖掘",
+                "D、实施攻击"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "146",
+            "type": "single",
+            "question": "以下情况可以使用访问控制列表准确描述的是________",
+            "options": [
+                "A、禁止有CIH病毒的文件到我的主机",
+                "B、只允许系统管理员可以访问我的主机",
+                "C、禁止所有使用Telnet的用户访问我的主机",
+                "D、禁止使用UNIX系统的用户访问我的主机"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "147",
+            "type": "single",
+            "question": "以下哪个不是UDP Flood 攻击的方式( )",
+            "options": [
+                "A、发送大量的udp 小包冲击应用服务器",
+                "B、利用Echo 等服务形成UDP 敃据流导致网络拥塞",
+                "C、利用UDP 服务形成UDP 数据流导致网络拥塞",
+                "D、发送错误的UDP 数据报文导致系统崩溃"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "148",
+            "type": "single",
+            "question": "下列磁盘阵列采用奇偶校验的是()",
+            "options": [
+                "A、RAID 0",
+                "B、RAID 1",
+                "C、RAID 3",
+                "D、RAID 5"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "149",
+            "type": "single",
+            "question": "以下协议中哪个协议不是网络管理协议()",
+            "options": [
+                "A、SNMP",
+                "B、CMIS/CMIP",
+                "C、LMMP",
+                "D、ARP"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "150",
+            "type": "single",
+            "question": "目前常见的网络攻击活动隐藏不包括下列哪一种?",
+            "options": [
+                "A、网络流量隐藏",
+                "B、网络连接隐藏",
+                "C、进程活动隐藏",
+                "D、目录文件隐藏"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "151",
+            "type": "single",
+            "question": "下列保护系统账户安全的措施中，哪个措施对解决口令暴力破解无帮助?( )",
+            "options": [
+                "A、设置系统的败户锁定策略，在用户登录输入错误次数达到一定数量时对败户进行锁定",
+                "B、更改系统内置管理员的用户名",
+                "C、给管理员用户一个安全的口令",
+                "D、使用屏幕保护并设置返回时需要提供口令"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "152",
+            "type": "single",
+            "question": "你想发现到达目标网络需要经过哪些路由器，应该使用()命令",
+            "options": [
+                "A、ping",
+                "B、nslookup",
+                "C、ipconfig",
+                "D、tracert 命令"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "153",
+            "type": "single",
+            "question": "下列安全协议中，( )可用于安全电子邮件加密。",
+            "options": [
+                "A、PGP",
+                "B、SET",
+                "C、SSL",
+                "D、TLS"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "154",
+            "type": "single",
+            "question": "以下哪种公钥密码算法既可以用于数据加密又可以用于密钥交换?( )",
+            "options": [
+                "A、DSS",
+                "B、Diffie-Hellman",
+                "C、RSA",
+                "D、AES"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "155",
+            "type": "single",
+            "question": "下面哪种安全代码最难以用遍历的方法来破解?( )",
+            "options": [
+                "A、密文",
+                "B、用户口令",
+                "C、锁定口令",
+                "D、口令代码"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "156",
+            "type": "single",
+            "question": "UDP 协议和TCP 协议对应于ISO/OSI 模型的那一层:( )",
+            "options": [
+                "A、链路层",
+                "B、传输层",
+                "C、会话层",
+                "D、表示层"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "157",
+            "type": "single",
+            "question": "以下关于宏病毒说法正确的是( )",
+            "options": [
+                "A、宏病毒主要感染可执行文件",
+                "B、宏病毒仅向办公自动化程序编制的文档进行传染",
+                "C、宏病毒主要感染软盘.硬盘的引导扇区或主引导扇区",
+                "D、CIH病毒属于宏病毒"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "158",
+            "type": "single",
+            "question": "DSA 算法不提供以下哪种服务?( )",
+            "options": [
+                "A、数据完整性",
+                "B、加密",
+                "C、数字签名",
+                "D、认证"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "159",
+            "type": "single",
+            "question": "下面哪一项是社会工程?( )",
+            "options": [
+                "A、缓冲器溢出",
+                "B、SQL 注入攻击",
+                "C、电话联系组织机构的接线员诟问用户名和口令",
+                "D、利用PK/CA 构建可信网络"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "160",
+            "type": "single",
+            "question": "恶意代码采用加密技术的目的是:( )",
+            "options": [
+                "A、加密技术是恶意代码自身保护的重要机制",
+                "B、加密技术可以保证恶意代码不被发现",
+                "C、加密技术可以保证恶意代码不被破坏",
+                "D、以上都不正确"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "161",
+            "type": "single",
+            "question": "以下哪项是对虚拟机的最佳描述?",
+            "options": [
+                "A、执行虚拟化软件测试程序的物理机",
+                "B、通过软件实施的计算机，可以像物理机一样执行程序",
+                "C、一种旨在提供网络故障切换和故障恢复功能的计算机工具",
+                "D、一种软件计算机，其中封装了物理硬件"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "162",
+            "type": "single",
+            "question": "在下面的命令中，用来检查通信对方当前状态的命令是()",
+            "options": [
+                "A、telnet",
+                "B、ping命令",
+                "C、tcpdump",
+                "D、traceroute"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "163",
+            "type": "single",
+            "question": "()是不能进行包过滤的设备",
+            "options": [
+                "A、二层交换机",
+                "B、一台独立的主机",
+                "C、路由器",
+                "D、三层交换机"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "164",
+            "type": "single",
+            "question": "()不会传播计算机病毒",
+            "options": [
+                "A、将别人使用的软件复制到自己的计算机中",
+                "B、通过计算机网络与他交流软件",
+                "C、在自己的计算机上使用其他人的U盘",
+                "D、将自己的U盘与可能有病毒的U盘存放在一个书包里"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "165",
+            "type": "single",
+            "question": "下列哪个是蠕虫的特性?( )",
+            "options": [
+                "A、不感染、依附性",
+                "B、不感染、独立性",
+                "C、可感染、依附性",
+                "D、可感染、独立性"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "166",
+            "type": "single",
+            "question": "在网络攻击模型中，下列哪种攻击过程不属于预攻击阶段?",
+            "options": [
+                "A、身份隐藏",
+                "B、开辟后门",
+                "C、弱点挖掘",
+                "D、信息收集"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "167",
+            "type": "single",
+            "question": "特洛伊木马攻击的威胁类型属于 ( )",
+            "options": [
+                "A、授权侵犯威胁",
+                "B、植入威胁",
+                "C、渗入威胁",
+                "D、旁路控制威胁"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "168",
+            "type": "single",
+            "question": "通过TCP序号猜测，攻击者可以实施下列哪一种攻击?",
+            "options": [
+                "A、端口扫描攻击",
+                "B、ARP欺骗攻击",
+                "C、网络监听攻击",
+                "D、TCP会话劫持攻击"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "169",
+            "type": "single",
+            "question": "小于_____________的端口号已保留与现有服务一一对应，此数字以上的端口号可自由分配",
+            "options": [
+                "A、100",
+                "B、199",
+                "C、1024",
+                "D、2048"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "170",
+            "type": "single",
+            "question": "网络的以下基本安全服务功能的论述中，哪一项是有关数据完整性的论述?",
+            "options": [
+                "A、对网络传输数据的保护",
+                "B、确定信息传送用户身份真实性",
+                "C、保证发送接收数据的一致性",
+                "D、控制网络用户的访问类型"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "171",
+            "type": "single",
+            "question": "目前病毒的主流类型是什么( )",
+            "options": [
+                "A、木马与蠕虫",
+                "B、引导区病毒",
+                "C、宏病毒",
+                "D、恶作剧程序"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "172",
+            "type": "single",
+            "question": "灾难发生后，系统和数据必须恢复到的( )",
+            "options": [
+                "A、时间要求",
+                "B、时间点要求",
+                "C、数据状态",
+                "D、运行状态"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "173",
+            "type": "single",
+            "question": "为了增强电子邮件的安全性，人们经常使用PGP/GPG，它是:( )",
+            "options": [
+                "A、一种基于RSA的邮件加密软件",
+                "B、一种基于白名单的反垃圾邮件软件",
+                "C、基于SSL和VPN技术",
+                "D、安全的电子邮箱"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "174",
+            "type": "single",
+            "question": "WAPI 采用的是什么加密算法?( )",
+            "options": [
+                "A、我国自主研发的公开密钥体制的椭圆曲线密码算法",
+                "B、国际上通用的商用加密标准",
+                "C、国家密码管理委员会办公室批准的流加密标准",
+                "D、国际通行的哈希算法"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "175",
+            "type": "single",
+            "question": "以太网交换机的Console端口连接下面哪个口?",
+            "options": [
+                "A、广域网",
+                "B、以太网卡",
+                "C、计算机串口",
+                "D、路由器S0口"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "176",
+            "type": "single",
+            "question": "以下哪个一项数据传输方式难以通过网络窃听获取信息?( )",
+            "options": [
+                "A、FTP 传输文件",
+                "B、TELNET 进行进程管理",
+                "C、URL以HTTPS 开头的网页内容",
+                "D、经过TACACS+认证和授权后建立的链接"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "177",
+            "type": "single",
+            "question": "下列哪种攻击方法不属于攻击痕迹清除?",
+            "options": [
+                "A、篡改日志文件中的审计信息",
+                "B、修改完整性检测标签",
+                "C、替换系统的共享库文件",
+                "D、改变系统时间造成日志文件数据紊乱"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "178",
+            "type": "single",
+            "question": "某单位想用防火墙对telnet协议的命令进行限制，应选在什么类型的防火墙?( )",
+            "options": [
+                "A、包过滤技术",
+                "B、应用代理技术",
+                "C、状态检测技术",
+                "D、NAT技术"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "179",
+            "type": "single",
+            "question": "()不属于入侵检测系统的功能",
+            "options": [
+                "A、监视网络上的通信数据流",
+                "B、捕捉可疑的网络活动",
+                "C、提供安全审计报告",
+                "D、过滤非法的数据包"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "180",
+            "type": "single",
+            "question": "以下哪一种局域网传输媒介是最可靠的?( )",
+            "options": [
+                "A、同轴电缆",
+                "B、光纤",
+                "C、双绞线(屏蔽)",
+                "D、双绞线(非屏蔽)"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "181",
+            "type": "single",
+            "question": "管理员设置系统登录口令为简单的“123456”，这属于下列哪一项安全漏洞?",
+            "options": [
+                "A、操作系统漏洞",
+                "B、应用服务漏洞",
+                "C、信息泄露漏洞",
+                "D、弱配置漏洞"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "182",
+            "type": "single",
+            "question": "为了防御网络监听，最常用的方法是:",
+            "options": [
+                "A、采用物理传输(非网络)",
+                "B、信息加密",
+                "C、无线网",
+                "D、使用专线传输"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "183",
+            "type": "single",
+            "question": "以下哪一项是已经被确认了的具有一定合理性的风险?( )",
+            "options": [
+                "A、总风险",
+                "B、最小化风险",
+                "C、可接受风险",
+                "D、残余风险"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "184",
+            "type": "single",
+            "question": "什么是DoS攻击?()",
+            "options": [
+                "A、针对DOS操作系统的攻击",
+                "B、拒绝服务攻击",
+                "C、一种病毒",
+                "D、地址欺骗攻击"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "185",
+            "type": "single",
+            "question": "在进行微软数据库(Microsoft SQL Database)口令猜测的时候，我们一般会猜测拥有数据库最高权限登录用户的密码口令，这个用户的名称是__",
+            "options": [
+                "A、admin",
+                "B、administrator",
+                "C、sa",
+                "D、root"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "186",
+            "type": "single",
+            "question": "下列对审计系统基础基本组成描述正确的是:( )",
+            "options": [
+                "A、审计系统一般包括三个部分:日志记录、日志分析和日志处理",
+                "B、审计系统一般包括两个部分:日志记录和日志处理",
+                "C、审计系统一般包括两个部分:日志记录和日志分析",
+                "D、审计系统一般包括三个部分:日志记录、日志分析和日志报告"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "187",
+            "type": "single",
+            "question": "以下哪一项不是建筑物的自动化访问审计系统记录的日志的内容:( )",
+            "options": [
+                "A、出入的原因",
+                "B、出入的时间",
+                "C、出入口的位置",
+                "D、是否成功进入"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "188",
+            "type": "single",
+            "question": "时间戳的引入主要是为了防止",
+            "options": [
+                "A、死锁",
+                "B、丢失",
+                "C、重放",
+                "D、拥塞"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "189",
+            "type": "single",
+            "question": "以下哪个不是导致地址解析协议(ARP)欺骗的根源之一?( )",
+            "options": [
+                "A、ARP 协议是一个无状态的协议",
+                "B、为提高效率，ARP 信息在系缆中会缓存",
+                "C、ARP 缓存是动态的，可被改写",
+                "D、ARP 协议是用于寻址的一个重要协议"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "190",
+            "type": "single",
+            "question": "用户A通过计算机网络向用户B发消息，表示自己同意签订某个合同，随后用户A反悔，不承认自己发过该条消息。为了防止这种情况，应采用( )",
+            "options": [
+                "A、数字签名技术",
+                "B、消息认证技术",
+                "C、数据加密技术",
+                "D、身份认证技术"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "191",
+            "type": "single",
+            "question": "在linux 系统中拥有最高级别权限的用户是:( )",
+            "options": [
+                "A、root",
+                "B、administrator",
+                "C、mail",
+                "D、nobody"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "192",
+            "type": "single",
+            "question": "保护数据安全包括保密性、完整性和可用性，对于数据的可用性解决方法最有效的是:( )",
+            "options": [
+                "A、加密",
+                "B、备份",
+                "C、安全删除",
+                "D、以上都是"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "193",
+            "type": "single",
+            "question": "依据国家标准《信息安全技术信息系统灾难恢复范围》(GB/T20988)，灾难恢复管理过程的主要步骤是灾难恢复需求分析、灾难恢复策略制定、灾难恢复策略实现、灾难恢复预案制定和管理;其中灾难恢复策略实现不包括以下哪一项?( )",
+            "options": [
+                "A、分析业务功能",
+                "B、选择和建设灾难备份中心",
+                "C、实现灾备系统技术方案",
+                "D、实现灾备系统技术支持和维护能力"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "194",
+            "type": "single",
+            "question": "要使冷迁移正常运行，虚拟机必须_____。",
+            "options": [
+                "A、处于关闭状态。",
+                "B、满足 VMotion 的所有要求。",
+                "C、可以在具有相似的 CPU 系列和步 进功能的系统之间移动。",
+                "D、仍位于冷迁移之前的同 一个数据存储中。"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "195",
+            "type": "single",
+            "question": "在通用入侵检测模型的活动简档中未定义的随机变量为",
+            "options": [
+                "A、事件计数器",
+                "B、间隔计数器",
+                "C、资源计数器",
+                "D、告警响应计数器"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "196",
+            "type": "single",
+            "question": "以下哪个是防火墙可以实现的效果?( )",
+            "options": [
+                "A、有效解决对合法服务的攻击",
+                "B、有效解决来自内部的攻击行为",
+                "C、有效解决来自互联网对内网的攻击行为",
+                "D、有效解决针对应用层的攻击"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "197",
+            "type": "single",
+            "question": "在OSI 参考模型中有7 个层次，提供了相应的安全服务来加强信息系统的安全性，以下那一层次提供保密性、身份鉴别、数据完整性服务?( )",
+            "options": [
+                "A、网络层",
+                "B、表示层",
+                "C、会话层",
+                "D、物理层"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "198",
+            "type": "single",
+            "question": "网络安全是在网络环境中，对( )提供安全保护",
+            "options": [
+                "A、信息载体",
+                "B、信息的处理和传输",
+                "C、信息的存储、访问",
+                "D、以上三项都是"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "199",
+            "type": "single",
+            "question": "如下访问控制列表的含义是____________。",
+            "options": [
+                "A、规则序列号是100，禁止到10.1.10.10主机的所有主机不可达报文",
+                "B、规则序列号是100，禁止到10.1.0.0/16网段的所有主机不可达报文",
+                "C、规则序列号是100，禁止从10.1.0.0/16网段来的所有主机不可达报文",
+                "D、规则序列号是100，禁止从10.1.10.10主机来的所有主机不可达报文"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "200",
+            "type": "single",
+            "question": "截取是指未授权的实体得到了资源的访问权，这是对下面哪种安全性的攻击( )",
+            "options": [
+                "A、可用性",
+                "B、机密性",
+                "C、完整性",
+                "D、合法性"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "201",
+            "type": "single",
+            "question": "下面对访问控制技术描述最准确的是:( )",
+            "options": [
+                "A、保证系统资源的可靠性",
+                "B、实现系统资源的可追查性",
+                "C、防止对系统资源的非授权访问",
+                "D、保证系统资源的可信性"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "202",
+            "type": "single",
+            "question": "以下哪个说法是对的()",
+            "options": [
+                "A、清空回收站中删除的文件后，文件将无法恢复",
+                "B、U盘快速格式化后，文件将无法恢复",
+                "C、清空回收站中删除的文件，U盘快速格式化后文件都可以恢复",
+                "D、清空回收站中删除的文件后文件可以恢复，U盘快速格式化后文件无法恢复"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "203",
+            "type": "single",
+            "question": "U盘病毒的传播是借助Windows系统的什么功能实现的?( )",
+            "options": [
+                "A、自动播放",
+                "B、自动补丁更新",
+                "C、服务自启动",
+                "D、系统开发漏洞"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "204",
+            "type": "single",
+            "question": "以下对RADIUS协议说法正确的是:( )",
+            "options": [
+                "A、它是一种B/S结构的协议",
+                "B、它是一项通用的认证计费协议",
+                "C、它使用TCP通信",
+                "D、它的基本组件包括认证、授权和加密"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "205",
+            "type": "single",
+            "question": "安全员日常工作包括:( )",
+            "options": [
+                "A、保障本单位KILL服务器的正常运行",
+                "B、保障一机两用监控端的正常运行",
+                "C、定时整理本单位IP地址，并将IP地址变更情况及时上报",
+                "D、以上均是"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "206",
+            "type": "single",
+            "question": "通过网页上的钓鱼攻击来获取密码的方式，实质上是一种:( )",
+            "options": [
+                "A、社会工程学攻击",
+                "B、密码分析学",
+                "C、旁路攻击",
+                "D、暴力破览攻击"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "207",
+            "type": "single",
+            "question": "隔离是操作系统安全保障的措施之一。下列哪一项不属于安全隔离措施?",
+            "options": [
+                "A、物理隔离",
+                "B、时间隔离",
+                "C、分层隔离",
+                "D、密码隔离"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "208",
+            "type": "single",
+            "question": "防火墙技术可以分为_____ 等三大类型",
+            "options": [
+                "A、包过滤、入侵检测和数据加密",
+                "B、包过滤、入侵检测和应用代理",
+                "C、IP过滤、线路过滤和入侵检测",
+                "D、IP过滤、线路过滤和应用代理"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "209",
+            "type": "single",
+            "question": "以下关于防火墙的设计原则说法正确的是( )",
+            "options": [
+                "A、不单单要提供防火墙的功能，还要尽量使用较大的组件",
+                "B、保持设计的简单性",
+                "C、保留尽可能多的服务和守护进程，从而能提供更多的网络服务",
+                "D、一套防火墙就可以保护全部的网络"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "210",
+            "type": "single",
+            "question": "专门负责数据库管理和维护的计算机软件系统称为:( )",
+            "options": [
+                "A、SQL-MS",
+                "B、INFERENCECONTROL",
+                "C、DBMS",
+                "D、TRIGGER-MS"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "211",
+            "type": "single",
+            "question": "操作系统安全的基础是建立在:( )",
+            "options": [
+                "A、安全安装",
+                "B、安全配置",
+                "C、安全管理",
+                "D、以上都对"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "212",
+            "type": "single",
+            "question": "下面没有利用猜测密码口令方式进行传播的病毒是:( )",
+            "options": [
+                "A、高波变种3T",
+                "B、迅猛姆马",
+                "C、震荡波",
+                "D、口令蠕虫"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "213",
+            "type": "single",
+            "question": "重做系统前什么文件没有必要备份( )",
+            "options": [
+                "A、我的文档",
+                "B、收藏夹",
+                "C、邮箱中的邮件",
+                "D、桌面的文件"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "214",
+            "type": "single",
+            "question": "以下哪一项不是应用层防火墙的特点。( )",
+            "options": [
+                "A、更有效的防止应用层攻击",
+                "B、工作在0S1 模型的第七层",
+                "C、速度快且对用户透明",
+                "D、比较容易进行审计"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "215",
+            "type": "single",
+            "question": "通过对称密码算法进行安全消息传输的必要条件是( )",
+            "options": [
+                "A、在安全的传输信道上进行通信",
+                "B、通讯双方通过某种方式，安全且秘密地共享密钥",
+                "C、通讯双方使用不公开的加密算法",
+                "D、通讯双方将传输的信息夹杂在无用信息中传输并提取"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "216",
+            "type": "single",
+            "question": "计算机病毒会对下列计算机服务造成威胁，除了( )",
+            "options": [
+                "A、完整性",
+                "B、有效性",
+                "C、保密性",
+                "D、可用性"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "217",
+            "type": "single",
+            "question": "统计数据指出，对大多数计算机系统来说，最大的威胁是:( )",
+            "options": [
+                "A、本单位的雇员",
+                "B、黑客和商业间谍",
+                "C、未受培训的系统用户",
+                "D、技术产品和服务供应商"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "218",
+            "type": "single",
+            "question": "现今非常流行的SQL(数据库语言)注入攻击属于下列哪一项漏洞的利用?",
+            "options": [
+                "A、域名服务的欺骗漏洞",
+                "B、邮件服务器的编程漏洞",
+                "C、WWW服务的编程漏洞",
+                "D、FTP服务的编程漏洞"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "219",
+            "type": "single",
+            "question": "下面哪一项安全控制措施不是用来检测未经授权的信息处理活动:( )",
+            "options": [
+                "A、设置网络链接时限",
+                "B、记录并分析系统错误日志",
+                "C、记录并分析用户和管理员操作日志",
+                "D、启用时钟同步"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "220",
+            "type": "single",
+            "question": "在需要保护的信息资产中，()是最重要的",
+            "options": [
+                "A、环境",
+                "B、硬件",
+                "C、数据",
+                "D、软件"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "221",
+            "type": "single",
+            "question": "猜解用户弱口令的情况不会发生在下列哪一项应用服务系统的弱点挖掘之中?",
+            "options": [
+                "A、域名服务漏洞挖掘",
+                "B、邮件服务漏洞挖掘",
+                "C、路由服务漏洞挖掘",
+                "D、FTP服务漏洞挖掘"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "222",
+            "type": "single",
+            "question": "以下对于信息安全管理体系说法不正确的是:( )",
+            "options": [
+                "A、P(Process):处理",
+                "B、D(Do):实施",
+                "C、C(Check):检查",
+                "D、A(Action):行动"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "223",
+            "type": "single",
+            "question": "下列哪种恶意代码不具备“不感染、依附性” 的特点?( )",
+            "options": [
+                "A、后门",
+                "B、陷门",
+                "C、木马",
+                "D、蠕虫"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "224",
+            "type": "single",
+            "question": "ISO27002中描述的11个信息安全管理控制领域不包括:( )",
+            "options": [
+                "A、信息安全组织",
+                "B、资产管理",
+                "C、内容安全",
+                "D、人力资源安全"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "225",
+            "type": "single",
+            "question": "信息安全风险的三要素是指:( )",
+            "options": [
+                "A、资产/威胁/脆弱性",
+                "B、资产/使命/威胁",
+                "C、使命/威胁/脆弱性",
+                "D、威胁/脆弱性/使命"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "226",
+            "type": "single",
+            "question": "制定数据备份方案时，需要考虑的两个因素为适合的备份时间和( )",
+            "options": [
+                "A、备份介质",
+                "B、备份的存储位置",
+                "C、备份数据量",
+                "D、恢复数据的最大允许时间"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "227",
+            "type": "single",
+            "question": "ICMP协议有多种控制报文，当网络出现拥塞时候，路由器发出( )报文。",
+            "options": [
+                "A、路由重定向",
+                "B、目标不可达",
+                "C、源抑制",
+                "D、子网掩码请求"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "228",
+            "type": "single",
+            "question": "通常用于监视整个网络()情况的设备称为网络监视器或网络分析器、探测器等",
+            "options": [
+                "A、通信",
+                "B、差错率",
+                "C、传输率",
+                "D、管理"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "229",
+            "type": "single",
+            "question": "利用SSL安全套接字协议访问某个网站时，不再使用HTTP而是使用( )",
+            "options": [
+                "A、https",
+                "B、ftp",
+                "C、tftp",
+                "D、IPSec"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "230",
+            "type": "single",
+            "question": "数字签名是一种网络安全技术，利用这种技术，接收者可以确定发送者的身份是否真实，同时发送者不能__ _发送的消息，接收者也不能篡改接收的消息。",
+            "options": [
+                "A、泄露",
+                "B、隐藏",
+                "C、篡改",
+                "D、否认"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "231",
+            "type": "single",
+            "question": "某同学开始学习使用查杀毒软件以便更能更好地保护计算机免受计算机侵害，你给他的合理建议是",
+            "options": [
+                "A、尽量多安装儿种查杀毒软件以便更好地保护计算机",
+                "B、需要杀毒的时候才启动杀毒软件",
+                "C、只需要开启查杀毒软件对可执行文件的实时监控即可",
+                "D、查杀毒软件需要经常联网升级才能更有效防范病毒"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "232",
+            "type": "single",
+            "question": "信息安全就是要保障电子信息的有效性，以下I. 保密性 II. 完整性 III. 可用性 哪些是电子信息安全保障所必要的?",
+            "options": [
+                "A、I和II",
+                "B、I和III",
+                "C、II和III",
+                "D、I、II和III"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "233",
+            "type": "single",
+            "question": "用户从CA安全认证中心申请自己的证书，并将该证书装入浏览器的主要目的是()",
+            "options": [
+                "A、避免他人假冒自己",
+                "B、防止第三方偷看传输的信息",
+                "C、保护自己的计算机免受病毒的危害",
+                "D、验证Web服务器的真实性"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "234",
+            "type": "single",
+            "question": "DES分组长度是()位",
+            "options": [
+                "A、64",
+                "B、56",
+                "C、168",
+                "D、128"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "235",
+            "type": "single",
+            "question": "SYN Flood 攻击是利用( )协议缺陷进行攻击",
+            "options": [
+                "A、网络接口层",
+                "B、互联网络层",
+                "C、传输层",
+                "D、应用层"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "236",
+            "type": "single",
+            "question": "()不会造成数据的丢失",
+            "options": [
+                "A、正常关机",
+                "B、电脑病毒",
+                "C、系统硬件故障",
+                "D、黑客入侵"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "237",
+            "type": "single",
+            "question": "当发现病毒时,首先应做的是:( )",
+            "options": [
+                "A、报告领导",
+                "B、断网",
+                "C、杀毒",
+                "D、打补丁"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "238",
+            "type": "single",
+            "question": "以下哪一项不是IDS可以解决的问题?( )",
+            "options": [
+                "A、弥补网络协议的弱点",
+                "B、识别和报告对数据文件的改动",
+                "C、统计分析系统中异常活动模式",
+                "D、提升系统监控能力"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "239",
+            "type": "single",
+            "question": "SSL 提供那些协议上的数据安全:( )",
+            "options": [
+                "A、HTTP，FTP 和TCP/IP",
+                "B、SKIP，SNMP 和IP",
+                "C、UDP，VPN 和SONET",
+                "D、PPTP，DMI 和RC4"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "240",
+            "type": "single",
+            "question": "下列软件中，不是常用的杀毒软件的是",
+            "options": [
+                "A、360杀毒",
+                "B、瑞星杀毒",
+                "C、金山毒霸",
+                "D、超级解霸"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "241",
+            "type": "single",
+            "question": "通过设置网络接口(网卡)的____，可以使其接受目的地址并不指向自己的网络数据包，从而达到网络嗅探攻击的目的。",
+            "options": [
+                "A、共享模式",
+                "B、交换模式",
+                "C、混杂模式",
+                "D、随机模式"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "242",
+            "type": "single",
+            "question": "在Windows以及Unix/Linux操作系统上，用来进行域名查询的命令工具是下列哪一项?",
+            "options": [
+                "A、ping",
+                "B、tracert/traceroute",
+                "C、ipconfig/ifconfig",
+                "D、nslookup"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "243",
+            "type": "single",
+            "question": "如果发送方使用的加密密钥和接收方使用的解密密钥不相同，从其中一个密钥难以推出另一个密钥，这样的系统称为 ( )",
+            "options": [
+                "A、常规加密系统",
+                "B、单密钥加密系统",
+                "C、公钥加密系统",
+                "D、对称加密系统"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "244",
+            "type": "single",
+            "question": "IP 欺骗(IP Spoof)是利用TCP/IP 协议中( )的漏洞进行攻击的:",
+            "options": [
+                "A、对源IP 地址的鉴别方式",
+                "B、结束会话时的四次插手过程",
+                "C、IP 协议寻址机制",
+                "D、TCP 寻址机制"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "245",
+            "type": "single",
+            "question": "网络安全的基本属性是( )",
+            "options": [
+                "A、机密性",
+                "B、其它三项均是",
+                "C、完整性",
+                "D、可用性"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "246",
+            "type": "single",
+            "question": "关于计算机病毒查杀软件的说法，不正确的是",
+            "options": [
+                "A、查杀软件进行一次杀毒之后就不可以使用了",
+                "B、查杀毒软件需要经常升级才能更有效防范病毒",
+                "C、查杀毒软件有免费的也有付费的",
+                "D、查杀毒软件的实时监控要开启才能有效防范病毒"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "247",
+            "type": "single",
+            "question": "路由器进行数据转发，需要解析以下那个数据包信息?( )",
+            "options": [
+                "A、IP 包头",
+                "B、以太网包头",
+                "C、TCP 包头",
+                "D、UDP 包头"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "248",
+            "type": "single",
+            "question": "PKI基于以下哪种方式保证网络通讯安全:( )",
+            "options": [
+                "A、公开密钥加密算法",
+                "B、对称加密算法",
+                "C、加密设备",
+                "D、其它"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "249",
+            "type": "single",
+            "question": "计算机病毒是一段可运行的程序，它一般       保存在磁盘中。",
+            "options": [
+                "A、作为一个文件",
+                "B、作为一段数据",
+                "C、不作为单独文件",
+                "D、作为一段资料"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "250",
+            "type": "single",
+            "question": "通常在设计VLAN时，以下哪一项不是VLAN的规划的方法?( )",
+            "options": [
+                "A、基于交换机端口",
+                "B、基于网络层协议",
+                "C、基于MAC 地址",
+                "D、基于数字证书"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "251",
+            "type": "single",
+            "question": "密码处理依靠使用密钥，密钥是密码系统里的最重要因素。以下哪一个密钥算法在加密数据不解密时使用相同的密钥?( )",
+            "options": [
+                "A、对称的公钥算法",
+                "B、非对称私钥算法",
+                "C、对称密钥算法",
+                "D、非对称密钥算法"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "252",
+            "type": "single",
+            "question": "以下工作哪个不是计算机取证准备阶段的工作( )",
+            "options": [
+                "A、获得授权",
+                "B、准备工具",
+                "C、介质准备",
+                "D、保护数据"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "253",
+            "type": "single",
+            "question": "以下哪一种备份方式在恢复时间上最快?( )",
+            "options": [
+                "A、增量备份",
+                "B、差异备份",
+                "C、完全备份",
+                "D、磁盘镜像"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "254",
+            "type": "single",
+            "question": "公钥密码的一个比较知名的应用是______，这种应用的协商层用公钥方式进行身份认证，",
+            "options": [
+                "A、SSL",
+                "B、SOCK5",
+                "C、安全 RPC",
+                "D、MD5"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "255",
+            "type": "single",
+            "question": "关于CA和数字证书的关系，以下说法不正确的是 ( )",
+            "options": [
+                "A、数字证书是保证双方之间的通讯安全的电子信任关系，他由CA签发",
+                "B、在电子交易中，数字证书可以用于表明参与方的身份",
+                "C、数字证书一般依靠CA中心的对称密钥机制来实现",
+                "D、数字证书能以一种不能被假冒的方式证明证书持有人身份"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "256",
+            "type": "single",
+            "question": "公钥密码是______。",
+            "options": [
+                "A、对称密钥技术，有1个密钥",
+                "B、不对称密钥技术，有2个密钥",
+                "C、对称密钥技术，有2个密钥",
+                "D、不对称密钥技术，有1个密钥"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "257",
+            "type": "single",
+            "question": "(2分)下列哪一些对信息安全漏洞的描述是错误的?( )",
+            "options": [
+                "A、漏洞是存在于信息系统的某种缺陷",
+                "B、漏洞存在于一定的环境中，寄生在一定的客体上(如TOE 中、过程中等)",
+                "C、具有可利用性和远规性，它本身的存在虽不会造成破坏，但是可以被攻击者利用，从而给信息系统安全带来威胁和损失。",
+                "D、漏洞都是人为故意引入的一种信息系统的弱点"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "258",
+            "type": "single",
+            "question": "“进不来”“拿不走”“看不懂”“改不了”“走不脱”是网络信息安全建设的目的。其中，“看不懂” 是指下面哪种安全服务:( )",
+            "options": [
+                "A、数据加密",
+                "B、身份认证",
+                "C、数据完整性",
+                "D、访问控制"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "259",
+            "type": "single",
+            "question": "以下哪一项是伪装成有用程序的恶意软件?( )",
+            "options": [
+                "A、计算机病毒",
+                "B、特洛伊木马",
+                "C、逡辑程序",
+                "D、蠕虫程序"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "260",
+            "type": "single",
+            "question": "安全威胁是产生安全事件的",
+            "options": [
+                "A、内因",
+                "B、外因",
+                "C、根本原因",
+                "D、不相关因素"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "261",
+            "type": "single",
+            "question": "分片攻击发生在( )",
+            "options": [
+                "A、数据包被发送时",
+                "B、数据包在传输过程中",
+                "C、数据包被接收时",
+                "D、数据包的数据进行重组时"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "262",
+            "type": "single",
+            "question": "异常入侵检测的过程不包括下列哪个阶段",
+            "options": [
+                "A、信息收集",
+                "B、信息分析",
+                "C、信息融合",
+                "D、告警与响应"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "263",
+            "type": "single",
+            "question": "完整性检查和控制的防范对象是( )， 防止它们进入数据库。",
+            "options": [
+                "A、不合语义的数据， 不正确的数据",
+                "B、非法用户",
+                "C、非法操作",
+                "D、非法授权"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "264",
+            "type": "single",
+            "question": "路由器的初始化配置使用下面哪种访问路由器方法( )?",
+            "options": [
+                "A、TELNET",
+                "B、SSH",
+                "C、SNMP",
+                "D、CONSOLE"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "265",
+            "type": "single",
+            "question": "3DES加密算法的密钥长度是多少?",
+            "options": [
+                "A、64位",
+                "B、56位",
+                "C、168位",
+                "D、40位"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "266",
+            "type": "single",
+            "question": "在下列4 项中，不属于计算机病毒特征的是( )",
+            "options": [
+                "A、潜伏性",
+                "B、免疫性",
+                "C、传播性",
+                "D、可触发性"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "267",
+            "type": "single",
+            "question": "TELNET和FTP协议在进行连接时要用到用户名和密码，用户名和密码是以()形式传输的?",
+            "options": [
+                "A、对称加密",
+                "B、加密",
+                "C、明文",
+                "D、不传输密码"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "268",
+            "type": "single",
+            "question": "路由器在两个网段之间转发数据包时，读取其中的()地址来确定下一跳的转发路径。( )",
+            "options": [
+                "A、IP",
+                "B、MAC",
+                "C、源",
+                "D、ARP"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "269",
+            "type": "single",
+            "question": "阅读以下说法并选择与其对应的虚拟机属性:“如果一个虚拟机因为错误而崩溃，同一主机上的其他虚拟机不会受到影响”",
+            "options": [
+                "A、隔离性",
+                "B、兼容性",
+                "C、独立于硬件",
+                "D、统一性"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "270",
+            "type": "single",
+            "question": "以下人员中，谁负有决定信息分类级别的责任?( )",
+            "options": [
+                "A、用户",
+                "B、数据所有者",
+                "C、审计员",
+                "D、安全员"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "271",
+            "type": "single",
+            "question": "以下软件中，不能加强计算机软件系统安全的是",
+            "options": [
+                "A、360安全卫士",
+                "B、天网",
+                "C、瑞星防火墙",
+                "D、千千静听"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "272",
+            "type": "single",
+            "question": "拒绝服务攻击的这种攻击形式破坏了下列哪一项内容?",
+            "options": [
+                "A、网络服务的可用性",
+                "B、网络信息的完整性",
+                "C、网络信息的保密性",
+                "D、网络信息的抗抵赖性"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": "273",
+            "type": "single",
+            "question": "入侵检测的内容不包括:",
+            "options": [
+                "A、独占资源、恶意使用",
+                "B、试图闯入或成功闯入、冒充其他用户",
+                "C、安全审计",
+                "D、违反安全策略、合法用户的泄漏"
+            ],
+            "answer": "C"
+        },
+        {
+            "number": "274",
+            "type": "single",
+            "question": "以下哪些行为属于威胁计算机网络安全的因素:( )",
+            "options": [
+                "A、操作员安全配置不当而造成的安全漏洞",
+                "B、在不影响网络正常工作的情况下,进行截获、窃取、破译以获得重要机密信息",
+                "C、安装非正版软件",
+                "D、以上均是"
+            ],
+            "answer": "D"
+        },
+        {
+            "number": "275",
+            "type": "single",
+            "question": "入侵检测(Intrusion Detection)是对入侵行为的发觉，进行入侵检测的软件与硬件的组合便是入侵检测系统IDS。",
+            "options": [
+                "A、错误",
+                "B、正确"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "276",
+            "type": "single",
+            "question": "入侵检测系统包括三个功能部件:信息收集.信息分析.结果处理。",
+            "options": [
+                "A、错误",
+                "B、正确"
+            ],
+            "answer": "B"
+        },
+        {
+            "number": "277",
+            "type": "single",
+            "question": "入侵检测系统IDS可以取代防火墙，实现对入侵及网络攻击的防范。",
+            "options": [
+                "A、错误",
+                "B、正确"
+            ],
+            "answer": "A"
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "什么是网络安全?",
+            "answer": "网络安全是指网络系统的硬件、软件及其系统中的数据受到保护;不受偶然的或者恶意的原因而遭到破坏、更改、泄露;系统连续可靠正常地运行;网络服务不中断。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "简述主动攻击与被动攻击的特点，并列举主动攻击与被动攻击现象。",
+            "answer": "主动攻击是攻击者通过网络线路将虚假信息或计算机病毒传入信息系统内部;破坏信息的真实性、完整性及系统服务的可用性;即通过中断、伪造、篡改和重排信息内容造成信息破坏;使系统无法正常运行。被动攻击是攻击者非常截获、窃取通信线路中的信息;使信息保密性遭到破坏;信息泄露而无法察觉;给用户带来巨大的损失。"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "在有shell的情况下，如何使用xss实现对目标站的长久控制?",
+            "answer": "后台登录处加一段记录登录账号密码的js;并且判断是否登录成功;如果登录成功;就把账号密码记录到一个生僻的路径的文件中或者直接发到自己的网站文件中。"
+        },
+        {
+            "number": 4,
+            "type": "essay",
+            "question": "什么是IP欺骗",
+            "answer": "攻击者可通过伪装成被信任源IP地址等方式来骗取目标主机的信任;这主要针对LinuxUNIX下建立起IP地址信任关系的主机实施欺骗。这也是黑客入侵中真正攻击方式的一种。"
+        },
+        {
+            "number": 5,
+            "type": "essay",
+            "question": "简述设计网络安全方案的过程。",
+            "answer": "(1) 网络安全需求分析。确切了解网络信息系统需要解决哪些安全问题是建立合理安全需求的基础。(2) 确立合理的安全策略。(3) 制订可行的技术方案;包括工程实施方案(产品的选购与订制)、制订管理办法等。"
+        },
+        {
+            "number": 6,
+            "type": "essay",
+            "question": "常见的拒绝服务攻击有哪些?",
+            "answer": "常见的拒绝服务包括SYN Flood攻击、UDP-Flood攻击、SMURF攻击 、眼泪攻击、Land攻击等。"
+        },
+        {
+            "number": 7,
+            "type": "essay",
+            "question": "简述什么是计算机病毒?常见的计算机病毒有哪些?",
+            "answer": "计算机病毒是一种“计算机程序”;它不仅能破坏计算机系统;而且还能够传播、感染到其他系统。它通常隐藏在其他看起来无害的程序中;它能复制自身并将其插入到其他程序中以执行恶意的行动。 1.“爱虫”病毒(lovebug)2.Funlove病毒3.CIH病毒4.YAI病毒5.“圣诞节”病毒"
+        },
+        {
+            "number": 8,
+            "type": "essay",
+            "question": "网络安全的基本要素有哪些?",
+            "answer": "机密性、完整性 、可用性 、可控性、可审查性"
+        },
+        {
+            "number": 9,
+            "type": "essay",
+            "question": "简述木马的感染过程。",
+            "answer": "木马病毒通常是基于计算机网络的;是基于客户端和服务端的通信、监控程序。客户端的程序用于黑客远程控制;可以发出控制命令;接收服务端传来的信息。服务端程序运行在被控计算机上;一般隐藏在被控计算机中;可以接收客户端发来的命令并执行;将客户端需要的信息发回;也就足常说的木马程序。"
+        },
+        {
+            "number": 10,
+            "type": "essay",
+            "question": "简述计算机病毒的特征",
+            "answer": "主要就是具有传播性、隐蔽性、感染性、潜伏性、可激发性和破坏性"
+        },
+        {
+            "number": 11,
+            "type": "essay",
+            "question": "sql注入的几种类型?",
+            "answer": "1)报错注入 2)bool型注入 3)延时注入 4)宽字节注入"
+        },
+        {
+            "number": 12,
+            "type": "essay",
+            "question": "列举并解释ISO/OSI中定义的5种标准的安全服务。",
+            "answer": "(1)鉴别:用于鉴别实体的身份和对身份的证实;包括对等实体鉴别和数据原发鉴别两种。(2)访问控制:提供对越权使用资源的防御措施。(3)数据机密性:针对信息泄露而采取的防御措施。分为连接机密性、无连接机密性、选择字段机密性、通信业务流机密性四种。(4)数据完整性:防止非法篡改信息;如修改、复制、插入和删除等。分为带恢复的连接完整性、无恢复的连接完整性、选择字段的连接完整性、无连接完整性、选择字段无连接完整性五种。(5)抗否认:是针对对方否认的防范措施;用来证实发生过的操作。包括有数据原发证明的抗否认和有交付证明的抗否认两种。"
+        },
+        {
+            "number": 13,
+            "type": "essay",
+            "question": "什么是IDS，它有哪些基本功能?",
+            "answer": "入侵检测系统IDS;它从计算机网络系统中的若干关键点收集信息;并分析这些信息;检查网络中是否有违反安全策略的行为和遭到袭击的迹象。入侵检测被认为是防火墙之后的第二道安全闸门。1)监测并分析用户和系统的活动;查找非法用户和合法用户的越权操作;2)核查系统配置和漏洞并提示管理员修补漏洞;3)评估系统关键资源和数据文件的完整性;4)识别已知的攻击行为;统计分析异常行为;5)操作系统日志管理;并识别违反安全策略的用户活动等。"
+        },
+        {
+            "number": 14,
+            "type": "essay",
+            "question": "简述网络攻击的三个阶段。",
+            "answer": "第一阶段攻击的准备阶段:包括确定攻击目标、收集相关信息、发现系统漏洞、准备攻击工具;第二阶段攻击的实施阶段:包括隐藏自己的位置、利用收集到的信息获取账号和密码;登录主机、利用漏洞或者其他方法获得控制权并窃取网络资源和特权;第三阶段攻击的善后阶段 :包括清除日志 、植入后门程序等。"
+        },
+        {
+            "number": 15,
+            "type": "essay",
+            "question": "简述包过滤防火墙的过滤原理是什么?",
+            "answer": "包过滤(Packet Filter)是在网络层中根据事先设置的安全访问策略(过滤规 则);检查每一个数据包的源IP地址、目的IP地址以及IP分组头部的其他各种标志信息(如协议、服务类型等);确定是否允许该数据包通过防火墙。"
+        },
+        {
+            "number": 16,
+            "type": "essay",
+            "question": "什么是端口?",
+            "answer": "\"端口\"是英文port的意译;可以认为是设备与外界通讯交流的出口。端口可分为虚拟端口和物理端口;其中虚拟端口指计算机内部或交换机路由器内的端口;不可见。例如计算机中的80端口、21端口、23端口等。物理端口又称为接口;是可见端口;计算机背板的RJ45网口;交换机路由器集线器等RJ45端口。"
+        },
+        {
+            "number": 17,
+            "type": "essay",
+            "question": "Https的作用",
+            "answer": "内容加密建立一个信息安全通道;来保证数据传输的安全;身份认证确认网站的真实性数据完整性防止内容被第三方冒充或者篡改HTTPS和HTTP的区别https协议需要到CA申请证书。http是超文本传输协议;信息是明文传输;https则是具有安全性的ssl加密传输协议。http和https使用的是完全不同的连接方式;用的端口也不一样;前者是80;后者是443。http的连接很简单;是无状态的;HTTPS协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议;比http协议安全。"
+        },
+        {
+            "number": 18,
+            "type": "essay",
+            "question": "access 扫出后缀为asp的数据库文件，访问乱码，如何实现到本地利用",
+            "answer": "迅雷下载;直接改后缀为.mdb"
+        },
+        {
+            "number": 19,
+            "type": "essay",
+            "question": "简述计算机病毒的传播方式",
+            "answer": "移动存储文件传播网络传播主动放置软件漏洞"
+        },
+        {
+            "number": 20,
+            "type": "essay",
+            "question": "什么是拒绝服务攻击",
+            "answer": "拒绝服务攻击即攻击者想办法让目标机器停止提供服务;是黑客常用的攻击手段之。其实对网络带宽进行的消耗性攻击只是拒绝服务攻击的一小部分;只要能够对目标造成麻烦;使某些服务被暂停甚至主机死机;都属于拒绝服务攻击。拒绝服务攻击问题也一直得不到合理的解决;究其原因是因为这是由于网络协议本身的安全缺陷造成的;从而拒绝服务攻击也成为了攻击者的终极手法。攻击者进行拒绝服务攻击;实际上让服务器实现两种效果:一是迫使服务器的缓冲区满;不接收新的请求;二是使用IP欺骗;迫使服务器把合法用户的连接复位;影响合法用户的连接"
+        },
+        {
+            "number": 21,
+            "type": "essay",
+            "question": "如何突破注入时字符被转义?",
+            "answer": "宽字符注入hex编码绕过"
+        },
+        {
+            "number": 22,
+            "type": "essay",
+            "question": "简述防火墙的定义。",
+            "answer": "防火墙原是建筑物里用来防止火灾蔓延的隔断墙;在这里引申为保护内部网络安全的一道防护墙;是网络安全政策的有机组成部分;它通过控制和监测网络之间的信息交换和访问行为来实现对网络安全的有效管理。"
+        },
+        {
+            "number": 23,
+            "type": "essay",
+            "question": "什么是DNS欺骗",
+            "answer": "当DNS服务器向另一个DNS服务器发送某个解析请求(由域名解析出IP地址)时;因为不进行身份验证;这样黑客就可以冒充被请求方;向请求方返回一个被篡改了的应答(IP 地址);将用户引向黑客设定的主机。这也是黑客入侵中真正攻击方式的一种。"
+        },
+        {
+            "number": 24,
+            "type": "essay",
+            "question": "什么是网络安全?",
+            "answer": "网络安全是指网络系统的硬件、软件及其系统中的数据受到保护;不受偶然的或者恶意的原因而遭到破坏、更改、泄露;确保系统能连续、可靠、正常地运行;网络服务不中断。"
+        },
+        {
+            "number": 25,
+            "type": "essay",
+            "question": "什么是木马?",
+            "answer": "木马病毒是指隐藏在正常程序中的一段具有特殊功能的恶意代码;是具备破坏和删除文件、发送密码、记录键盘和攻击Dos等特殊功能的后门程序。"
+        },
+        {
+            "number": 26,
+            "type": "essay",
+            "question": "试述TCP三次握手的过程。",
+            "answer": "第一次握手:建立连接时;客户端发送syn包(syn=j)到服务器;并进入SYN_SEND状态;等待服务器确认; 第二次握手:服务器收到syn包;必须确认客户的SYN(ack=j+1);同时自己也发送一个SYN包(syn=k);即SYN+ACK包;此时服务器进入SYN_RECV状态; 第三次握手:客户端收到服务器的SYN+ACK包;向服务器发送确认包ACK(ack=k+1);此包发送完毕;客户端和服务器进入ESTABLISHED状态;完成三次握手。完成三次握手;客户端与服务器开始传送数据"
+        },
+        {
+            "number": 27,
+            "type": "essay",
+            "question": "什么是特洛伊木马(Trojan Horse)",
+            "answer": "把一个能帮助黑客完成某一特定动作的程序依附在某一合法用户的正常程序中;而一旦用户触发正常程序;黑客代码同时被激活;这些代码往往能完成黑客早已指定的任务(如监听某个不常用端口;假冒登录界面获取帐号和口令等)。"
+        },
+        {
+            "number": 28,
+            "type": "essay",
+            "question": "SQL注入防护方法?",
+            "answer": "1、使用安全的API 2、对输入的特殊字符进行Escape转义处理 3、使用白名单来规范化输入验证方法 4、对客户端输入进行控制;不允许输入SQL注入相关的特殊字符 5、服务器端在提交数据库进行SQL查询之前;对特殊字符进行过滤、转义、替换、删除。"
+        },
+        {
+            "number": 29,
+            "type": "essay",
+            "question": "什么是扫描(Scanning)",
+            "answer": "使用各种工具和技巧(如Ping扫射、端口扫描以及操作系统检测等)确定哪些系统存活着、它们在监听哪些端口(以此来判断它们在提供哪些服务);甚至更进一步地获知它们运行的是什么操作系统。"
+        }
+    ]
+}
