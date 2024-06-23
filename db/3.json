@@ -484,63 +484,82 @@
             "number": 1,
             "type": "fillblank",
             "question": "当需要在字符串中嵌入变量时，可以使用____操作符。",
-            "answer": ["%"]
-            
+            "answer": [
+                "%"
+            ]
         },
         {
             "number": 2,
             "type": "fillblank",
             "question": "在Python中，使用____运算符可以连接两个字符串。",
-            "answer":  ["+"]
-            
+            "answer": [
+                "+"
+            ]
         },
         {
             "number": 3,
             "type": "fillblank",
             "question": "在Python中，可以使用(____)函数来接收用户的输入，并将输入的字符串赋值给一个变量。",
-            "answer": ["input"] 
+            "answer": [
+                "input"
+            ]
         },
         {
             "number": 4,
             "type": "fillblank",
             "question": "集合类型在Python中用(____)表示，而冻结集合用(____)表示。",
-            "answer": ["set","frozenset"] 
+            "answer": [
+                "set",
+                "frozenset"
+            ]
         },
         {
             "number": 5,
             "type": "fillblank",
             "question": "格式化字符串时，如果需要至少5个字符宽，小数点后保留两位数字，可以使用格式化表达式____。",
-            "answer": ["%5.2f"] 
+            "answer": [
+                "%5.2f"
+            ]
         },
         {
             "number": 6,
             "type": "fillblank",
             "question": "使用VSCode创建Python脚本文件后，可以通过快捷键(____)来执行脚本。",
-            "answer": ["F5"] 
+            "answer": [
+                "F5"
+            ]
         },
         {
             "number": 7,
             "type": "fillblank",
             "question": "在Python中，可以使用(____)运算符来进行幂运算，例如计算2的3次方。",
-            "answer": ["**"] 
+            "answer": [
+                "**"
+            ]
         },
         {
             "number": 8,
             "type": "fillblank",
             "question": "在IDLE中，可以通过快捷键(____)来保存文件。",
-            "answer": ["Ctrl + S"] 
+            "answer": [
+                "Ctrl + S"
+            ]
         },
         {
             "number": 9,
             "type": "fillblank",
             "question": "变量名____是Python中的一个保留字，不能用作变量名。",
-            "answer": ["class"] 
+            "answer": [
+                "class"
+            ]
         },
         {
             "number": 10,
             "type": "fillblank",
             "question": "在Python中，可以使用____方法来实现字符串的连接。",
-            "answer": ["加号`+`"] 
+            "answer": [
+                "加号`+`"
+            ]
         },
         {
             "number": 1,
@@ -856,31 +875,42 @@
             "number": 1,
             "type": "fillblank",
             "question": "在Python中，整数类型用(____)表示。",
-            "answer": ["int"]
+            "answer": [
+                "int"
+            ]
         },
         {
             "number": 2,
             "type": "fillblank",
             "question": "格式化字符串中的.2f表示保留(____)位小数。",
-            "answer": ["两"]
+            "answer": [
+                "两"
+            ]
         },
         {
             "number": 3,
             "type": "fillblank",
             "question": "在Python中，复数由实部和虚部组成，虚部必须紧跟(____)或(____)。",
-            "answer": ["j", "J"]
+            "answer": [
+                "j",
+                "J"
+            ]
         },
         {
             "number": 4,
             "type": "fillblank",
             "question": "在Python中，整数类型用关键字(____)表示。",
-            "answer": ["int"]
+            "answer": [
+                "int"
+            ]
         },
         {
             "number": 5,
             "type": "fillblank",
             "question": "要获取字符串的长度，可以使用Python内置函数(____)。",
-            "answer": ["len"]
+            "answer": [
+                "len"
+            ]
         },
         {
             "number": 1,
@@ -923,6 +953,3164 @@
             "type": "judgement",
             "question": "使用Python的f-strings可以嵌入任意表达式。( )",
             "answer": "对"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "Python代码中，单行注释使用哪个符号开始?",
+            "options": [
+                "A、--",
+                "B、`//",
+                "C、/*",
+                "D、#"
+            ],
+            "answer": "D、#"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "如果在Python中声明一个变量name并赋值为\"Alice\"，那么name的数据类型是什么?",
+            "options": [
+                "A、str",
+                "B、int",
+                "C、None",
+                "D、float"
+            ],
+            "answer": "A、str"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "Python是一种:",
+            "options": [
+                "A、解释型语言",
+                "B、编译型语言",
+                "C、汇编语言",
+                "D、机器语言"
+            ],
+            "answer": "A、解释型语言"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "在Python中，哪个运算符用于判断两个值是否绝对相等?",
+            "options": [
+                "A、>",
+                "B、==",
+                "C、<",
+                "D、!="
+            ],
+            "answer": "B、=="
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "下列哪个操作是字符串(str)类型不支持的?",
+            "options": [
+                "A、排序(.sort())",
+                "B、格式化",
+                "C、连接(使用+)",
+                "D、索引"
+            ],
+            "answer": "A、排序(.sort())"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在Python中，用于执行加法操作的运算符是",
+            "options": [
+                "A、-",
+                "B、+",
+                "C、*",
+                "D、/"
+            ],
+            "answer": "B、+"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "在Python中，整数类型(int)可以表示的最大数值是多少?",
+            "options": [
+                "A、无上限，直到内存耗尽",
+                "B、256",
+                "C、有固定上限",
+                "D、1024"
+            ],
+            "answer": "A、无上限，直到内存耗尽"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "在Python中，元组(tuple)与列表(list)的主要区别是:",
+            "options": [
+                "A、元组比列表更节省内存",
+                "B、列表可以被修改，元组不可以",
+                "C、元组可以被修改，列表不可以",
+                "D、列表和元组都可以被修改"
+            ],
+            "answer": "B、列表可以被修改，元组不可以"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，哪些选项是映射数据类型?",
+            "options": [
+                "A、list",
+                "B、set",
+                "C、dict",
+                "D、tuple"
+            ],
+            "answer": "C、dict"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python中，哪些选项可以用于字符串的重复?",
+            "options": [
+                "A、使用*操作符",
+                "B、使用%操作符",
+                "C、使用join()方法",
+                "D、使用+操作符"
+            ],
+            "answer": "A、使用*操作符"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，使用`%`操作符进行字符串格式化时，哪个类型码用于表示整数?",
+            "options": [
+                "A、`d`",
+                "B、`i`",
+                "C、`f`",
+                "D、`s`"
+            ],
+            "answer": "A、`d`"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "Python的创始人是:",
+            "options": [
+                "A、Guido van Rossum",
+                "B、Yukihiro Matsumoto",
+                "C、Dennis Ritchie",
+                "D、Bjarne Stroustrup"
+            ],
+            "answer": "A、Guido van Rossum"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "以下哪个Python数据类型是用于存储无序的不重复元素集?",
+            "options": [
+                "A、字典(dict)",
+                "B、列表(list)",
+                "C、集合(set)",
+                "D、元组(tuple)"
+            ],
+            "answer": "C、集合(set)"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "在Python中，以下哪个是不可变序列数据类型?",
+            "options": [
+                "A、集合(set)",
+                "B、列表(list)",
+                "C、元组(tuple)",
+                "D、字典(dict)"
+            ],
+            "answer": "C、元组(tuple)"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "在Python中，以下哪个选项不是基本数据类型?",
+            "options": [
+                "A、bool",
+                "B、int",
+                "C、float",
+                "D、dict"
+            ],
+            "answer": "D、dict"
+        },
+        {
+            "number": 16,
+            "type": "single",
+            "question": "Python的第一个公开版本发布于哪一年?",
+            "options": [
+                "A、1994",
+                "B、1991",
+                "C、2000",
+                "D、1989"
+            ],
+            "answer": "B、1991"
+        },
+        {
+            "number": 17,
+            "type": "single",
+            "question": "在Python中，以下哪个是合法的变量名?",
+            "options": [
+                "A、for",
+                "B、class-name",
+                "C、my-variable",
+                "D、2times"
+            ],
+            "answer": "C、my-variable"
+        },
+        {
+            "number": 18,
+            "type": "single",
+            "question": "在Python中，以下哪个选项是正确的缩进方式?",
+            "options": [
+                "A、任意数量的空格",
+                "B、使用制表符(Tab)",
+                "C、混合使用空格和制表符",
+                "D、使用4个空格"
+            ],
+            "answer": "D、使用4个空格"
+        },
+        {
+            "number": 19,
+            "type": "single",
+            "question": "下列哪个变量名在Python中是保留字?",
+            "options": [
+                "A、user_name",
+                "B、123name",
+                "C、class",
+                "D、my_variable"
+            ],
+            "answer": "C、class"
+        },
+        {
+            "number": 20,
+            "type": "single",
+            "question": "如果想在Python中将两个字符串相加，应该使用哪个运算符?",
+            "options": [
+                "A、-",
+                "B、+",
+                "C、*",
+                "D、/"
+            ],
+            "answer": "B、+"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "Python语言的特点包括( )",
+            "options": [
+                "A、易学易用",
+                "B、开源免费",
+                "C、高级语言",
+                "D、跨平台"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，哪些数据类型可以作为字典的键？",
+            "options": [
+                "A、元组(tuple)",
+                "B、字符串(str)",
+                "C、集合(set)",
+                "D、列表(list)"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "在Python中，哪些运算符用于成员运算？",
+            "options": [
+                "A、in",
+                "B、==",
+                "C、not in",
+                "D、is"
+            ],
+            "answer": "AC",
+            "explanation": "A;in;C;not in"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "print函数的高级特性包括哪些？( )",
+            "options": [
+                "A、结束符",
+                "B、逗号分隔和空格",
+                "C、自定义分隔符"
+            ],
+            "answer": "ABC",
+            "explanation": "A;结束符;B;逗号分隔和空格;C;自定义分隔符"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "下列哪些是Python的保留字？",
+            "options": [
+                "A、if",
+                "B、else",
+                "C、loop",
+                "D、return"
+            ],
+            "answer": "ABD",
+            "explanation": "A;if;B;else;D;return"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "在Python中，哪些运算符用于逻辑操作？( )",
+            "options": [
+                "A、and",
+                "B、or",
+                "C、==",
+                "D、not"
+            ],
+            "answer": "ABD",
+            "explanation": "A;and;B;or;D;not"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "哪些因素会影响变量的命名？",
+            "options": [
+                "A、可以是中文",
+                "B、不能以数字开头",
+                "C、变量名必须唯一",
+                "D、可以包含空格"
+            ],
+            "answer": "ABC",
+            "explanation": "A;可以是中文;B;不能以数字开头;C;变量名必须唯一"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "在Python中，哪些选项是算术运算符？",
+            "options": [
+                "A、-",
+                "B、*",
+                "C、+",
+                "D、/"
+            ],
+            "answer": "ABCD",
+            "explanation": "A;-;B;*;C;+;D;/"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "在Python中，哪些方法可以用来格式化字符串？",
+            "options": [
+                "A、.format()方法",
+                "B、%操作符",
+                "C、f-string",
+                "D、使用+操作符"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "Python中的动态类型特性允许以下哪些操作？",
+            "options": [
+                "A、在声明变量时不必指定类型",
+                "B、变量类型在运行时自动推断",
+                "C、需要在编译时确定所有变量的类型",
+                "D、一个变量可以重新赋值为不同类型的数据"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 11,
+            "type": "multiple",
+            "question": "Python中的`print`函数可以输出哪些类型的数据？( )",
+            "options": [
+                "A、变量",
+                "B、数字",
+                "C、字符串",
+                "D、表达式结果"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 12,
+            "type": "multiple",
+            "question": "以下哪些操作是Python字典(dict)支持的？",
+            "options": [
+                "A、删除键值对",
+                "B、修改现有键对应的值",
+                "C、添加新的键值对",
+                "D、排序(.sort())"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 13,
+            "type": "multiple",
+            "question": "在Python中，哪些选项是合法的Python关键字？",
+            "options": [
+                "A、loop",
+                "B、while",
+                "C、if",
+                "D、else"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 14,
+            "type": "multiple",
+            "question": "以下哪些是Python中变量赋值的正确方式？",
+            "options": [
+                "A、x = y = z = 1",
+                "B、x = (1, 2, 3)",
+                "C、x += 1",
+                "D、x = {\"key\": \"value\"}"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 15,
+            "type": "multiple",
+            "question": "在Python中，哪些运算符用于比较两个值的大小？( )",
+            "options": [
+                "A、<",
+                "B、<=",
+                "C、>",
+                "D、>="
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "Python中的逻辑运算符`and`具有短路特性。( )",
+            "answer": "对"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "浮点数(float)在Python中可以表示任意大小的数值。( )",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "在Python中，可以使用print()函数输出变量的值。",
+            "answer": "对"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "注释在Python中是可选的，对程序执行没有影响。( )",
+            "answer": "对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "字符串(str)类型在Python中是不可变的。( )",
+            "answer": "对"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "在Python中，可以使用+=运算符来增加列表的长度。",
+            "answer": "对"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "变量在Python中声明时必须指定数据类型。",
+            "answer": "错"
+        },
+        {
+            "number": 8,
+            "type": "judgement",
+            "question": "Python中的字符串(str)是不可变序列数据类型。",
+            "answer": "对"
+        },
+        {
+            "number": 9,
+            "type": "judgement",
+            "question": "在Python中，可以通过type()函数来检查一个对象的数据类型。",
+            "answer": "对"
+        },
+        {
+            "number": 10,
+            "type": "judgement",
+            "question": "Python中的比较运算符可以用来比较字符串。( )",
+            "answer": "对"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "在Python中，使用`print`函数输出信息时，如果需要在输出后不换行，可以设置`end`参数为____。",
+            "answer": [
+                "空格"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "集合类型在Python中用(____)表示，而冻结集合用(____)表示。",
+            "answer": [
+                "set",
+                "frozenset"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "在Python中，可以使用(____)函数来接收用户的输入，并将输入的字符串赋值给一个变量。",
+            "answer": [
+                "input"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "在Python中，字典通过(____)和(____)存储数据。",
+            "answer": [
+                "键",
+                "值"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "如果想在Python中检查一个元素是否存在于列表中，可以使用____运算符。",
+            "answer": [
+                "in"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "安装Python解释器时，如果需要设置环境变量，应该勾选安装界面中的(____)选项。",
+            "answer": [
+                "Add Python to the system PATH"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "在Python中，如果需要在控制台输出多个变量的值，可以使用 print 函数的 sep 参数，其默认值为(____)。",
+            "answer": [
+                "空字符串('')"
+            ]
+        },
+        {
+            "number": 8,
+            "type": "fillblank",
+            "question": "在Python 3.0中引入的新特性不包括(____)。",
+            "answer": [
+                "classic classes"
+            ]
+        },
+        {
+            "number": 9,
+            "type": "fillblank",
+            "question": "我国古典四大名著是(____)(____)(____)(____)。",
+            "answer": [
+                "红楼梦",
+                "水浒传",
+                "三国演义",
+                "西游记"
+            ]
+        },
+        {
+            "number": 10,
+            "type": "fillblank",
+            "question": "在Python中，____运算符用于执行整数之间的除法并返回整数结果。",
+            "answer": [
+                "//"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "请描述Python中的字典(dict)数据类型，并给出一个示例说明如何创建和使用字典。",
+            "answer": "Python中的字典是一种无序的数据集合，它存储键值对（key-value pairs）。字典的键必须是唯一的，而值可以是任意类型的对象。字典使用大括号{}来定义，键和值之间用冒号:分隔，不同的键值对之间用逗号,分隔。示例代码:\n\n```python\nperson = {'name': 'Alice', 'age': 30, 'job': 'Engineer'}\nprint(person['name'])  # 输出: Alice```"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "解释Python中的序列数据类型有哪些，并简述它们各自的特点。",
+            "answer": "Python中的序列数据类型包括字符串(str)、列表(list)、元组(tuple)和范围对象(range)。字符串是由字符组成的有序序列，不可变；列表是有序的元素集合，可变，可以增加、删除元素；元组类似于列表，但一旦创建，其内容不可变；range对象生成一个整数序列，常用于for循环中。"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "描述如何在Python中声明一个变量，并解释变量命名规则的重要性。",
+            "answer": "在Python中，声明一个变量只需使用等号=将值赋给变量名。例如，`var = 5`。变量命名规则的重要性在于它帮助保持代码的可读性和避免错误。变量名必须是唯一的，不能以数字开头，不能包含空格或特殊字符，且区分大小写。良好的命名习惯可以帮助其他开发者（或未来的你）更容易理解代码的意图。"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "在Python中，整数类型int可以表示任意大小的整数。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "下列哪个操作符用于整数的整除运算？( )",
+            "options": [
+                "A、/",
+                "B、//",
+                "C、%",
+                "D、**"
+            ],
+            "answer": "B、//"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "在Python中，浮点数的表示方式不包括( )",
+            "options": [
+                "A、3.14",
+                "B、三进制",
+                "C、0.0",
+                "D、-2.71"
+            ],
+            "answer": "B、三进制"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "在Python中，整数类型的最大值有限制吗？",
+            "options": [
+                "A、没有限制",
+                "B、只有在32位系统上受限",
+                "C、只有在64位系统上受限",
+                "D、是的，有固定的上限"
+            ],
+            "answer": "A、没有限制"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "下列哪个选项是Python字符串的不可变属性的正确描述？",
+            "options": [
+                "A、字符串是可变的。",
+                "B、字符串内容可以被更改。",
+                "C、字符串是不可变的。",
+                "D、字符串的不可变性取决于其内容。"
+            ],
+            "answer": "C、字符串是不可变的。"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在Python中，以下哪些函数可用于字符串的替换？",
+            "options": [
+                "A、replace()",
+                "B、substitute()",
+                "C、modify()",
+                "D、change()"
+            ],
+            "answer": "A、replace()"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "Python中的字符串格式化技术不包括以下哪项？",
+            "options": [
+                "A、使用`%`操作符",
+                "B、使用`str.format()`方法",
+                "C、使用f-strings",
+                "D、使用`join()`方法"
+            ],
+            "answer": "D、使用`join()`方法"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "以下哪些Python函数用于字符串的复制？",
+            "options": [
+                "A、multiply()",
+                "B、copy()",
+                "C、*",
+                "D、replicate()"
+            ],
+            "answer": "C、*"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，字符串\"Hello\"和\"hello\"在不考虑大小写的情况下是否相等？",
+            "options": [
+                "A、是的，它们相等",
+                "B、只有在特定的编程环境中相等",
+                "C、不，它们不相等",
+                "D、只有在某些操作系统中相等"
+            ],
+            "answer": "A、是的，它们相等"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python中，哪个字符串方法可以用于检查字符串是否包含另一个子字符串？",
+            "options": [
+                "A、contains()",
+                "B、includes()",
+                "C、has()",
+                "D、in"
+            ],
+            "answer": "D、in"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，sorted()函数不能对字符串进行排序。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "*运算符在Python中用于执行幂运算，例如计算x的y次幂。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "B、对"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "以下哪些Python函数可用于字符串的合并？",
+            "options": [
+                "A、combine()",
+                "B、merge()",
+                "C、join()",
+                "D、concat()"
+            ],
+            "answer": "C、join()"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "在Python中，哪个函数可以用于获取一个数字的绝对值？",
+            "options": [
+                "A、round()",
+                "B、abs()",
+                "C、max()",
+                "D、min()"
+            ],
+            "answer": "B、abs()"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "下列哪个方法用于Python字符串中的字符替换？",
+            "options": [
+                "A、`strip()`",
+                "B、`split()`",
+                "C、`find()`",
+                "D、`replace()`"
+            ],
+            "answer": "D、`replace()`"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "Python中字符串的基本操作包括哪些？",
+            "options": [
+                "A、切片",
+                "B、连接",
+                "C、复制",
+                "D、索引"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，以下哪些函数可用于数字的四舍五入？",
+            "options": [
+                "A、round()",
+                "B、truncate()",
+                "C、floor()",
+                "D、ceil()"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "下列哪些是Python中复数的属性？( )",
+            "options": [
+                "A、conj",
+                "B、imag",
+                "C、real",
+                "D、phase"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "在Python中，可以使用哪些函数进行类型转换？( )",
+            "options": [
+                "A、float()",
+                "B、complex()",
+                "C、int()",
+                "D、str()"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "关于Python中的复数，以下说法正确的是？",
+            "options": [
+                "A、仅在物理学中有应用",
+                "B、可以表示为a + bj的形式",
+                "C、虚部必须紧跟j或J",
+                "D、由实部和虚部组成"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "下列哪些是Python字符串的高级格式化技术？",
+            "options": [
+                "A、对齐和填充",
+                "B、精度控制",
+                "C、宽度控制",
+                "D、使用`+`运算符连接字符串"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "浮点数的精度问题可以通过以下哪些方法来解决？( )",
+            "options": [
+                "A、使用decimal模块",
+                "B、四舍五入",
+                "C、使用更高精度的数据类型",
+                "D、避免使用浮点数"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "在Python中，以下哪些运算符适用于整数？",
+            "options": [
+                "A、加(+)",
+                "B、减(-)",
+                "C、除(/)",
+                "D、乘(*)"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "浮点数在Python中可以用于以下哪些操作？",
+            "options": [
+                "A、科学计算",
+                "B、表示有小数部分的数值",
+                "C、工程应用",
+                "D、存储非常大的数"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "在Python中，以下哪些方法可用于字符串的大小写转换？",
+            "options": [
+                "A、lower()",
+                "B、title()",
+                "C、upper()",
+                "D、capitalize()"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "正则表达式通过Python的____模块实现。",
+            "answer": [
+                "re"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "使用____方法可以去除字符串右侧的所有指定字符。",
+            "answer": [
+                "rstrip()"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "格式化字符串中的.2f表示保留(____)位小数。",
+            "answer": [
+                "两"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "在Python中，要将字符串转换为整数，可以使用内置函数(____)。",
+            "answer": [
+                "int"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "在Python中，字符串可以用____、____或____来创建。",
+            "answer": [
+                "单引号",
+                "双引号",
+                "三引号"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "简述Python中字符串格式化的方法，并提供一个使用f-string格式化字符串的示例。",
+            "answer": "Python中字符串格式化主要有三种方法：\n1) 使用百分号（%）操作符，如：\"Hello, %s!\" % \"world\"。\n2) 使用str.format()方法，如：\"Hello, {}!\".format(\"world\")。\n3) 使用f-string（格式化字符串字面值），这是Python 3.6引入的新特性，如：f\"Hello, {name}!\"。示例：\n```python\nname = \"Kimi\"\nage = 30\ngreeting = f\"Hello, {name}. You are {age} years old.\"\nprint(greeting)  # 输出: Hello, Kimi. You are 30 years old.\n```"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "解释Python中字符串格式化的三种主要方法，并给出一个使用f-string格式化字符串的示例。",
+            "answer": "Python中字符串格式化的三种主要方法是：\n1) 使用`%`操作符，通过格式化占位符将变量插入到字符串中。\n2) 使用`str.format()`方法，通过花括号`{}`作为占位符，并传入相应的参数值。\n3) 使用格式化字符串字面量(f-strings)，直接在字符串字面量中嵌入表达式。示例：\n```python\nname = \"Kimi\"; age = 30; greeting = f\"Hello, {name}. You are {age} years old.\"\nprint(greeting)  # 这将输出: Hello, Kimi. You are 30 years old.\n```"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "使用Python的f-strings可以嵌入任意表达式。( )",
+            "answer": "对"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "`re.sub()`和`re.subn()`方法都可以用于正则表达式替换，但后者不返回替换次数。",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "Python的内置函数`round`总是四舍五入到最接近的整数。",
+            "answer": "错"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "在Python中，两个整数相除总是得到整数结果。",
+            "answer": "错"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "Python中的字符串是可变的。( )",
+            "answer": "错"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "Python中的for循环可以遍历任何对象。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "在Python中，`if`语句用来执行基于条件为真的代码块，如果条件为假，则( )",
+            "options": [
+                "A、不执行任何代码",
+                "B、执行`elif`代码块",
+                "C、执行`else`代码块",
+                "D、抛出异常"
+            ],
+            "answer": "A、不执行任何代码"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "如果想在循环中跳过当前迭代的剩余部分，并立即开始下一次迭代，应该使用哪个语句？",
+            "options": [
+                "A、`return`",
+                "B、`break`",
+                "C、`pass`",
+                "D、`continue`"
+            ],
+            "answer": "D、`continue`"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "在Python异常处理中，`ValueError`通常与哪种情况相关( )",
+            "options": [
+                "A、输入/输出操作失败",
+                "B、访问序列不存在的索引",
+                "C、尝试除以零",
+                "D、函数接收到一个不合法的值"
+            ],
+            "answer": "D、函数接收到一个不合法的值"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "在Python中，break语句用于立即终止循环，以下哪个选项正确地展示了break语句的使用？",
+            "options": [
+                "A、break",
+                "B、exit loop",
+                "C、end loop",
+                "D、stop loop"
+            ],
+            "answer": "A、break"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在Python中，哪个异常类型用于处理索引越界错误？",
+            "options": [
+                "A、KeyError",
+                "B、ValueError",
+                "C、TypeError",
+                "D、IndexError"
+            ],
+            "answer": "D、IndexError"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "如果希望在Python中无论是否发生异常都要执行的代码块是( )",
+            "options": [
+                "A、`try`",
+                "B、`else`",
+                "C、`except`",
+                "D、`finally`"
+            ],
+            "answer": "D、`finally`"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "在Python中，使用逻辑运算符`and`时，只有当两边的条件都为( )时，整个表达式的结果才为真。",
+            "options": [
+                "A、任意值",
+                "B、非零值",
+                "C、`False`",
+                "D、`True`"
+            ],
+            "answer": "D、`True`"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，`for`循环主要用于遍历哪种类型的对象？",
+            "options": [
+                "A、列表",
+                "B、集合",
+                "C、所有以上选项",
+                "D、字典"
+            ],
+            "answer": "C、所有以上选项"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python中，哪个关键字用于立即退出循环？",
+            "options": [
+                "A、`end`",
+                "B、`stop`",
+                "C、`exit`",
+                "D、`break`"
+            ],
+            "answer": "D、`break`"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，异常层次结构的根类是什么？",
+            "options": [
+                "A、Throwable",
+                "B、Error",
+                "C、Exception",
+                "D、BaseException"
+            ],
+            "answer": "D、BaseException"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "下列哪个选项正确地展示了Python中的if-else语句结构？",
+            "options": [
+                "A、if-else: # 条件为真时执行的代码",
+                "B、if condition: # 条件为真时执行的代码\nelse if: # 条件为假时执行的代码",
+                "C、if condition: # 条件为真时执行的代码\nelse: # 条件为假时执行的代码",
+                "D、if condition /else: # 条件为真时执行的代码"
+            ],
+            "answer": "C、if condition: # 条件为真时执行的代码\nelse: # 条件为假时执行的代码"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "在Python中，finally块用于执行无论是否发生异常都需要执行的代码，以下哪个选项正确地展示了finally的使用？",
+            "options": [
+                "A、finally: # 清理代码",
+                "B、cleanup: # 清理代码",
+                "C、lastly: # 清理代码",
+                "D、end: # 清理代码"
+            ],
+            "answer": "A、finally: # 清理代码"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "在Python中，哪个异常类型用于处理输入/输出操作失败时的错误？",
+            "options": [
+                "A、IOError",
+                "B、OSError",
+                "C、EOFError",
+                "D、ValueError"
+            ],
+            "answer": "A、IOError"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "下列哪个是Python中`if-else`语句的正确语法结构？( )",
+            "options": [
+                "A、`if (条件) { 代码 } else { 代码 }`",
+                "B、`if 条件: 代码` `else: 代码`",
+                "C、`if 条件: 代码 else 代码`",
+                "D、`if 条件 then 代码`"
+            ],
+            "answer": "B、`if 条件: 代码` `else: 代码`"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "在Python中，以下哪些是for循环的典型应用场景:",
+            "options": [
+                "A、实现无限循环",
+                "B、生成乘法表",
+                "C、遍历列表",
+                "D、打印格式化文本模式"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，以下哪些是异常处理的基本原则:",
+            "options": [
+                "A、仅捕获能够处理的异常",
+                "B、避免在try块中执行无关的操作",
+                "C、使用广泛的异常类型来捕获所有错误",
+                "D、在except块中记录错误或提供反馈"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "在Python中，下面哪些是合法的异常类型( )",
+            "options": [
+                "A、`SyntaxError`",
+                "B、`ValueError`",
+                "C、`KeyError`",
+                "D、`IndexError`"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "在Python中，以下哪些是处理嵌套循环的策略:",
+            "options": [
+                "A、使用函数来减少嵌套深度",
+                "B、使用早返回来避免不必要的嵌套",
+                "C、增加嵌套层数以增强逻辑复杂性",
+                "D、分离逻辑以简化条件判断"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "在Python中，使用异常处理可以:",
+            "options": [
+                "A、提供清晰的错误信息",
+                "B、增强程序的健壮性",
+                "C、简化错误处理代码",
+                "D、控制程序的流程"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "下列哪些是Python中的循环控制语句?",
+            "options": [
+                "A、`pass`",
+                "B、`continue`",
+                "C、`return`",
+                "D、`break`"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "在Python中，以下哪些操作可能会触发异常:",
+            "options": [
+                "A、除以零",
+                "B、使用未定义的变量",
+                "C、将字符串转换为整数",
+                "D、访问列表的不存在索引"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "在Python中，`while`循环可以用于哪些场景?",
+            "options": [
+                "A、结合用户输入",
+                "B、创建无限循环",
+                "C、打印错误信息",
+                "D、实现计数器"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "在Python中，以下哪些语句或关键字与异常处理相关:",
+            "options": [
+                "A、finally",
+                "B、raise",
+                "C、try",
+                "D、except"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "在Python中，以下哪些做法可以提高异常处理的效率和可读性:",
+            "options": [
+                "A、在finally块中进行异常处理",
+                "B、使用过于广泛的异常类型",
+                "C、使用自定义异常",
+                "D、在except块中使用异常链"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "嵌套的if语句是指在一个if或else语句内部再次使用if或if-elif-else语句。这种结构首先评估外层的条件，如果该条件为真，则继续评估(____)。",
+            "answer": [
+                "内层的条件"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "`if-else`语句提供了两种执行路径:条件为____时的路径和条件为____时的路径。",
+            "answer": [
+                "真",
+                "假"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "在Python异常处理中，如果希望程序在发生异常后继续执行其他部分，可以使用(____)关键字。",
+            "answer": [
+                "else"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "`while`循环的基本结构是 `while 条件表达式:(____)`。",
+            "answer": [
+                "循环体"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "在Python异常层次结构中，所有异常类型都从(____)类派生。",
+            "answer": [
+                "BaseException"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "在Python中，用来捕获所有异常的基类是(____)。",
+            "answer": [
+                "BaseException"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "嵌套的`if`语句中，只有当所有层级的条件都为____时，才会执行最内层的代码块。",
+            "answer": [
+                "真"
+            ]
+        },
+        {
+            "number": 8,
+            "type": "fillblank",
+            "question": "在Python中，如果需要捕获特定类型的异常，可以使用(____)关键字后跟异常类型。",
+            "answer": [
+                "except"
+            ]
+        },
+        {
+            "number": 9,
+            "type": "fillblank",
+            "question": "当使用Python的异常处理结构时，try块后通常会跟一个或多个(____)块来处理可能发生的异常。",
+            "answer": [
+                "except"
+            ]
+        },
+        {
+            "number": 10,
+            "type": "fillblank",
+            "question": "嵌套循环中，外层循环变量和内层循环变量可以分别用 `(____)` 和 `(____)` 表示。",
+            "answer": [
+                "outer_variable",
+                "inner_variable"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "请简述Python中`for`循环和`while`循环的主要区别是什么？",
+            "answer": "`for`循环是基于迭代的循环结构，通常用于遍历序列类型的数据，如列表、元组、字符串等。它会自动处理迭代过程，每次迭代都会从序列中取出一个元素。而`while`循环是基于条件的循环结构，它会在给定的条件为真时重复执行代码块，直到条件不再为真。`while`循环需要手动控制循环的继续和退出条件。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "解释Python中for循环和while循环的区别，并给出各自的使用场景。",
+            "answer": "for循环是基于迭代的，通常用于遍历序列类型的每个元素，如列表、元组、字符串等。while循环则是条件驱动的，会重复执行代码块直到给定的条件不再为真。for循环常用于已知迭代次数的情况，而while循环适用于需要重复执行直到满足特定条件的情况。"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "`continue`语句会导致程序退出整个循环。",
+            "answer": "错"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "`pass`语句在Python中是必要的，因为它可以执行某些操作。",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "在Python中，`raise`关键字可以用来抛出内置的异常类型，但不能抛出自定义异常。( )",
+            "answer": "错"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "在Python中，可以通过继承`BaseException`类来创建自定义异常。( )",
+            "answer": "对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "逻辑运算符`or`在Python中用来连接两个条件，只有当两个条件都为假时，结果才为假。( )",
+            "answer": "错"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "元组(Tuple)一旦创建就不能被修改。( )",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "在Python中，哪个函数可以用于清空一个字典( )",
+            "options": [
+                "A、my_dict.reset()",
+                "B、my_dict.clear()",
+                "C、my_dict.erase()",
+                "D、my_dict.empty()"
+            ],
+            "answer": "B、my_dict.clear()"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "字典(Dictionary)中的键必须提供 hash() 方法。( )",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "元组(Tuple)与列表(List)的主要区别是什么?",
+            "options": [
+                "A、元组是可变的",
+                "B、元组可以作为字典的键",
+                "C、元组使用方括号定义",
+                "D、元组可以包含不同类型的数据"
+            ],
+            "answer": "B、元组可以作为字典的键"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "如何在Python中创建一个空列表( )",
+            "options": [
+                "A、list_new()",
+                "B、None",
+                "C、new_list = list()",
+                "D、{}"
+            ],
+            "answer": "C、new_list = list()"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在Python字典中，以下哪个操作可以清空整个字典?",
+            "options": [
+                "A、`flush()`",
+                "B、`empty()`",
+                "C、`reset()`",
+                "D、`clear()`"
+            ],
+            "answer": "D、`clear()`"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "在Python中，哪个操作可以用于合并两个列表( )",
+            "options": [
+                "A、append()",
+                "B、combine()",
+                "C、extend()",
+                "D、add()"
+            ],
+            "answer": "C、extend()"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "遍历列表时，哪个操作可以用来访问和删除列表中的元素?",
+            "options": [
+                "A、insert()",
+                "B、pop()",
+                "C、extend()",
+                "D、append()"
+            ],
+            "answer": "B、pop()"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "以下哪个选项是Python字典推导式的正确语法?",
+            "options": [
+                "A、{x if x % 2 == 0 for x in [1, 2, 3]}",
+                "B、{x+1: x for x in [1, 2, 3]}",
+                "C、{x: y for x, y in [1, 2, 3]}",
+                "D、{x: x+1 for x in [1, 2, 3]}"
+            ],
+            "answer": "D、{x: x+1 for x in [1, 2, 3]}"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "如何在Python列表中添加一个元素到末尾?",
+            "options": [
+                "A、list_new_element = append(element)",
+                "B、list_add = element",
+                "C、add_list(element)",
+                "D、list.append(element)"
+            ],
+            "answer": "D、list.append(element)"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "集合的差集操作可以通过哪个方法实现？",
+            "options": [
+                "A、subtract()",
+                "B、delete()",
+                "C、difference()",
+                "D、remove()"
+            ],
+            "answer": "C、difference()"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "列表(List)在Python中是无序的。( )",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "字典遍历时，以下哪个方法会返回一个包含字典所有键的列表？",
+            "options": [
+                "A、`items()`",
+                "B、`values()`",
+                "C、`get()`",
+                "D、`keys()`"
+            ],
+            "answer": "D、`keys()`"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "在Python中，哪个函数可以用于复制一个列表( )",
+            "options": [
+                "A、copy()",
+                "B、duplicate()",
+                "C、clone()",
+                "D、copyList()"
+            ],
+            "answer": "A、copy()"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "在Python中创建一个空集合应该使用哪个函数？",
+            "options": [
+                "A、dict()",
+                "B、tuple()",
+                "C、set()",
+                "D、list()"
+            ],
+            "answer": "C、set()"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "以下哪些选项是Python中列表的合法索引方式？()",
+            "options": [
+                "A、正索引:从列表开头计算位置，例如 my_list[0]",
+                "B、使用 index() 方法查找元素的索引",
+                "C、使用切片，例如 my_list[start:end]",
+                "D、负索引:从列表末尾计算位置，例如 my_list[-1]"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，以下哪些可以作为range对象的特性？",
+            "options": [
+                "A、不可变",
+                "B、可用作列表",
+                "C、惰性求值",
+                "D、可用作迭代器"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "以下哪些是Python中嵌套循环的用途？",
+            "options": [
+                "A、矩阵转置",
+                "B、执行条件筛选",
+                "C、循环计数",
+                "D、遍历多维列表"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "以下哪些是Python中遍历序列的方法？",
+            "options": [
+                "A、if语句",
+                "B、range函数",
+                "C、for循环",
+                "D、while循环"
+            ],
+            "answer": "CD"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "在Python中，字典的键需要满足哪些条件？",
+            "options": [
+                "A、唯一性",
+                "B、必须是数字",
+                "C、不可变性",
+                "D、必须是字符串"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "以下哪些是字典推导式中可以包含的元素？",
+            "options": [
+                "A、循环",
+                "B、可迭代对象",
+                "C、值",
+                "D、键"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "在Python中，哪些操作可以用来创建一个集合？()",
+            "options": [
+                "A、使用 {} 创建空集合",
+                "B、使用 set() 创建空集合",
+                "C、使用集合字面量 {1, 2, 3}",
+                "D、使用 list() 方法将列表转换为集合"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "以下哪些操作是字典特有的？",
+            "options": [
+                "A、`items()`",
+                "B、`values()`",
+                "C、`update()`",
+                "D、`keys()`"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "集合的哪些特性使其在某些算法中比列表和元组更加高效？",
+            "options": [
+                "A、元素唯一性",
+                "B、无序性",
+                "C、支持索引访问",
+                "D、自动去重"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "以下哪些方法可以用来检查一个元素是否在字典的键中？()",
+            "options": [
+                "A、使用 keys() 方法后遍历检查",
+                "B、使用 not in 关键字",
+                "C、使用 get() 方法尝试获取元素",
+                "D、使用 in 关键字"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "在Python中，用于创建一个新列表的语法是(____)。",
+            "answer": [
+                "[];list()"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "集合的____方法可以用来清空集合中的所有元素。",
+            "answer": [
+                "clear()"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "集合的____方法可以创建集合的一个浅拷贝。",
+            "answer": [
+                "copy()"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "在Python中，可以使用(____)访问列表中的元素。",
+            "answer": [
+                "索引"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "字典推导式中，可以使用____语句来包含满足特定条件的元素。",
+            "answer": [
+                "if"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "字典的____方法用于一次性添加多个键值对。",
+            "answer": [
+                "update"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "要检查一个元素是否存在于列表中，可以使用(____)方法。",
+            "answer": [
+                "in"
+            ]
+        },
+        {
+            "number": 8,
+            "type": "fillblank",
+            "question": "字典的____方法用于删除字典中的最后一个键值对并返回它。",
+            "answer": [
+                "popitem"
+            ]
+        },
+        {
+            "number": 9,
+            "type": "fillblank",
+            "question": "在Python字典中，使用____方法可以安全地访问键，如果键不存在则返回默认值。",
+            "answer": [
+                "get"
+            ]
+        },
+        {
+            "number": 10,
+            "type": "fillblank",
+            "question": "元组的不可变性意味着一旦创建，就不能(____)、(____)或(____)操作。",
+            "answer": [
+                "修改",
+                "添加",
+                "删除"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "请描述如何在Python中使用集合进行基本的数学集合运算，并给出示例。",
+            "answer": "在Python中，可以使用集合数据类型来执行基本的数学集合运算，如并集、交集、差集和对称差集。例如，假设有两个集合set1 = {1, 2, 3}和set2 = {3, 4, 5}，它们的并集可以通过set1.union(set2)或set1 | set2获得，结果是{1, 2, 3, 4, 5}。交集可以通过set1.intersection(set2)或set1 & set2获得，结果是{3}。差集可以通过set1.difference(set2)或set1 - set2获得，结果是{1, 2}。对称差集可以通过set1.symmetric_difference(set2)或set1 ^ set2获得，结果是{1, 2, 4, 5}。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "解释为什么在遍历字典时不能直接修改字典，并给出一个安全的修改方式。",
+            "answer": "在遍历字典时不能直接修改字典，因为这会导致迭代器的状态与实际的字典状态不一致，从而可能引发运行时错误。一个安全的修改方式是在遍历前复制字典的键或值到一个列表，然后对这个列表进行迭代和修改操作。示例:\noriginal_dict = {'a': 1, 'b': 2}\nkeys_to_update = ['a']\nfor key in list(original_dict.keys()):\n    if key in keys_to_update:\n        original_dict[key] += 1"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "请说明在Python中如何使用列表推导式来生成一个包含特定条件元素的列表。",
+            "answer": "列表推导式是Python提供的一种简洁的构建列表的方法，它允许在单一的表达式中通过迭代或条件筛选来生成列表。例如，假设我们有一个数字列表numbers = [1, 2, 3, 4, 5]，我们想生成一个新列表，其中只包含原列表中大于2的元素。这可以通过列表推导式实现:filtered_numbers = [num for num in numbers if num > 2]，结果为[3, 4, 5]。在这个例子中，for num in numbers部分负责迭代原始列表，而if num > 2是一个条件语句，只有满足条件的元素才会被包含在新列表中。"
+        },
+        {
+            "number": 4,
+            "type": "essay",
+            "question": "描述字典推导式的工作原理，并提供一个创建特定条件字典的推导式示例。",
+            "answer": "字典推导式提供了一种从可迭代对象创建字典的简洁方式。它基于一个表达式和一个可迭代对象，通过一个for循环和一个可选的if条件语句来生成字典的键值对。示例:`squared_numbers = {x: x**2 for x in range(6)}`。"
+        },
+        {
+            "number": 5,
+            "type": "essay",
+            "question": "请解释Python中字典的不可变性原则是什么，并给出一个例子。",
+            "answer": "在Python中，字典的不可变性原则指的是作为字典键的数据必须是不可变的，这样才能保证键的唯一性和不变性。不可变数据类型包括整数、浮点数、字符串和元组(如果元组内部也包含不可变类型)。例如，字符串是不可变的，所以可以作为字典的键:`my_dict = {'key1': 'value1'}`。"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "可以使用`extend()`方法一次性向列表添加多个元素。",
+            "answer": "对"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "列表和元组都支持`+`运算符合并。",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "字典在Python 3.7之前是无序的。",
+            "answer": "错"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "在Python中，可以使用`pop()`方法从列表中删除并返回指定位置的元素。",
+            "answer": "对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "字典的值可以是另一个字典。",
+            "answer": "对"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "字典推导式可以包含条件语句来过滤元素。",
+            "answer": "对"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "元组在Python中可以包含不同类型的数据。",
+            "answer": "对"
+        },
+        {
+            "number": 8,
+            "type": "judgement",
+            "question": "可以使用列表作为字典的键。",
+            "answer": "错"
+        },
+        {
+            "number": 9,
+            "type": "judgement",
+            "question": "字典的`update()`方法可以用来删除键值对。",
+            "answer": "错"
+        },
+        {
+            "number": 10,
+            "type": "judgement",
+            "question": "`range`对象可以直接用作索引或切片操作。",
+            "answer": "错"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "如何在Python函数中设置默认参数值?",
+            "options": [
+                "A、不允许设置默认参数值",
+                "B、在参数名后直接添加等号和值",
+                "C、在参数名前加星号(*)",
+                "D、使用赋值运算符"
+            ],
+            "answer": "B、在参数名后直接添加等号和值"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "下列哪个是Python中正确的函数调用方式?",
+            "options": [
+                "A、functionname(arg1, arg2)",
+                "B、functionname{arg1, arg2}",
+                "C、functionname[arg1, arg2]",
+                "D、functionname(arg1; arg2)"
+            ],
+            "answer": "A、functionname(arg1, arg2)"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "全局变量可以在函数内部直接修改，不需要使用global关键字.",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "在Python中，map()函数可以接收一个函数和一个序列，返回一个新的列表.",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "B、对"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "在Python中，使用关键字参数调用函数时，可以提高代码的什么?",
+            "options": [
+                "A、内存使用效率",
+                "B、并行处理能力",
+                "C、执行速度",
+                "D、可读性"
+            ],
+            "answer": "D、可读性"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "Python中的filter()函数可以用来过滤序列，返回所有使得函数返回True的元素组成的迭代器.",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "B、对"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "下列哪个选项正确描述了Python中参数注解的作用?",
+            "options": [
+                "A、动态类型转换",
+                "B、替代文档字符串",
+                "C、提供类型信息，辅助开发工具",
+                "D、强制类型检查"
+            ],
+            "answer": "C、提供类型信息，辅助开发工具"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "以下哪项不是Python模块的组成部分?",
+            "options": [
+                "A、函数",
+                "B、操作系统",
+                "C、变量",
+                "D、类"
+            ],
+            "answer": "B、操作系统"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "嵌套作用域中，内部函数可以访问哪些变量?",
+            "options": [
+                "A、只有外部函数的变量",
+                "B、只有内部函数自己的变量",
+                "C、只有内置作用域的变量",
+                "D、全局变量和外部函数的变量"
+            ],
+            "answer": "D、全局变量和外部函数的变量"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python中，哪个模块包含错误和异常处理相关的函数和类?",
+            "options": [
+                "A、exceptions",
+                "B、sys",
+                "C、os",
+                "D、errors"
+            ],
+            "answer": "A、exceptions"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，模块的`__name__`属性用于什么?",
+            "options": [
+                "A、确定模块的文件名",
+                "B、作为模块的唯一标识符",
+                "C、存储模块的版本信息",
+                "D、确定模块是被直接运行还是被导入"
+            ],
+            "answer": "D、确定模块是被直接运行还是被导入"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "在Python中，哪个模块包含filter()函数?",
+            "options": [
+                "A、filter",
+                "B、functools",
+                "C、itertools",
+                "D、built-in"
+            ],
+            "answer": "B、functools"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "在Python中，创建自定义模块的文件扩展名是什么?",
+            "options": [
+                "A、.py",
+                "B、.java",
+                "C、.html",
+                "D、.txt"
+            ],
+            "answer": "A、.py"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "在Python函数定义中使用*args的目的是什么?",
+            "options": [
+                "A、接收任意数量的位置参数",
+                "B、只允许命名参数",
+                "C、限制参数数量",
+                "D、强制使用关键字参数"
+            ],
+            "answer": "A、接收任意数量的位置参数"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "嵌套作用域中，内部函数无法访问外部函数的变量.",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "在Python中，哪些可以作为函数的返回类型？",
+            "options": [
+                "A、str",
+                "B、float",
+                "C、int",
+                "D、None"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "下列哪些是Python中的作用域类型？",
+            "options": [
+                "A、嵌套作用域",
+                "B、全局作用域",
+                "C、局部作用域",
+                "D、内置作用域"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "在Python中，哪些可以作为函数式编程的工具？",
+            "options": [
+                "A、map()",
+                "B、filter()",
+                "C、sorted()",
+                "D、reduce()"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "在Python中，哪些可以作为函数调用时的参数传递方式？",
+            "options": [
+                "A、按名称传递",
+                "B、元组传递",
+                "C、列表传递",
+                "D、按位置传递"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "Python中函数参数的灵活性可以通过哪些方式实现？( )",
+            "options": [
+                "A、使用全局变量",
+                "B、使用默认参数",
+                "C、使用位置参数",
+                "D、使用可变参数"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "Python函数可以作为哪些类型的数据使用？",
+            "options": [
+                "A、作为参数传递给其他函数",
+                "B、存储在列表中",
+                "C、赋值给变量",
+                "D、作为类的一个属性"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "在Python中，使用默认参数时需要注意哪些问题？( )",
+            "options": [
+                "A、默认参数必须位于参数列表的末尾",
+                "B、默认参数可以是可调用对象",
+                "C、默认参数可以是任何Python表达式",
+                "D、默认参数必须是不可变类型"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "递归函数的关键要素包括:",
+            "options": [
+                "A、基线条件",
+                "B、递归步骤",
+                "C、循环调用",
+                "D、随机选择"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "嵌套作用域的访问规则包括:",
+            "options": [
+                "A、内部函数可以访问外部函数的变量",
+                "B、遮蔽外部作用域中的同名变量",
+                "C、外部函数不能访问内部函数的变量",
+                "D、从内到外查找变量"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "在Python中，哪些可以作为函数参数的注解类型？",
+            "options": [
+                "A、any",
+                "B、int",
+                "C、float",
+                "D、str"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 11,
+            "type": "multiple",
+            "question": "在Python中，以下哪些因素会影响模块的搜索路径？",
+            "options": [
+                "A、PYTHONPATH环境变量",
+                "B、模块文件的大小",
+                "C、当前目录",
+                "D、标准库的安装路径"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": 12,
+            "type": "multiple",
+            "question": "在Python中，哪些可以作为模块的搜索路径？",
+            "options": [
+                "A、PYTHONPATH环境变量",
+                "B、标准库的安装路径",
+                "C、当前目录",
+                "D、任意目录"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 13,
+            "type": "multiple",
+            "question": "函数式编程的特点包括哪些？",
+            "options": [
+                "A、面向对象",
+                "B、不可变性",
+                "C、无副作用",
+                "D、纯函数"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 14,
+            "type": "multiple",
+            "question": "下列哪些是Python函数参数注解的正确使用方式？( )",
+            "options": [
+                "A、使用元组进行注解以表示参数可以是多种类型",
+                "B、使用None作为返回值的注解",
+                "C、使用类名进行注解",
+                "D、使用内置类型进行注解"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 15,
+            "type": "multiple",
+            "question": "函数的文档字符串可以提供哪些信息？",
+            "options": [
+                "A、参数的说明",
+                "B、返回值的描述",
+                "C、函数的版本号",
+                "D、函数的功能"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "在Python中，____函数可以用于过滤出满足条件的元素。",
+            "answer": [
+                "filter"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "闭包是函数式编程的一个特性，它允许函数记住并访问(____)函数的局部变量。",
+            "answer": [
+                "外部"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "内置作用域中的函数，如____，可以直接在程序中使用，无需任何导入。",
+            "answer": [
+                "print"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "递归函数的两个关键要素是____和____。",
+            "answer": [
+                "基线条件",
+                "递归步骤"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "在Python中，自定义模块可以包含函数、类、变量以及____代码。",
+            "answer": [
+                "可执行"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "局部变量的生命周期从它在____被创建开始，到函数调用结束时被销毁。",
+            "answer": [
+                "函数内部"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "模块可以帮助开发者将代码分割成逻辑单元，便于____和管理。",
+            "answer": [
+                "查找"
+            ]
+        },
+        {
+            "number": 8,
+            "type": "fillblank",
+            "question": "函数式编程中的____是指函数的输出仅依赖于输入的参数。",
+            "answer": [
+                "纯函数"
+            ]
+        },
+        {
+            "number": 9,
+            "type": "fillblank",
+            "question": "在Python中，____是指函数内部定义的变量，只在函数的作用域内有效。",
+            "answer": [
+                "局部变量"
+            ]
+        },
+        {
+            "number": 10,
+            "type": "fillblank",
+            "question": "函数参数注解使用的是冒号 : 后面跟随的____来指定参数应具有的类型。",
+            "answer": [
+                "类型注解"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "解释Python中的闭包是什么，并说明它为什么有用。",
+            "answer": "闭包是函数式编程的一个特性，它允许内部函数记住并访问其外部函数作用域中的变量。闭包非常有用，因为它们可以捕获和封装创建时的环境，使得这些变量在函数执行后仍然可以被访问。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "简述Python中的装饰器是什么，并给出一个装饰器的基本示例。",
+            "answer": "装饰器是Python中的一个高级功能，它允许用户在不修改函数本身的情况下增加函数的功能。装饰器本质上是一个函数，它接收一个函数作为参数并返回一个新的函数。示例:\n```python\ndef my_decorator(func):\n    def wrapper():\n        print(\"Something is happening before the function is called.\")\n        func()\n        print(\"Something is happening after the function is called.\")\n    return wrapper\n\n@my_decorator\ndef say_hello():\n    print(\"Hello!\")\n```"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "解释Python中使用默认参数和可变参数的好处，并给出一个实际应用的例子。",
+            "answer": "默认参数允许函数在定义时为某些参数提供默认值，简化了函数调用，使得函数更加灵活，同时保持向后兼容性。可变参数允许函数接受任意数量的位置参数或关键字参数，增加了函数的通用性和灵活性。例如，一个打印问候信息的函数可以定义为`print_greeting(name, message=\"Hello\")`，使用默认参数简化调用，同时使用可变参数允许传递任意数量的附加信息。"
+        },
+        {
+            "number": 4,
+            "type": "essay",
+            "question": "请简述Python中函数的定义方式，并给出一个示例。",
+            "answer": "Python中函数使用def关键字定义。示例:\n```python\ndef my_function(param1, param2):\n    return param1 + param2\n```"
+        },
+        {
+            "number": 5,
+            "type": "essay",
+            "question": "请简述Python中函数的定义和声明的基本步骤，并给出一个示例。",
+            "answer": "Python中函数的定义和声明通常遵循以下步骤:\n- 使用`def`关键字开始函数定义。\n- 紧接着是函数名，它应该是一个描述性的名字，以便于理解函数的作用。\n- 函数名后面跟着圆括号，圆括号内可以包含参数列表，参数列表中可以是必须参数、默认参数、可变参数等。\n- 函数体开始于冒号(`:`)，紧接着是缩进的代码块，即函数的实际操作。示例代码:\n```python\ndef greet(name, message=\"Hello\"):\n    print(f\"{message}, {name}!\")\n```\n在这个示例中，`greet`函数接受两个参数：`name`和`message`。`message`是一个默认参数，如果没有提供，则默认为\"Hello\"。函数体打印一条包含问候语和名字的消息。"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "在Python中，使用Lambda表达式可以创建具名函数。",
+            "answer": "错"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "函数可以提高代码的复用性。( )",
+            "answer": "对"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "使用global关键字可以在函数内部声明新的全局变量。",
+            "answer": "错"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "函数式编程中的纯函数可以有副作用。",
+            "answer": "错"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "在Python中，使用`import *`导入模块是推荐的做法。( )",
+            "answer": "错"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "可变参数**kwargs允许函数接收任意数量的关键字参数，并在函数内部以字典形式使用。",
+            "answer": "对"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "列表推导式是Python特有的函数式编程特性。",
+            "answer": "错"
+        },
+        {
+            "number": 8,
+            "type": "judgement",
+            "question": "Python的内置函数需要从特定的模块导入才能使用。",
+            "answer": "错"
+        },
+        {
+            "number": 9,
+            "type": "judgement",
+            "question": "默认参数必须放在参数列表的末尾。( )",
+            "answer": "错"
+        },
+        {
+            "number": 10,
+            "type": "judgement",
+            "question": "在Python中，函数的参数注解可以强制类型检查。( )",
+            "answer": "错"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "在Python中，不能通过继承来改变或扩展一个类的已有行为。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "继承可以提高代码的复用性，但不会使得代码间的耦合性增强。",
+            "options": [
+                "A、错",
+                "B、对"
+            ],
+            "answer": "A、错"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "以下哪个选项是Python中的特殊方法?",
+            "options": [
+                "A、create",
+                "B、start",
+                "C、init",
+                "D、__init__"
+            ],
+            "answer": "D、__init__"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "以下哪个是面向对象编程中类的作用?",
+            "options": [
+                "A、规定对象可以拥有的属性和行为",
+                "B、定义对象的行为",
+                "C、隐藏对象的内部实现",
+                "D、创建对象的实例"
+            ],
+            "answer": "A、规定对象可以拥有的属性和行为"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "以下哪个选项是Python中实现多态性的关键?",
+            "options": [
+                "A、方法的覆盖",
+                "B、方法的重载",
+                "C、全局变量的使用",
+                "D、类的继承"
+            ],
+            "answer": "A、方法的覆盖"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在Python中，以下哪个关键字用于定义类?",
+            "options": [
+                "A、type",
+                "B、function",
+                "C、struct",
+                "D、class"
+            ],
+            "answer": "D、class"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "在面向对象编程中，对象的状态被称为什么?",
+            "options": [
+                "A、方法",
+                "B、行为",
+                "C、属性",
+                "D、继承"
+            ],
+            "answer": "C、属性"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "在Python中，哪些关键字可以用来实现继承?",
+            "options": [
+                "A、class ...(ParentClass)",
+                "B、inherit",
+                "C、ParentClass ChildClass",
+                "D、extends"
+            ],
+            "answer": "A、class ...(ParentClass)"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，哪个魔术方法用于定义类的字符串表示形式?",
+            "options": [
+                "A、__tostring__",
+                "B、__format__",
+                "C、__str__",
+                "D、__repr__"
+            ],
+            "answer": "C、__str__"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "在Python的面向对象编程中，哪个方法用于创建对象?",
+            "options": [
+                "A、call",
+                "B、del",
+                "C、main",
+                "D、init"
+            ],
+            "answer": "D、init"
+        },
+        {
+            "number": 11,
+            "type": "single",
+            "question": "在Python中，以下哪个不是实现运行时多态的核心概念？( )",
+            "options": [
+                "A、方法覆盖",
+                "B、鸭子类型",
+                "C、动态绑定",
+                "D、静态类型检查"
+            ],
+            "answer": "D、静态类型检查"
+        },
+        {
+            "number": 12,
+            "type": "single",
+            "question": "面向对象编程(OOP)的核心在于模拟现实世界中的实体以及实体之间的哪种关系？",
+            "options": [
+                "A、社会关系",
+                "B、物理关系",
+                "C、数学关系",
+                "D、逻辑关系"
+            ],
+            "answer": "B、物理关系"
+        },
+        {
+            "number": 13,
+            "type": "single",
+            "question": "在面向对象编程中，多态性允许不同类的对象对同一消息做出响应，但具体行为不同。这种特性被称为( )",
+            "options": [
+                "A、继承",
+                "B、抽象",
+                "C、多态",
+                "D、封装"
+            ],
+            "answer": "C、多态"
+        },
+        {
+            "number": 14,
+            "type": "single",
+            "question": "以下哪些选项是Python中实现多继承的正确方式？",
+            "options": [
+                "A、class ChildClass: Parent1, Parent2",
+                "B、class ChildClass Parent1, Parent2:",
+                "C、class ChildClass from Parent1, Parent2",
+                "D、class ChildClass(Parent1, Parent2)"
+            ],
+            "answer": "D、class ChildClass(Parent1, Parent2)"
+        },
+        {
+            "number": 15,
+            "type": "single",
+            "question": "当在Python中重写父类方法时，通常建议使用哪个函数来调用父类的方法？",
+            "options": [
+                "A、inherit()",
+                "B、base()",
+                "C、super()",
+                "D、parent()"
+            ],
+            "answer": "C、super()"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "以下哪些选项是Python中的特殊方法，用于支持类的实例化？",
+            "options": [
+                "A、__init__()",
+                "B、__build__()",
+                "C、__create__",
+                "D、__new__()"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "多态性在面向对象编程中允许以下哪些操作？",
+            "options": [
+                "A、不同类的对象对同一消息做出响应",
+                "B、子类可以无条件覆盖父类的所有方法",
+                "C、强制类型转换",
+                "D、子类可以以不同的方式实现父类的方法"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "面向对象编程的优点包括哪些？",
+            "options": [
+                "A、可扩展性",
+                "B、多态性",
+                "C、封装性",
+                "D、继承性",
+                "E、易维护性"
+            ],
+            "answer": "ABCDE"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "继承的优点包括哪些？",
+            "options": [
+                "A、降低代码的可读性",
+                "B、提高代码复用性",
+                "C、提高代码可扩展性",
+                "D、提高代码可维护性"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "以下哪些是Python中MRO(方法解析顺序)的特点？",
+            "options": [
+                "A、保证了方法调用的一致性",
+                "B、允许任意跳过父类",
+                "C、按照子类继承列表中父类的顺序解析方法",
+                "D、可以动态修改"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "多态性可以通过以下哪些方式实现？( )",
+            "options": [
+                "A、鸭子类型",
+                "B、方法覆盖",
+                "C、接口统一",
+                "D、方法重载"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "在Python中，以下哪些是方法重写的关键点？( )",
+            "options": [
+                "A、子类提供实现",
+                "B、运行时调用",
+                "C、基类定义接口",
+                "D、编译时调用"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "以下哪些是Python中实现多态性的关键概念？( )",
+            "options": [
+                "A、方法重写",
+                "B、类继承",
+                "C、静态类型",
+                "D、动态绑定"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "面向对象编程中的类是对象的____。",
+            "answer": [
+                "蓝图;模板"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "在Python中，类的方法可以通过____关键字定义。",
+            "answer": [
+                "def"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "静态方法通过____装饰器在类中定义。",
+            "answer": [
+                "@staticmethod"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "在Python中，使用____关键字来定义一个类。",
+            "answer": [
+                "class"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "在面向对象编程中，多继承允许一个类从多个父类继承属性和方法，但这也可能导致复杂的继承关系，需要仔细管理以避免(____)的问题。",
+            "answer": [
+                "歧义"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "在Python中，多继承可能导致____问题。",
+            "answer": [
+                "菱形继承;钻石继承"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "在Python中，可以通过定义特殊方法 ____str____来提供对象的(____)表示，当使用 print() 或 str() 时会调用这个方法。",
+            "answer": [
+                "__str__"
+            ]
+        },
+        {
+            "number": 8,
+            "type": "fillblank",
+            "question": "面向对象编程的三大特性是封装、继承和____。",
+            "answer": [
+                "多态"
+            ]
+        },
+        {
+            "number": 9,
+            "type": "fillblank",
+            "question": "运行时多态也被称为____或方法覆盖。",
+            "answer": [
+                "动态多态"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "请简述Python中类和对象的关系。",
+            "answer": "在Python中，类是对象的蓝图，定义了对象的属性和方法。对象是类的实例，是根据类的定义创建的具体实体。每个对象可以拥有自己的属性和方法，这些属性和方法从类中继承而来。"
+        },
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "请简述面向对象编程中的封装性如何有助于减少程序的耦合性？",
+            "answer": "封装性通过将对象的实现细节隐藏起来，只暴露一个清晰和简洁的接口给外部世界，有助于减少程序的耦合性。这样，对象的内部实现可以在不影响其他对象的情况下进行修改，从而提高了代码的可维护性和可重用性。"
+        },
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "什么是多态性，它在面向对象编程中扮演什么角色？",
+            "answer": "多态性是面向对象编程的一个核心概念，它允许不同类的对象对同一消息做出响应，但具体行为却有所不同。多态性使得使用统一的接口来处理不同类型的对象成为可能，提高了程序的灵活性和可扩展性。"
+        },
+        {
+            "number": 4,
+            "type": "essay",
+            "question": "解释Python中的继承是如何工作的，并给出一个简单的使用场景。",
+            "answer": "继承允许一个类(子类)继承另一个类(父类)的属性和方法。子类可以扩展或修改父类的行为。例如，可以创建一个名为`Animal`的父类，然后创建`Dog`和`Cat`作为子类，它们继承了`Animal`的共通特性，同时拥有自己的特殊行为。"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "面向对象编程最早可以追溯到20世纪90年代。( )",
+            "answer": "错"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "在Python中，类的方法不能访问和修改对象的属性。____",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "继承允许开发者创建新的类来扩展现有类的功能。( )",
+            "answer": "对"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "在Python中，可以使用`super()`来调用父类的方法。( )",
+            "answer": "对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "方法重写时，子类方法的接口必须与父类方法的接口相同。( )",
+            "answer": "对"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "在Python中，所有类都隐式地继承自object类。( )",
+            "answer": "对"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "使用super()函数可以在子类构造函数中调用父类的构造函数。( )",
+            "answer": "对"
+        },
+        {
+            "number": 1,
+            "type": "single",
+            "question": "哪个方法可以确保文件操作完成后自动关闭文件？",
+            "options": [
+                "A、with",
+                "B、read()",
+                "C、open()",
+                "D、write()"
+            ],
+            "answer": "A、with"
+        },
+        {
+            "number": 2,
+            "type": "single",
+            "question": "当使用with语句进行文件操作时，如果发生异常，以下哪个方法会被调用？",
+            "options": [
+                "A、close()",
+                "B、open()",
+                "C、__exit__()",
+                "D、__enter__()"
+            ],
+            "answer": "C、__exit__()"
+        },
+        {
+            "number": 3,
+            "type": "single",
+            "question": "在Python中，以下哪个方法用于读取文件的所有行( )",
+            "options": [
+                "A、`readlines()`",
+                "B、`seek()`",
+                "C、`write()`",
+                "D、`read()`"
+            ],
+            "answer": "A、`readlines()`"
+        },
+        {
+            "number": 4,
+            "type": "single",
+            "question": "在Python中，哪个函数可以用于捕获并处理文件操作中的异常？",
+            "options": [
+                "A、finally()",
+                "B、except()",
+                "C、所有以上",
+                "D、try()"
+            ],
+            "answer": "C、所有以上"
+        },
+        {
+            "number": 5,
+            "type": "single",
+            "question": "在Python中，哪个属性可以检查文件是否已经关闭？",
+            "options": [
+                "A、.mode",
+                "B、.size",
+                "C、.closed",
+                "D、.name"
+            ],
+            "answer": "C、.closed"
+        },
+        {
+            "number": 6,
+            "type": "single",
+            "question": "在处理大型文件时，以下哪项不是分块读取的优点？",
+            "options": [
+                "A、提高读写速度",
+                "B、减少内存占用",
+                "C、避免程序崩溃",
+                "D、允许分阶段处理数据"
+            ],
+            "answer": "A、提高读写速度"
+        },
+        {
+            "number": 7,
+            "type": "single",
+            "question": "当处理大型文件时，推荐使用什么方式读取以节省内存？",
+            "options": [
+                "A、分块读取",
+                "B、反向读取",
+                "C、逐行读取",
+                "D、一次性读取整个文件"
+            ],
+            "answer": "A、分块读取"
+        },
+        {
+            "number": 8,
+            "type": "single",
+            "question": "当使用open()函数打开文件时，如果不指定模式，默认使用的模式是什么？",
+            "options": [
+                "A、'r'",
+                "B、'rb'",
+                "C、'w'",
+                "D、'a'"
+            ],
+            "answer": "A、'r'"
+        },
+        {
+            "number": 9,
+            "type": "single",
+            "question": "在Python中，用于打开文件的内置函数是( )",
+            "options": [
+                "A、`write()`",
+                "B、`load()`",
+                "C、`open()`",
+                "D、`read()`"
+            ],
+            "answer": "C、`open()`"
+        },
+        {
+            "number": 10,
+            "type": "single",
+            "question": "如果需要在文件中写入非文本数据(如图片)，应使用哪种模式？",
+            "options": [
+                "A、'w'",
+                "B、'rb'",
+                "C、'r'",
+                "D、'rt'"
+            ],
+            "answer": "B、'rb'"
+        },
+        {
+            "number": 1,
+            "type": "multiple",
+            "question": "下列哪些方法可以用于读取文件内容？",
+            "options": [
+                "A、readline()",
+                "B、readlines()",
+                "C、seek()",
+                "D、read()"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 2,
+            "type": "multiple",
+            "question": "在Python中，哪些操作可以影响文件指针的位置？",
+            "options": [
+                "A、tell()",
+                "B、write()",
+                "C、seek()",
+                "D、read()"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": 3,
+            "type": "multiple",
+            "question": "异常处理中，`try`和`except`语句可以用来捕获( )",
+            "options": [
+                "A、`ValueError`",
+                "B、`IOError`",
+                "C、`FileNotFoundError`",
+                "D、`PermissionError`"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 4,
+            "type": "multiple",
+            "question": "在Python中，使用with语句打开文件进行写入操作，以下哪些操作是安全的？",
+            "options": [
+                "A、写入后自动刷新",
+                "B、异常时自动关闭",
+                "C、异常时自动回滚",
+                "D、文件自动关闭"
+            ],
+            "answer": "BD"
+        },
+        {
+            "number": 5,
+            "type": "multiple",
+            "question": "在Python中，哪些模式下文件指针默认指向文件末尾？",
+            "options": [
+                "A、'a'",
+                "B、'r'",
+                "C、'rb'",
+                "D、'w'"
+            ],
+            "answer": "AD"
+        },
+        {
+            "number": 6,
+            "type": "multiple",
+            "question": "以下哪些是文件定位和随机访问的应用场景？",
+            "options": [
+                "A、网络通信",
+                "B、日志文件分析",
+                "C、数据备份",
+                "D、二进制文件处理"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": 7,
+            "type": "multiple",
+            "question": "在Python中，哪些方法可以用于文件定位？",
+            "options": [
+                "A、write()",
+                "B、tell()",
+                "C、seek()",
+                "D、read()"
+            ],
+            "answer": "BC"
+        },
+        {
+            "number": 8,
+            "type": "multiple",
+            "question": "在Python中，使用open()函数打开文件失败可能抛出哪些异常？",
+            "options": [
+                "A、FileNotFoundError",
+                "B、PermissionError",
+                "C、IOError",
+                "D、ValueError"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": 9,
+            "type": "multiple",
+            "question": "以下哪些操作需要在文件操作结束后关闭文件( )",
+            "options": [
+                "A、执行文件定位",
+                "B、读取文件内容",
+                "C、写入文件内容",
+                "D、追加文件内容"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": 10,
+            "type": "multiple",
+            "question": "在Python中，以下哪些是文件对象支持的读取方法？",
+            "options": [
+                "A、readlines()",
+                "B、seek()",
+                "C、read()",
+                "D、readline()"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "分块读取大型文件时，每次读取的块大小必须固定。( )",
+            "answer": "错"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "`seek()`方法可以用来向前或向后移动文件指针，但不能移动到文件末尾之后。( )",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "在Python中，使用文本模式打开文件时，可以读取二进制数据而不需要任何额外处理。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "在Python中，文件对象的.closed属性可以在任何时候准确地告诉我们文件是否已经关闭。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "A、对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "在Python中，使用'rb+'模式可以同时读写二进制文件。( )",
+            "answer": "对"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "可以不使用`close()`方法关闭文件，因为Python会自动管理资源。( )",
+            "answer": "错"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "在Python中，文件对象的.name属性可以获取文件的完整路径。",
+            "options": [
+                "A、对",
+                "B、错"
+            ],
+            "answer": "B、错"
+        },
+        {
+            "number": 1,
+            "type": "fillblank",
+            "question": "文件对象的____方法可以用来移动文件指针到指定位置。",
+            "answer": [
+                "seek"
+            ]
+        },
+        {
+            "number": 2,
+            "type": "fillblank",
+            "question": "在Python中，使用二进制模式打开文件时，应该使用'rb'或('____')模式。",
+            "answer": [
+                "wb"
+            ]
+        },
+        {
+            "number": 3,
+            "type": "fillblank",
+            "question": "在Python中，('____')方法用于读取文件的一行内容，直到遇到换行符。",
+            "answer": [
+                "readline()"
+            ]
+        },
+        {
+            "number": 4,
+            "type": "fillblank",
+            "question": "在文件操作中，('____')方法用于获取文件指针的当前位置。",
+            "answer": [
+                "tell()"
+            ]
+        },
+        {
+            "number": 5,
+            "type": "fillblank",
+            "question": "当使用文件的写入模式时，如果文件已存在，'w'模式会('____')原文件内容。",
+            "answer": [
+                "覆盖"
+            ]
+        },
+        {
+            "number": 6,
+            "type": "fillblank",
+            "question": "异常处理中的`try`和`except`语句可以捕获文件操作中的('____')错误。",
+            "answer": [
+                "FileNotFoundError"
+            ]
+        },
+        {
+            "number": 7,
+            "type": "fillblank",
+            "question": "文件对象的('____')属性表示文件是否已经关闭。",
+            "answer": [
+                "closed"
+            ]
+        },
+        {
+            "number": 1,
+            "type": "essay",
+            "question": "讨论在处理大型文件时，为什么分块读取是一种有效的策略，并给出一个分块读取文件的代码示例。",
+            "answer": "分块读取是一种有效的策略，因为它允许程序逐块读取大型文件，而不是一次性将整个文件加载到内存中。这样可以显著减少内存占用，并避免因内存不足导致的程序崩溃。代码示例如下:\n```python\nwith open('large_file.txt', 'r') as file:\n    while True:\n        chunk = file.read(1024 * 1024) # 每次读取1MB\n        if not chunk:\n            break\n        process(chunk) # 处理数据块\n```"
+        },
+        
+        {
+            "number": 2,
+            "type": "essay",
+            "question": "解释Python中使用with语句进行文件操作的好处，并给出一个使用with语句的简单示例。",
+            "answer": "使用with语句进行文件操作可以确保文件在使用后被正确关闭，即使在操作过程中发生异常也是如此。这样可以避免文件泄露和其他资源管理问题。示例代码如下:\n```python\nwith open('example.txt', 'w') as file:\n    file.write('Hello, World!')\n# 文件在这个块之外会被自动关闭\n```"
+        },
+        
+        {
+            "number": 3,
+            "type": "essay",
+            "question": "阐述在编写文件操作代码时，异常处理的重要性，并解释如何使用try和except语句来处理文件操作中的异常。",
+            "answer": "异常处理在编写文件操作代码时非常重要，因为它可以捕获并处理文件操作过程中可能出现的错误，如文件不存在、没有读取或写入权限等。通过使用try和except语句，程序可以在出现异常时执行特定的错误处理代码，而不是直接崩溃。这有助于提高程序的健壮性和用户体验。示例代码如下:\n```python\ntry:\n    file = open('non_existent_file.txt', 'r')\n    content = file.read()\nexcept FileNotFoundError:\n    print('文件不存在。')\nexcept PermissionError:\n    print('没有权限打开文件。')\nfinally:\n    if 'file' in locals():\n        file.close() # 确保文件被关闭```"
         }
     ]
 }
