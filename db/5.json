@@ -3491,6 +3491,732 @@
             "type": "essay",
             "question": "什么是扫描(Scanning)",
             "answer": "使用各种工具和技巧(如Ping扫射、端口扫描以及操作系统检测等)确定哪些系统存活着、它们在监听哪些端口(以此来判断它们在提供哪些服务);甚至更进一步地获知它们运行的是什么操作系统。"
+        },
+        {
+            "number": "1",
+            "type": "multiple",
+            "question": "下列关于防火墙主要功能的说法正确的是( )",
+            "options": [
+                "A、能够对进出网络的数据包进行检测与筛选",
+                "B、过滤掉不安全的服务和非法用户",
+                "C、能够安全防止用户传送已感染病毒的软件或文件",
+                "D、能够防范数据驱动型的攻击"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "2",
+            "type": "multiple",
+            "question": "通用的DOS攻击手段有哪些?",
+            "options": [
+                "A、SYN Attack",
+                "B、ICMP Flood",
+                "C、UDP Flood",
+                "D、Ping of Death"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "3",
+            "type": "multiple",
+            "question": "以下关于对称密钥加密的说法正确的是( )。",
+            "options": [
+                "A、对称加密算法的密钥易于管理",
+                "B、加解密双方使用同样的密钥",
+                "C、DES 算法属于对称加密算法",
+                "D、相对于非对称加密算法，加解密处理速度比较快"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": "4",
+            "type": "multiple",
+            "question": "系统日志检测，一般可以检测出的问题包括",
+            "options": [
+                "A、未授权的访问和异常登陆",
+                "B、隐藏帐号信息",
+                "C、未授权的非法程序或服务",
+                "D、web的异常访问情况"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": "5",
+            "type": "multiple",
+            "question": "降低计算机病毒的影响范围就必须有效的控制计算机病毒的传播途径，下列属于计算机病毒传播途径的是( )。",
+            "options": [
+                "A、通过文件共享传播",
+                "B、通过电子邮件传播",
+                "C、通过 WEB 网页传播",
+                "D、通过系统漏洞传播"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "6",
+            "type": "multiple",
+            "question": "Windows 日志文件包括( )",
+            "options": [
+                "A、应用程序日志",
+                "B、安全日志",
+                "C、系统日志",
+                "D、账户日志"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "7",
+            "type": "multiple",
+            "question": "防火墙的缺陷主要有( )",
+            "options": [
+                "A、限制有用的网络服务",
+                "B、无法防护内部网络用户的攻击",
+                "C、不能防备新的网络安全问题",
+                "D、不能完全防止传送已感染病毒的软件或文件"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "8",
+            "type": "multiple",
+            "question": "下列关于入侵检测说法正确的是( )",
+            "options": [
+                "A、能够精确检测所有入侵事件",
+                "B、可判断应用层的入侵事件",
+                "C、可以识别来自本网段、其他网段、以及外部网络的攻击",
+                "D、通常部署于防火墙之后"
+            ],
+            "answer": "BCD"
+        },
+        {
+            "number": "9",
+            "type": "multiple",
+            "question": "相对于对称加密算法，非对称密钥加密算法( )。",
+            "options": [
+                "A、加密数据的速率较低",
+                "B、更适合于现有网络中对所传输数据(明文)的加解密处理",
+                "C、安全性更好",
+                "D、加密和解密的密钥不同"
+            ],
+            "answer": "ACD"
+        },
+        {
+            "number": "10",
+            "type": "multiple",
+            "question": "IDS的作用有( )",
+            "options": [
+                "A、实时检测",
+                "B、安全审计",
+                "C、主动响应",
+                "D、以上都不对"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "11",
+            "type": "multiple",
+            "question": "“网络钓鱼”的主要技术包括( )",
+            "options": [
+                "A、发送电子邮件，以虚假信息引诱用户中圈套",
+                "B、建立假冒网站，骗取用户账号密码实施盗窃",
+                "C、利用虚假的电子商务进行诈骗",
+                "D、利用木马和黑客技术等手段窃取用户信息后实施盗窃活动"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "12",
+            "type": "multiple",
+            "question": "下列情况( )会给公司带来安全隐患",
+            "options": [
+                "A、外部技术支持人员私自接入信息内网",
+                "B、使用无线键盘处理涉密及敏感信息",
+                "C、某业务系统数据库审计功能未开启",
+                "D、为方便将开发测试环境和业务系统运行环境置于同一机房"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "13",
+            "type": "multiple",
+            "question": "下列关于防火墙主要功能的说法正确的是",
+            "options": [
+                "A、能够对进出网络的数据包进行检测与筛选",
+                "B、过滤掉不安全的服务和非法用户",
+                "C、能够安全防止用户传送已感染病毒的软件或文件",
+                "D、能够防范数据驱动型的攻击"
+            ],
+            "answer": "AB"
+        },
+        {
+            "number": "14",
+            "type": "multiple",
+            "question": "防范 IP 欺骗的技术包括( )",
+            "options": [
+                "A、反查路径(RPF),即针对报文源 IP 反查路由表",
+                "B、针对报文的目的 IP 查找路由表",
+                "C、IP 与 MAC 绑定",
+                "D、部署入侵检测系统"
+            ],
+            "answer": "AC"
+        },
+        {
+            "number": "15",
+            "type": "multiple",
+            "question": "共享环境下sniffer攻击的抑制方法是",
+            "options": [
+                "A、将被装有sniffer的机器从网络上断开，并将sniffer停掉",
+                "B、检查sniffer日志活内容，跟踪sniffer记录的返回值的地址",
+                "C、获取切听者的ip地址，查出切听者的身份",
+                "D、修改被窃取的敏感数据的相关信息"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": "16",
+            "type": "multiple",
+            "question": "下列加密算法中，( )已经被破解。",
+            "options": [
+                "A、LanManager 散列算法",
+                "B、Wep",
+                "C、MD5",
+                "D、Wpa2"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "17",
+            "type": "multiple",
+            "question": "逻辑强隔离装置部署在应用服务器与数据库服务器之间，实现( )功能",
+            "options": [
+                "A、访问控制",
+                "B、网络强隔离",
+                "C、地址绑定",
+                "D、防 SQL 注入攻击"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "18",
+            "type": "multiple",
+            "question": "下列哪些属于恶意代码?",
+            "options": [
+                "A、病毒",
+                "B、蠕虫",
+                "C、木马",
+                "D、后门"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "19",
+            "type": "multiple",
+            "question": "信息安全是个攻守不平衡的博弈，为避免信息安全事件的发生应该( )",
+            "options": [
+                "A、定期进行漏洞扫描",
+                "B、定期进行风险评估",
+                "C、及时给系统打补丁",
+                "D、加强信息安全管理"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "20",
+            "type": "multiple",
+            "question": "木马可以实现哪些功能?",
+            "options": [
+                "A、文件上传下载",
+                "B、执行程序",
+                "C、键盘记录",
+                "D、屏幕监视"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "21",
+            "type": "multiple",
+            "question": "OSI 安全体系为异构计算机的进程与进程之间的通信安全性，定义了五类安全服务，以 下属于这五类安全服务的是( )",
+            "options": [
+                "A、机密性",
+                "B、完整性",
+                "C、鉴别",
+                "D、可用性"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "22",
+            "type": "multiple",
+            "question": "信息安全的 CIA 模型的是( )三个信息安全中心目标",
+            "options": [
+                "A、保密性",
+                "B、完整性",
+                "C、可用性",
+                "D、可控性"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "23",
+            "type": "multiple",
+            "question": "下列属于病毒检测方法的是( )",
+            "options": [
+                "A、特征代码法",
+                "B、校验和法",
+                "C、行为检测法",
+                "D、软件模拟法"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "24",
+            "type": "multiple",
+            "question": "Syn Flood攻击的现象有以下哪些?",
+            "options": [
+                "A、大量连接处于SYN_RCVD状态",
+                "B、正常网络访问受阻",
+                "C、系统资源使用率很高",
+                "D、不能提供服务"
+            ],
+            "answer": "ABC"
+        },
+        {
+            "number": "25",
+            "type": "multiple",
+            "question": "下列哪些现象可以发现系统异常?",
+            "options": [
+                "A、大量的日志错误",
+                "B、超常的网络流量",
+                "C、防火墙报警",
+                "D、CPU、内存资源占用率过高"
+            ],
+            "answer": "ABCD"
+        },
+        {
+            "number": "26",
+            "type": "multiple",
+            "question": "加密的强度主要取决于( )",
+            "options": [
+                "A、算法的强度",
+                "B、密钥的保密性",
+                "C、明文的长度",
+                "D、密钥的强度"
+            ],
+            "answer": "ABD"
+        },
+        {
+            "number": 1,
+            "type": "judgement",
+            "question": "CMVP(CryptographicModuleValidationProgram)评估需要为模块改进提供帮助",
+            "answer": "对"
+        },
+        {
+            "number": 2,
+            "type": "judgement",
+            "question": "ISO/IEC21827 将安全工程服务提供者的能力划定为四个级别",
+            "answer": "错"
+        },
+        {
+            "number": 3,
+            "type": "judgement",
+            "question": "密码技术标准工作组(WG3)，研究提出商用密码技术标准体系;研究制定商用密码算法、商用密码模块和商用密钥管理等相关标准。",
+            "answer": "对"
+        },
+        {
+            "number": 4,
+            "type": "judgement",
+            "question": "信息安全标准体系与协调工作组(WG1)，研究信息安全标准体系;跟踪国际标准发展动态。",
+            "answer": "对"
+        },
+        {
+            "number": 5,
+            "type": "judgement",
+            "question": "关键信息基础设施的运营者应当自行或者委托网络安全服务机构对其网络的安全性和可能存在的风险每年至少进行 2 次检测评估，并将检测评估情况和改进措施报送相关负责关键信息基础设施安全保护工作的部门",
+            "answer": "错"
+        },
+        {
+            "number": 6,
+            "type": "judgement",
+            "question": "自主访问控制是基于请求者的身份以及访问规则来进行访问控制的。自主访问控制的安全性相对较低",
+            "answer": "对"
+        },
+        {
+            "number": 7,
+            "type": "judgement",
+            "question": "信息系统安全风险评估是指由于系统存在的脆弱性，人为或自然的威胁导致安全事件发生所造成的影响",
+            "answer": "错"
+        },
+        {
+            "number": 8,
+            "type": "judgement",
+            "question": "风险评估是采用适当的方法与工具确定威胁利用脆弱性导致信息系统灾难发生的可能性。",
+            "answer": "错"
+        },
+        {
+            "number": 9,
+            "type": "judgement",
+            "question": "关于建立有效的计算机病毒防治体系，使用技术机制是收集信息的主要渠道之一",
+            "answer": "对"
+        },
+        {
+            "number": 10,
+            "type": "judgement",
+            "question": "当发生一般的网络安全事件或威胁，对国家安全、社会秩序、经济建设和公众利益基本没有影响，但可能对个别公民、法人或其他组织的利益造成损害，应发布蓝色预警，特别轻微的可以不发布预警",
+            "answer": "对"
+        },
+        {
+            "number": 11,
+            "type": "judgement",
+            "question": "在网络安全保护对象可能受到损害的程度方面。较大的损害，是指可能造成或已造成网络或信息系统短暂中断，影响系统效率，使系统业务处理能力受到影响，或系统重要数据的保密性、完整性、可用性遭到影响，恢复系统正常运行和消除负面影响所需付出的代价较小",
+            "answer": "错"
+        },
+        {
+            "number": 12,
+            "type": "judgement",
+            "question": "判定网络安全保护对象的重要程度宜综合考虑其所服务的用户量、日活跃用户数、交易额、信息安全等级保护的级别、数据敏感程度等因素",
+            "answer": "对"
+        },
+        {
+            "number": 13,
+            "type": "judgement",
+            "question": "在重要信息系统中发生的最大级别事件为特别重大事件",
+            "answer": "错"
+        },
+        {
+            "number": 14,
+            "type": "judgement",
+            "question": "在电子系统和计算机系统中，固件一般指持久化的内存、代码和数据的结合体。",
+            "answer": "对"
+        },
+        {
+            "number": 15,
+            "type": "judgement",
+            "question": "针对侧信道攻击(利用非通信信道物理信息如能量消耗变化、电磁辐射变化进行分析攻击)，尽管学术界和工业界提出了很多防御技术，但是目前尚无能够抵抗所有攻击方法的防御技术。",
+            "answer": "对"
+        },
+        {
+            "number": 16,
+            "type": "judgement",
+            "question": "为了分析密码模块能量消耗的变化，二阶/高阶 DPA(DifferentialPowerAnalysis，差分能量分析)使用了统计方法(如均值差、相关系数)对能量消耗进行统计分析，从而获取密钥值。",
+            "answer": "错"
+        },
+        {
+            "number": 17,
+            "type": "judgement",
+            "question": "传导干扰，主要是电子设备产生的干扰信号通过导电介质或公共电源线互相产生干扰。",
+            "answer": "对"
+        },
+        {
+            "number": 18,
+            "type": "judgement",
+            "question": "计算机电磁辐射干扰器大致可以分为两种:白噪声干扰器和相关干扰器。",
+            "answer": "对"
+        },
+        {
+            "number": 19,
+            "type": "judgement",
+            "question": "TEMPEST 技术(TransientElectroMagneticPulseEmanationStandard，瞬态电磁辐射标准)，是指在设计和生产计算机设备时，就对可能产生电磁辐射的元器件、集成电路、连接线、显示器等采取防辐射措施，从而达到减少计算机信息泄漏的最终目的。",
+            "answer": "对"
+        },
+        {
+            "number": 20,
+            "type": "judgement",
+            "question": "屏蔽室是一个导电的金属材料制成的大型六面体，能够抑制和阻挡电磁波在空气中传播。",
+            "answer": "对"
+        },
+        {
+            "number": 21,
+            "type": "judgement",
+            "question": "代码签名基于 PKI 体系，包括签名证书私钥和公钥两部分，私钥用于代码的签名，公钥用于签名的验证。",
+            "answer": "√"
+        },
+        {
+            "number": 22,
+            "type": "judgement",
+            "question": "PKI 是利用公开密钥技术所构建的、解决网络安全问题的、普遍适用的一种基础设施。PKI 利用非对称的算法，提供密钥协商能力。",
+            "answer": "√"
+        },
+        {
+            "number": 23,
+            "type": "judgement",
+            "question": "随着大数据和云计算技术的发展，网络的匿名性将逐渐消失。",
+            "answer": "×"
+        },
+        {
+            "number": 24,
+            "type": "judgement",
+            "question": "在信息安全等级保护实施中，安全运行维护阶段是对信息系统的过时或无用部分进行报废处理的过程，主要涉及对信息、设备、存储介质或整个信息系统的废弃处理。",
+            "answer": "×"
+        },
+        {
+            "number": 25,
+            "type": "judgement",
+            "question": "GB/T28448-2012《信息安全技术信息系统安全等级保护测评要求》阐述了等级测评的原则、测评内容、测评强度、单元测评要求、整体测评要求、等级测评结论的产生方法等内容，用于规范和指导测评人员如何开展等级测评工作。",
+            "answer": "√"
+        },
+        {
+            "number": 26,
+            "type": "judgement",
+            "question": "网络运营者应当按照网络安全等级保护制度的要求，履行安全保护义务，保障网络免受干扰、破坏或者未经授权的访问，防止网络数据泄露或者被窃取、篡改。",
+            "answer": "√"
+        },
+        {
+            "number": 27,
+            "type": "judgement",
+            "question": "《计算机信息系统安全保护等级划分准则》是强制性国家标准，是等级保护的基础性标准。",
+            "answer": "√"
+        },
+        {
+            "number": 28,
+            "type": "judgement",
+            "question": "信息的时效性与可利用价值成反比。",
+            "answer": "×"
+        },
+        {
+            "number": 29,
+            "type": "judgement",
+            "question": "组织信息是一种物质形态的社会财富，可以划分为组织内部信息和组织外部信息。",
+            "answer": "×"
+        },
+        {
+            "number": 30,
+            "type": "judgement",
+            "question": "安装了防火墙等访问控制设备之后，计算机系统就没有可能被黑客突破。",
+            "answer": "×"
+        },
+        {
+            "number": 31,
+            "type": "judgement",
+            "question": "任何个人和组织不得窃取个人信息，不得非法出售或者非法向他人提供个人信息，但是可以以其他方式获得。",
+            "answer": "×"
+        },
+        {
+            "number": 32,
+            "type": "judgement",
+            "question": "监视全网运行和安全告警信息是系统管理员的主要职责之一。",
+            "answer": "×"
+        },
+        {
+            "number": 33,
+            "type": "judgement",
+            "question": "在系统日常运行及发生信息网络安全事件时，单位、组织可能需要一些公共基础设施方面的支持。",
+            "answer": "√"
+        },
+        {
+            "number": 34,
+            "type": "judgement",
+            "question": "实现自然人身份识别的电子信息和涉及该自然人隐私的信息都可以电子化并通过网络存储、使用和处理。",
+            "answer": "√"
+        },
+        {
+            "number": 35,
+            "type": "judgement",
+            "question": "信息安全连续性控制措施与一般信息安全测试和验证相似，应在变更测试外执行。",
+            "answer": "×"
+        },
+        {
+            "number": 36,
+            "type": "judgement",
+            "question": "应制定面向全员的信息安全意识的教育计划和措施(如发行信息安全简报)以及针对不同岗位的信息安全知识和技能的培训计划和措施(如培训信息安全管理体系内审员)。",
+            "answer": "×"
+        },
+        {
+            "number": 37,
+            "type": "judgement",
+            "question": "政府、工业和公众都依赖密码技术来为电子商务、关键设施和其他应用领域中的信息和通信提供保护。在产品和系统中使用密码模块(包含密码算法)来提供机密性、完整性、鉴别等安全服务。",
+            "answer": "√"
+        },
+        {
+            "number": 38,
+            "type": "judgement",
+            "question": "业务一致性管理是指为保护组织的利益、声誉、品牌和价值创造活动，找出对组织有潜在影响的威胁，提供建设组织有效反应恢复能力的框架的整体管理过程。",
+            "answer": "×"
+        },
+        {
+            "number": 39,
+            "type": "judgement",
+            "question": "业务连续性管理框架中，确定 BCM 战略是指通过演练证明 BCM 的计划是有效的，并不断地维护，保持更新。",
+            "answer": "×"
+        },
+        {
+            "number": 40,
+            "type": "judgement",
+            "question": "我国密码行业标准 GM/T0028-2014 规定的安全要求涵盖了有关密码模块的安全设计、实现、运行与废弃的安全元素(域)。",
+            "answer": "√"
+        },
+        {
+            "number": 41,
+            "type": "judgement",
+            "question": "密码体制是密码技术中最为核心的一个概念。",
+            "answer": "√"
+        },
+        {
+            "number": 42,
+            "type": "judgement",
+            "question": "数字摘要是保证消息完整性的一种技术。数字摘要将任意长度的消息转换为固定长度消息，该过程是双向的。",
+            "answer": "×"
+        },
+        {
+            "number": 43,
+            "type": "judgement",
+            "question": "通过对软件采用可信的签名，使用者验证签名来确保所使用软件确实来自签发者。",
+            "answer": "√"
+        },
+        {
+            "number": 44,
+            "type": "judgement",
+            "question": "恶意代码的静态分析方法可以获得相应的执行路径和相关语义信息的方法。",
+            "answer": "×"
+        },
+        {
+            "number": 45,
+            "type": "judgement",
+            "question": "网信部门和有关部门在履行网络安全保护职责中获取的信息，用于维护网络安全的需要，也可以用于其他用途。",
+            "answer": "×"
+        },
+        {
+            "number": 46,
+            "type": "judgement",
+            "question": "在保护网络安全的手段中，认证技术主要包括身份认证和密码认证。",
+            "answer": "×"
+        },
+        {
+            "number": 47,
+            "type": "judgement",
+            "question": "对网吧上网信息历史记录，可检查存放日志记录有无保存 60 天以上。",
+            "answer": "√"
+        },
+        {
+            "number": 48,
+            "type": "judgement",
+            "question": "各单位灾难恢复策略的制定不需要高层领导的参与，灾难恢复策略经决策层审批后，按要求进行备案。",
+            "answer": "×"
+        },
+        {
+            "number": 49,
+            "type": "judgement",
+            "question": "个人股民发布或传播信息不构成《证券法》规定的传播虚假证券违法有害信息主体。",
+            "answer": "√"
+        },
+        {
+            "number": 50,
+            "type": "judgement",
+            "question": "习近平总书记提出将“尊重网络主权”作为推进全球互联网治理体系变革的第一个基本原则。",
+            "answer": "√"
+        },
+        {
+            "number": 51,
+            "type": "judgement",
+            "question": "从事提供专门用于从事危害网络安全活动的程序、工具的活动，受到刑事处罚的人员，终身不得从事网络安全管理和网络运营关键岗位的工作。",
+            "answer": "√"
+        },
+        {
+            "number": 52,
+            "type": "judgement",
+            "question": "计算机信息网络直接进行国际联网，必须使用邮电管理部门国家公用电信网提供的国际出入口信道。任何单位和个人不得自行建立或者使用其他信道进行国际联网。",
+            "answer": "√"
+        },
+        {
+            "number": 53,
+            "type": "judgement",
+            "question": "我国企业向欧洲国家投资并运营网站时，需要遵守欧盟《通用数据保护条例》(GDPR)和当地国家的数据保护法，无需遵守中国的网络安全法。",
+            "answer": "×"
+        },
+        {
+            "number": 54,
+            "type": "judgement",
+            "question": "网络运营者应当对其收集的用户信息严格保密，并建立健全用户信息保护制度。",
+            "answer": "√"
+        },
+        {
+            "number": 55,
+            "type": "judgement",
+            "question": "军事网络的安全保护，适用网络安全法的规定。",
+            "answer": "×"
+        },
+        {
+            "number": 56,
+            "type": "judgement",
+            "question": "OpenID 框架的核心是 OpenID 身份鉴别协议。",
+            "answer": "√"
+        },
+        {
+            "number": 57,
+            "type": "judgement",
+            "question": "FIDO 是一种不依赖于口令来执行身份鉴别的协议规范。其协议针对不同的用户实例和应用场景，提供了两类不同的认证方式，即通用授权框架(UniversalAuthenticationFramework，简称 UAF)和通用第二因素认证(UniversalSecondFactor，简称 U2F)。它是主流身份鉴别协议。",
+            "answer": "√"
+        },
+        {
+            "number": 58,
+            "type": "judgement",
+            "question": "数据安全涵盖的范围很广，大到国家的军事、政治等机密安全，小到商业秘密防护、个人用户隐私保护等。认证是最重要的安全服务，其他安全服务在某种程度上需要依赖于它。",
+            "answer": "√"
+        },
+        {
+            "number": 59,
+            "type": "judgement",
+            "question": "目前，没有关于 Botnet 的公认定义，有时 Botnet 也被认为是一种后门工具或者蠕虫。Botnet 的显著特征是大量主机在用户不知情的情况下，被植入了控制程序，并且有一个地位特殊的主机或者服务器能够通过信道来控制其他的主机，这些被控制的主机就像僵尸一样听从主控者的命令。拒绝服务攻击与 Botnet 网络结合后攻击能力大大削弱。",
+            "answer": "×"
+        },
+        {
+            "number": 60,
+            "type": "judgement",
+            "question": "最经典的拒绝服务攻击方式是点到点方式，攻击者使用处理能力较强的机器直接向处理能力较弱或带宽较窄的网络发送数据包，以达到耗尽资源和拥塞网络的目的。拒绝服务攻击的目的是利用各种攻击技术使服务器或者主机等拒绝为合法用户提供服务。",
+            "answer": "√"
+        },
+        {
+            "number": 61,
+            "type": "judgement",
+            "question": "网络漏洞的存在实际上就是潜在的安全威胁，一旦被利用就会带来相应的安全问题。攻击者常采用网络漏洞扫描技术来探测漏洞，一旦发现，便可利用其进行攻击。基于主机的漏洞扫描工具不需要在目标主机上安装一个代理或服务。",
+            "answer": "×"
+        },
+        {
+            "number": 62,
+            "type": "judgement",
+            "question": "漏洞(Vulnerability)，也叫脆弱点，是指在计算机硬件、软件、协议的具体实现或系统安全策略上存在的缺陷，从而可以使攻击者能够在未授权的情况下访问或破坏系统。漏洞数据库包含了各种操作系统的漏洞信息以及如何检测漏洞的指令。",
+            "answer": "√"
+        },
+        {
+            "number": 63,
+            "type": "judgement",
+            "question": "网络安全扫描不仅能够扫描并检测是否存在已知漏洞，还可以发现一些可疑情况和不当配置，如不明端口、弱口令等。网络安全扫描技术与防火墙、入侵检测系统互相配合，能够有效提高网络的安全性。基于网络的漏洞扫描器很容易穿过防火墙。",
+            "answer": "×"
+        },
+        {
+            "number": 64,
+            "type": "judgement",
+            "question": "网络防御技术，是指为了确保网络系统的抗攻击能力，保证信息的机密性、完整性、可用性、可靠性和不可否认性而采取的一系列的安全技术，身份认证技术用于对计算机或用户的身份进行鉴别与认证。",
+            "answer": "√"
+        },
+        {
+            "number": 65,
+            "type": "judgement",
+            "question": "网络攻击实施过程中涉及了多种元素。其中攻击效果包括对网络系统和信息的机密性、完整性、可用性、可靠性和不可否认性的破坏。",
+            "answer": "√"
+        },
+        {
+            "number": 66,
+            "type": "judgement",
+            "question": "根据 ISO7498-2 标准定义的 OSI 安全体系结构，安全服务中的鉴别提供了关于某个实体(如人、机器、程序、进程等)身份的保证，为通信中的对等实体和数据来源提供证明。",
+            "answer": "√"
+        },
+        {
+            "number": 67,
+            "type": "judgement",
+            "question": "应用安全技术不是指以保护特定应用为目的的安全技术。",
+            "answer": "×"
+        },
+        {
+            "number": 68,
+            "type": "judgement",
+            "question": "网络安全技术为网络提供了安全，同时实现了对网络中操作的监管。",
+            "answer": "√"
+        },
+        {
+            "number": 69,
+            "type": "judgement",
+            "question": "网络安全技术主要包括网络攻击技术和网络防御技术。",
+            "answer": "√"
         }
     ]
 }
